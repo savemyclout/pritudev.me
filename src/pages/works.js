@@ -73,6 +73,15 @@ export default () => {
           </div>
         </abbr>
       </section>
+      <br />
+      <br />
+      <p style={{ textAlign: 'center' }}>
+        <em>
+          This is not a full list of my skills. I'm also open to learn more
+          frontend skills!
+        </em>
+      </p>
+      <hr id="hr-body" />
       <Footer />
     </Layout>
   )

@@ -17,9 +17,9 @@ const About = () => {
           <p className="about_body">
             Hi, I'm <span className="hi-code">Prit</span>. I've been building
             websites for over five years. I'm 16 years old web developer and
-            constantly learning new things every day. I've learned so many
-            things in the past five years of experience. Self-thought developer
-            or no one can stop me from learning!
+            <strong> constantly</strong> learning new things every day. I've
+            learned so many things in the past five years of experience.
+            Self-thought developer and no one can stop me from learning!
           </p>
         </div>
       </section>
