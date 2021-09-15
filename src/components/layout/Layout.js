@@ -20,6 +20,11 @@ const Layout = (props) => {
           <PageTransition>{props.children}</PageTransition>
         </Fragment>
       </PostState>
+
+      <script
+        src="https://kit.fontawesome.com/375268b44c.js"
+        crossorigin="anonymous"
+      ></script>
     </Fragment>
   )
 }

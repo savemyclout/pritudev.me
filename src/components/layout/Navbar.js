@@ -26,11 +26,11 @@ const Navbar = () => {
               Courses
             </Link>
           </li>
-          {/* <li>
-            <Link to="/about" className="link">
-              About
+          <li>
+            <Link to="/works" className="link">
+              works
             </Link>
-          </li> */}
+          </li>
           <li>
             <Link to="/contact" className="link">
               Contact
