@@ -16,7 +16,7 @@
   #brand_logo Link {
     fill: $gray5 !important;
     font-family: $head-font;
-    // color: $h-color;
+
     display: inline-block;
     text-decoration: none;
     font-weight: none;
@@ -52,10 +52,6 @@
 @media screen and (max-width: 600px) {
   .navbar {
     .container {
-      display: block;
-    }
-
-    .brand {
       display: block;
     }
 

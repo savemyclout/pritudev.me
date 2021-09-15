@@ -10,7 +10,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="container">
         {/* PritDev.me */}
-        <div id="text-in-code">
+        <div id="main-brand">
           <a href="/" id="brand_logo_link">
             <img id="brand_logo" src={brandLogo} />
           </a>
