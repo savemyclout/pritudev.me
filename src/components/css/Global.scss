@@ -1,0 +1,67 @@
+@import './Variables.scss';
+@import '../../theme/partials/_variables';
+@import '../../theme/partials/_buttons';
+
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90%;
+  max-width: 1280px;
+  margin: 0 auto;
+
+  @media (max-width: 600px) {
+    width: 95%;
+  }
+}
+
+.btn {
+  color: white;
+  text-decoration: none;
+  padding: 1rem 1.3rem;
+
+  &-primary {
+    color: white;
+    background: $primary-color;
+  }
+}
+
+// Default Reset
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 1.2rem;
+  margin-bottom: 1rem;
+}
+p {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.gt-header-textarea {
+  background: black !important;
+}
+
+.gt-svg {
+  background: white;
+}
+
+.gt-btn-preview .gt-btn-text {
+  color: black;
+}
+
+.gt-header-preview .markdown-body {
+  background: black !important;
+}
+
+.gt-popup {
+  background: black !important;
+}

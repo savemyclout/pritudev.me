@@ -1,0 +1,110 @@
+@import './Variables.scss';
+@import '../../theme/partials/_variables';
+@import '../../theme/partials/_buttons';
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+.post {
+  a {
+    color: $h-color !important;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    text-decoration: underline !important;
+    text-decoration-color: #0be583 !important;
+    transition: 500ms;
+  }
+
+  a:hover {
+    background-color: #0be5836b !important;
+    text-decoration: underline !important;
+    text-decoration-color: #0be583 !important;
+    color: $h-color !important;
+  }
+  p {
+    margin-top: 2rem;
+  }
+  // line-height: 1.5;
+  .heading {
+    text-align: center;
+    font-family: $head-font;
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+    h2 {
+      transition: 500ms;
+      color: $h-color;
+      font-size: 2rem;
+      padding: 0 0.5rem;
+      margin-bottom: 0 !important;
+      margin-top: 15px;
+    }
+  }
+  .heading h2:hover {
+    transform: translate(0, -3px) !important;
+  }
+  .date {
+    color: $gray2;
+    padding: 0 1rem;
+    font-size: 1rem;
+    font-family: 'DM Mono', monospace;
+  }
+
+  .body {
+    font-size: 1.3rem;
+    width: 70%;
+    margin: 0 auto;
+    font-weight: 1.2;
+    font-family: $body-font !important;
+
+    h1 {
+      color: $h-color;
+      text-align: left;
+    }
+
+    h2 {
+      font-family: $head-font, 'sens-serif';
+      color: $h-color;
+    }
+    h3 {
+      color: $p-color;
+      font-family: $head-font, 'sens-serif';
+    }
+
+    h4 {
+      color: $p-color;
+    }
+
+    h5,
+    h6 {
+      color: $p-color;
+    }
+
+    p {
+      line-height: 1.8;
+      color: $p-color;
+      font-weight: 200;
+    }
+
+    @media (max-width: 600px) {
+      width: 95%;
+      margin: 0 auto;
+    }
+
+    h1 a {
+      background-color: none !important;
+      background: none !important;
+    }
+
+    ul:marker {
+      color: #757ff8;
+    }
+
+    li::marker {
+      color: #757ff8;
+    }
+  }
+  .image {
+    width: auto;
+    height: 70%;
+    object-fit: contain;
+  }
+}

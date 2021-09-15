@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+@import './partials/_variables';
+@import './partials/_buttons';
+
+.showcase {
+  .showcase h5 {
+    font-weight: normal !important;
+  }
+
+  h1 {
+    font-family: $head-font !important;
+    font-size: 3rem !important;
+    font-weight: normal !important;
+    color: $h-color !important;
+    margin: 1rem !important;
+    text-align: left !important;
+    text-decoration: none !important;
+  }
+  h5 {
+    text-align: center !important;
+    text-decoration: none !important;
+  }
+}
+
+h2 {
+  color: $gray6 !important;
+  font-family: $head-font !important;
+  text-decoration: none !important;
+}
+
+h2::selection {
+  color: black;
+  background-color: #09c372;
+}
+
+#gradient-text::selection {
+  color: black !important;
+  background-color: #09c372;
+}
+
+#gradient-text {
+  background: -webkit-linear-gradient(90deg, $orange, $pink) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+.hi-code {
+  background: linear-gradient(90deg, $pink, $orange) !important;
+  color: #fff !important;
+  font-family: 'Space mono', monospace !important;
+  padding: 0.2rem !important;
+  border-radius: 5px !important;
+}
+
+.text-in-code {
+  font-family: 'Arizonia', cursive !important;
+  font-size: 3rem !important;
+  color: $red;
+}

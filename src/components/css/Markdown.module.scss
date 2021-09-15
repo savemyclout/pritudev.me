@@ -1,0 +1,29 @@
+@import './Variables.scss';
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import '../../theme/partials/_variables';
+@import '../../theme/partials/_buttons';
+
+.precode {
+  background: linear-gradient(90deg, #ff4088, #fa8142) !important;
+  color: white;
+  font-family: $code-font !important;
+  padding: 0.2rem;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar {
+  width: 8px !important;
+}
+
+::-webkit-scrollbar-track {
+  background: #272727 !important;
+  border-radius: 5px !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(255, 255, 255) !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(187, 187, 187) !important;
+}

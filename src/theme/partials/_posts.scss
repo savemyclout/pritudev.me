@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300&display=swap');
+@import './partials/_variables';
+@import './partials/_buttons';
+
+.post-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 16px;
+}
+.post:hover {
+  transform: translate(0, -5px) !important;
+  box-shadow: $box-shadow !important;
+}
+.post {
+  display: grid;
+  padding: 0.8rem 0.9rem;
+  border-radius: 10px;
+  background: #2a2e35 !important;
+  box-shadow: $box-shadow !important;
+  // grid-template-columns: 1fr;
+  color: $gray3;
+  margin: 0.5rem 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+
+  transition: 400ms ease-in-out;
+
+  .post-content {
+    align-self: left !important;
+    background-color: $gray5 !important;
+  }
+
+  .post-content h2 {
+    color: $p-color;
+    background-color: $gray5 !important;
+  }
+
+  h2 a {
+    font-family: $head-font;
+    padding: 1rem 1rem;
+    padding: 1rem 1rem;
+    margin: 0;
+    text-align: start !important;
+    margin-right: 0;
+    margin-left: 0;
+    font-size: 1.4rem !important;
+    background-color: $gray5 !important;
+    font-weight: 200 !important;
+    text-align: left;
+  }
+
+  // h2 {
+  //   color: $p-color;
+  //   font-size: 2rem;
+  //   padding-bottom: 1rem;
+  //   background-color: $gray5 !important;
+  //   font-weight: 200 !important;
+  // }
+
+  h3 {
+    font-size: 23.4px;
+  }
+
+  .link {
+    text-decoration: none;
+    color: $h-color;
+  }
+
+  p {
+    font-size: 20px;
+    margin-top: 15px;
+    color: $p-color !important;
+    font-family: $body-font !important;
+    background-color: $gray5 !important;
+  }
+  .image {
+    margin: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .post-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.link-read-more {
+  color: $orange;
+  font-weight: bold;
+  background-color: $gray5 !important;
+  text-decoration: none;
+}
+
+.link-read-more:hover {
+  color: $orange;
+  text-decoration: underline;
+}

@@ -1,0 +1,88 @@
+@import './_variables';
+@import './_buttons';
+
+.navbar {
+  background: $gray5 !important;
+  box-shadow: $nav-shadow !important;
+  border: 1px solid #2a2e35;
+
+  .container {
+    background: $gray5 !important;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+  }
+
+  #brand_logo Link {
+    fill: $gray5 !important;
+    font-family: $head-font;
+    // color: $h-color;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: none;
+    font-size: 1.5rem;
+  }
+
+  .nav-ul {
+    background: $gray5 !important;
+    font-size: 1rem;
+    display: flex;
+    list-style: none !important;
+    margin-bottom: 0rem !important;
+
+    li {
+      background: $gray5 !important;
+      font-size: 1rem;
+      list-style: none !important;
+      text-align: center !important;
+
+      .link {
+        background: $gray5 !important;
+        font-size: 1.2rem;
+        text-decoration: none;
+        display: block;
+        transition: 500ms;
+        padding-top: 0.3rem;
+        padding-left: 0.7rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    .container {
+      display: block;
+    }
+
+    .brand {
+      display: block;
+    }
+
+    .nav-ul {
+      padding-left: 0;
+      font-size: 1rem;
+      justify-content: center;
+
+      li {
+        font-size: 1rem;
+        display: flex;
+        text-align: center !important;
+        background: $gray5;
+      }
+    }
+  }
+}
+
+.link:hover {
+  color: $gray0 !important;
+}
+
+.link {
+  font-family: $head-font;
+  font-size: 1rem;
+  text-align: center !important;
+  display: flex;
+  background-color: $gray5;
+  color: $p-color;
+}

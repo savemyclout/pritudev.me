@@ -1,0 +1,165 @@
+@import './_variables';
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+#orange-btn {
+  border: 1px solid $orange !important;
+  font-weight: 700 !important;
+  background-color: transparent !important;
+  transition: 200ms !important;
+  box-shadow: $box-shadow !important;
+  border-radius: 3px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  padding-top: 10px !important;
+  text-transform: uppercase !important;
+  padding-bottom: 10px !important;
+  color: $gray2 !important;
+  font-family: $button-font !important;
+  margin: 10px !important;
+}
+
+#orange-btn:hover {
+  box-shadow: $box-shadow !important;
+  transform: translateY(-2px) !important;
+  background-color: $orange !important;
+  text-transform: uppercase !important;
+  color: rgb(255, 255, 255) !important;
+}
+
+// ----------------------------------------
+
+#red-btn {
+  border: 1px solid $red !important;
+  box-shadow: $box-shadow !important;
+  background-color: transparent !important;
+  font-weight: 700 !important;
+  transition: 200ms !important;
+  border-radius: 3px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  color: $gray2 !important;
+  margin: 10px !important;
+  text-transform: uppercase !important;
+  font-family: $button-font !important;
+}
+
+#red-btn:hover {
+  box-shadow: $box-shadow !important;
+  color: #fff !important;
+  transform: translateY(-2px) !important;
+  text-transform: uppercase !important;
+  background-color: $red !important;
+}
+
+// ----------------------------------------
+
+#green-btn {
+  box-shadow: $box-shadow !important;
+  border: 1px solid $green !important;
+  background-color: transparent !important;
+  font-weight: 700 !important;
+  transition: 200ms !important;
+  border-radius: 3px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  margin: 10px !important;
+  color: $gray2 !important;
+  text-transform: uppercase !important;
+  font-family: $button-font !important;
+}
+
+#green-btn:hover {
+  color: #fff !important;
+  box-shadow: $box-shadow !important;
+  transform: translateY(-2px) !important;
+  text-transform: uppercase !important;
+  background-color: $green !important;
+}
+
+// ----------------------------------------
+
+#pink-btn {
+  box-shadow: $box-shadow !important;
+  border: 1px solid $pink !important;
+  background-color: transparent !important;
+  transition: 200ms !important;
+  border-radius: 3px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  font-weight: 700 !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  margin: 10px 10px !important;
+  color: $gray2 !important;
+  text-transform: uppercase !important;
+  font-family: $head-font !important;
+}
+
+#pink-btn:hover {
+  color: #fff !important;
+  box-shadow: $box-shadow !important;
+  transform: translateY(-2px) !important;
+  text-transform: uppercase !important;
+  background-color: $pink !important;
+}
+
+// ----------------------------------------
+
+#indigo-btn {
+  box-shadow: $box-shadow !important;
+  border: 1px solid $indigo !important;
+  background-color: transparent !important;
+  font-weight: 700 !important;
+  transition: 200ms !important;
+  border-radius: 3px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  margin: 10px 10px !important;
+  color: $gray2 !important;
+  font-family: $head-font !important;
+  text-transform: uppercase !important;
+}
+
+#indigo-btn:hover {
+  box-shadow: $box-shadow !important;
+  color: #fff !important;
+  transform: translateY(-2px) !important;
+  text-transform: uppercase !important;
+  background-color: $indigo !important;
+}
+
+// ----------------------------------------
+
+#purple-btn {
+  box-shadow: $box-shadow !important;
+  border: 1px solid $purple !important;
+  background-color: transparent !important;
+  font-weight: 700 !important;
+  transition: 200ms !important;
+  border-radius: 3px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  margin: 10px 10px !important;
+  color: $gray2 !important;
+  font-family: $head-font !important;
+  text-transform: uppercase !important;
+}
+
+#purple-btn:hover {
+  box-shadow: $box-shadow !important;
+  color: #fff !important;
+  transform: translateY(-2px) !important;
+  text-transform: uppercase !important;
+  background-color: $purple !important;
+}
+
+// ----------------------------------------
