@@ -16,7 +16,7 @@ const Navbar = () => {
         {/* PritDev.me */}
         <div id="main-brand">
           <a href="/" id="brand_logo_link">
-            <img id="brand_logo" src={brandLogo} />
+            <img id="brand_logo" src={brandLogo} alt="brand" />
           </a>
         </div>
         <ul class="nav-ul">
