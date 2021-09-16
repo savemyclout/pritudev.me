@@ -19,7 +19,7 @@ const About = () => {
             websites for over five years. I'm 16 years old web developer and
             <strong> constantly</strong> learning new things every day. I've
             learned so many things in the past five years of experience.
-            Self-thought developer and no one can stop me from learning!
+            Self-taught developer and no one can stop me from learning!
           </p>
         </div>
       </section>

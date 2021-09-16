@@ -17,8 +17,8 @@ const Showcase = () => {
             I'm <span id="gradient-text">Prit.</span>
           </h1>
           <h5 style={{ textAlign: 'left', fontSize: '1.6rem' }}>
-            <strong>Full Stack</strong> Developer & Love to code, Expert as web
-            developer 🔥💾
+            <strong>Full Stack</strong> Web Developer & love to code, expert as
+            web developer 🔥💾
           </h5>
           <div className="showcase_buttons" style={{ textAlign: 'center' }}>
             <Link to="https://youtube.com/pritu" target="_blank">
