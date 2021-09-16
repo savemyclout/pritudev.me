@@ -42,29 +42,13 @@ export default () => {
         {data.allMdx.nodes.map(({ frontmatter, excerpt, fields }) => {
           return (
             <div key={Math.random()} className="post">
-              {/* {!!frontmatter.cover ? (
-                <Link to={fields.slug}>
-                  <Image
-                    fluid={frontmatter.cover.childImageSharp.sizes}
-                    className="image"
-                  />
-                </Link>
-              ) : null} */}
               <div className="post-content">
                 <h2>
                   <Link to={fields.slug} className="link">
                     {frontmatter.title}
                   </Link>
                 </h2>
-                {/* <p className="reading-time">{fields.readingTime.text}</p>
-                <small>{frontmatter.date}</small> */}
-                {/* <br />
-                <br /> */}
                 <p>{excerpt}</p>
-                {/* 
-                <Link to={fields.slug} className="link-read-more">
-                  Continue Reading...
-                </Link> */}
               </div>
             </div>
           )

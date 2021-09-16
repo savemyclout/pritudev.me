@@ -12,6 +12,8 @@ import node from './svgs/node.svg'
 import react from './svgs/react.svg'
 import vsc from './svgs/vsc.svg'
 import css from './svgs/css.svg'
+import { Link } from 'gatsby'
+import Projects from '../components/layout/Projects'
 
 export default () => {
   return (
@@ -82,6 +84,9 @@ export default () => {
         </em>
       </p>
       <hr id="hr-body" />
+      <h2>Projects 🚀</h2>
+
+      <Projects></Projects>
       <Footer />
     </Layout>
   )

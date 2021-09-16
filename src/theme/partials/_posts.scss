@@ -33,6 +33,7 @@
   }
 
   .post-content h2 {
+    text-align: left !important;
     color: $p-color;
     background-color: $gray5 !important;
   }
@@ -42,7 +43,7 @@
     padding: 1rem 1rem;
     padding: 1rem 1rem;
     margin: 0;
-    text-align: start !important;
+    text-align: left !important;
     margin-right: 0;
     margin-left: 0;
     font-size: 1.4rem !important;
@@ -94,6 +95,5 @@
 }
 
 .link-read-more:hover {
-  color: $orange;
-  text-decoration: underline;
+  color: $orange-light;
 }
