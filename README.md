@@ -12,7 +12,9 @@ Note: The source for this site was not created to be a template or theme, but fo
 </p>
 
 <p align="center">
+  
 ![image](https://user-images.githubusercontent.com/75468116/133559465-5cd7e537-857f-4b97-9319-d5c8e6b8cc1a.png)
+  
 </p>
 
 <h3 align="center">Contribute</h3>
