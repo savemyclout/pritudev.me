@@ -3,6 +3,10 @@ import { Link } from 'gatsby'
 import { useSiteMeta } from '../../utils/hooks/useSiteMeta'
 import Image from 'gatsby-image'
 import brandLogo from './svgs/brand.svg'
+import blogSvg from './svgs/nav-svgs/blog.svg'
+import contactSvg from './svgs/nav-svgs/contact.svg'
+import coursesSvg from './svgs/nav-svgs/courses.svg'
+import projectsSvg from './svgs/nav-svgs/projects.svg'
 
 const Navbar = () => {
   const { title } = useSiteMeta()
@@ -18,22 +22,30 @@ const Navbar = () => {
         <ul class="nav-ul">
           <li>
             <Link to="/posts" className="link">
-              Blog
+              <img className="nav-svgs" src={blogSvg} alt="blog" />
+              <br />
+              <span className="hover-text">Blogs</span>
             </Link>
           </li>
           <li>
             <Link to="/courses" className="link">
-              Courses
+              <img className="nav-svgs" src={coursesSvg} alt="courses" />
+              <br />
+              <span className="hover-text">Courses</span>
             </Link>
           </li>
           <li>
             <Link to="/works" className="link">
-              Projects
+              <img className="nav-svgs" src={projectsSvg} alt="projects" />
+              <br />
+              <span className="hover-text">Projects</span>
             </Link>
           </li>
           <li>
             <Link to="/contact" className="link">
-              Contact
+              <img className="nav-svgs" src={contactSvg} alt="contact" />
+              <br />
+              <span className="hover-text">Contact</span>
             </Link>
           </li>
         </ul>

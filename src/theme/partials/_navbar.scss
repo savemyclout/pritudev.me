@@ -1,6 +1,10 @@
 @import './_variables';
 @import './_buttons';
 
+.nav-svgs {
+  padding-bottom: 10px;
+}
+
 .navbar {
   background: $gray5 !important;
   box-shadow: $nav-shadow !important;
@@ -11,16 +15,6 @@
     display: flex;
     justify-content: space-between;
     top: 0;
-  }
-
-  #brand_logo Link {
-    fill: $gray5 !important;
-    font-family: $head-font;
-
-    display: inline-block;
-    text-decoration: none;
-    font-weight: none;
-    font-size: 1.5rem;
   }
 
   .nav-ul {
@@ -50,15 +44,23 @@
 }
 
 @media screen and (max-width: 600px) {
+  #main-brand {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
   .navbar {
     .container {
       display: block;
     }
 
     .nav-ul {
-      padding-left: 0;
+      text-align: center !important;
+      // padding-left: 0;
       font-size: 1rem;
-      justify-content: center;
+      // justify-content: center;
+      align-items: center;
+      display: contents;
 
       li {
         font-size: 1rem;
@@ -71,17 +73,29 @@
 }
 
 @media screen and (max-width: 340px) {
-  #brand_logo {
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-    text-align: center !important;
+  .nav-ul {
+    justify-content: center;
+    align-items: center;
+    display: contents;
   }
+  #main-brand {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
   .link {
+    text-align: center !important;
     font-size: 1rem !important;
   }
 }
+
 @media screen and (max-width: 300px) {
+  #main-brand {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
   .link {
     font-size: 0.9rem !important;
   }
@@ -98,4 +112,13 @@
   display: flex;
   background-color: $gray5;
   color: $p-color;
+}
+
+.nav-svgs span {
+  display: none;
+  opacity: 0;
+}
+
+.nav-svgs:hover {
+  opacity: 1 !important;
 }
