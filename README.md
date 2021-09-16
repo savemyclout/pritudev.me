@@ -13,7 +13,7 @@ Note: The source for this site was not created to be a template or theme, but fo
 
 <p align="center">
   
-![image](https://user-images.githubusercontent.com/75468116/133559465-5cd7e537-857f-4b97-9319-d5c8e6b8cc1a.png)
+![image](https://user-images.githubusercontent.com/75468116/133559579-e4f51324-5c39-411f-9710-2e1c7c1eaa25.png)
   
 </p>
 
