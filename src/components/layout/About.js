@@ -13,7 +13,7 @@ const About = () => {
       </section>
       <section>
         <div className="about_text">
-          <h2 className="about_header">🎙️ Your host</h2>
+          <h2 className="about_header">👑 Developer</h2>
           <p className="about_body">
             Hi, I'm <span className="hi-code">Prit</span>. I've been building
             websites for over five years. I'm 16 years old web developer and

@@ -16,7 +16,7 @@
   display: grid;
   padding: 0.8rem 0.9rem;
   border-radius: 10px;
-  background: #2a2e35 !important;
+  background: #2D2E2E !important;
   box-shadow: $box-shadow !important;
   // grid-template-columns: 1fr;
   color: $gray3;
@@ -29,13 +29,15 @@
 
   .post-content {
     align-self: left !important;
-    background-color: $gray5 !important;
+    background-color: #2D2E2E !important;
   }
 
   .post-content h2 {
     text-align: left !important;
     color: $p-color;
-    background-color: $gray5 !important;
+    background-color: #2D2E2E !important;
+
+    text-shadow: 1px 2px 10px rgba(0, 0, 0, 0.438);
   }
 
   h2 a {
@@ -47,7 +49,7 @@
     margin-right: 0;
     margin-left: 0;
     font-size: 1.4rem !important;
-    background-color: $gray5 !important;
+    background-color: #2D2E2E !important;
     font-weight: 200 !important;
     text-align: left;
   }
@@ -74,7 +76,7 @@
     margin-top: 15px;
     color: $p-color !important;
     font-family: $body-font !important;
-    background-color: $gray5 !important;
+    background-color: #2D2E2E !important;
   }
   .image {
     margin: 1rem;
@@ -90,7 +92,7 @@
 .link-read-more {
   color: $orange;
   font-weight: bold;
-  background-color: $gray5 !important;
+  background-color: #2D2E2E !important;
   text-decoration: none;
 }
 
