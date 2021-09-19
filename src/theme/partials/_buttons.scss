@@ -6,7 +6,7 @@
   border: 1px solid $orange !important;
   font-weight: 700 !important;
   background-color: transparent !important;
-  transition: 500ms cubic-bezier(0.4, 0, 1, 1) !important;
+  transition: 200ms cubic-bezier(0.4, 0, 1, 1) !important;
   box-shadow: $box-shadow !important;
   border-radius: 3px !important;
   padding-left: 20px !important;
@@ -34,7 +34,7 @@
   box-shadow: $box-shadow !important;
   background-color: transparent !important;
   font-weight: 700 !important;
-  transition: 500ms cubic-bezier(0.4, 0, 1, 1) !important;
+  transition: 200ms cubic-bezier(0.4, 0, 1, 1) !important;
   border-radius: 3px !important;
   padding-left: 20px !important;
   padding-right: 20px !important;
@@ -61,7 +61,7 @@
   border: 1px solid $green !important;
   background-color: transparent !important;
   font-weight: 700 !important;
-  transition: 500ms cubic-bezier(0.4, 0, 1, 1) !important;
+  transition: 200ms cubic-bezier(0.4, 0, 1, 1) !important;
   border-radius: 3px !important;
   padding-left: 20px !important;
   padding-right: 20px !important;
@@ -87,7 +87,7 @@
   box-shadow: $box-shadow !important;
   border: 1px solid $pink !important;
   background-color: transparent !important;
-  transition: 500ms cubic-bezier(0.4, 0, 1, 1) !important;
+  transition: 200ms cubic-bezier(0.4, 0, 1, 1) !important;
   border-radius: 3px !important;
   padding-left: 20px !important;
   padding-right: 20px !important;
@@ -115,7 +115,7 @@
   border: 1px solid $indigo !important;
   background-color: transparent !important;
   font-weight: 700 !important;
-  transition: 500ms cubic-bezier(0.4, 0, 1, 1) !important;
+  transition: 200ms cubic-bezier(0.4, 0, 1, 1) !important;
   border-radius: 3px !important;
   padding-left: 20px !important;
   padding-right: 20px !important;
@@ -142,7 +142,7 @@
   border: 1px solid $purple !important;
   background-color: transparent !important;
   font-weight: 700 !important;
-  transition: 500ms cubic-bezier(0.4, 0, 1, 1) !important;
+  transition: 200ms cubic-bezier(0.4, 0, 1, 1) !important;
   border-radius: 3px !important;
   padding-left: 20px !important;
   padding-right: 20px !important;
@@ -160,6 +160,34 @@
   transform: translateY(-2px) !important;
   text-transform: uppercase !important;
   background-color: $purple !important;
+}
+
+// ----------------------------------------
+// ----------------------------------------
+
+#white-btn {
+  box-shadow: $box-shadow !important;
+  border: 1px solid #fff !important;
+  background-color: transparent !important;
+  font-weight: 700 !important;
+  transition: 200ms cubic-bezier(0.4, 0, 1, 1) !important;
+  border-radius: 3px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  margin: 10px 10px !important;
+  color: $gray2 !important;
+  font-family: sofiapro !important;
+  text-transform: uppercase !important;
+}
+
+#white-btn:hover {
+  box-shadow: $box-shadow !important;
+  color: rgb(31, 31, 31) !important;
+  transform: translateY(-2px) !important;
+  text-transform: uppercase !important;
+  background-color: #fff !important;
 }
 
 // ----------------------------------------
