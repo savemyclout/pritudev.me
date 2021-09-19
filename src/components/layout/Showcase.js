@@ -21,6 +21,12 @@ const Showcase = ({ data }) => {
     getGithubAPI().then((data) => {
       setFollowers(data.followers)
     })
+    const fb = document.getElementById('follow-btn')
+
+    if (isNaN(fb)) {
+      document.getElementById('follow-btn').innerText = 'Github'
+      document.getElementById('followers-num').innerText = ''
+    }
   }, [])
   return (
     <>
@@ -38,7 +44,8 @@ const Showcase = ({ data }) => {
             <div className="showcase_buttons" style={{ textAlign: 'center' }}>
               <Link to="https://github.com/pritudev" target="_blank">
                 <button id="white-btn" to="https://github.com/pritudev">
-                  {Number(followers).toLocaleString()} Followers
+                  <span id="follow-btn">{Number(followers)}</span>{' '}
+                  <span id="followers-num">Followers</span>
                 </button>
               </Link>
               <Link to="https://discord.io/prituhq" target="_blank">
