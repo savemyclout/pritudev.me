@@ -22,10 +22,10 @@ const Showcase = ({ data }) => {
       setFollowers(data.followers)
     })
     const fb = document.getElementById('follow-btn')
+    const fn = document.getElementById('followers-num')
 
     if (isNaN(fb)) {
       document.getElementById('follow-btn').innerText = 'Github'
-      document.getElementById('followers-num').innerText = ''
     }
   }, [])
   return (
