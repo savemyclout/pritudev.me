@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import Layout from '../components/layout/Layout'
 import Showcase from '../components/layout/Showcase'
 import LatestPosts from '../components/LatestPosts'
@@ -14,17 +14,10 @@ import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 export default ({ data }) => {
   return (
     <Layout>
-      <MetaTags>
-        <title>Pritu Dev</title>
-        <meta
-          name="description"
-          content="Welcome to My Official Website/Portfolio, Here you'll find  everything about me and related my channel prit HQ."
-        />
-        <meta property="og:title" content="Pritu Dev" />
-        <meta property="og:image" content="../img/nano-favicon.png" />
-      </MetaTags>
+      <title>Pritu Dev</title>
       <Helmet> </Helmet>
       <Showcase />
+
       <div className="container">
         <script
           async
