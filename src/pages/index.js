@@ -30,3 +30,8 @@ export default ({ data }) => {
     </Layout>
   )
 }
+;<script
+  async
+  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8364169684965295"
+  crossorigin="anonymous"
+></script>
