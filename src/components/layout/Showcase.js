@@ -34,13 +34,15 @@ const Showcase = () => {
               </h5>
               <div className="showcase_buttons" style={{ textAlign: 'center' }}>
                 {/* {users.map((curElem) => { */}
-                {/* return ( */}
+                {/* return( */}
+                {/* <> */}
                 <Link to="https://github.com/pritudev" target="_blank">
                   <button id="purple-btn" to="https://github.com/pritudev">
                     {/* {curElem.followers} Followers */}
                     Github
                   </button>
                 </Link>
+                {/* </> */}
                 {/* ) */}
                 {/* })} */}
                 <Link to="https://discord.io/prituhq" target="_blank">
