@@ -43,14 +43,9 @@ const Showcase = ({ data }) => {
             </h5>
             <div className="showcase_buttons" style={{ textAlign: 'center' }}>
               <Link to="https://github.com/pritudev" target="_blank">
-                <button id="white-btn" to="https://github.com/pritudev">
+                <button id="indigo-btn" to="https://github.com/pritudev">
                   <span id="follow-btn">{Number(followers)}</span>{' '}
-                  <span id="followers-num">Followers</span>
-                </button>
-              </Link>
-              <Link to="https://discord.io/prituhq" target="_blank">
-                <button id="green-btn" to="https://discord.io/prituhq">
-                  DISCORD
+                  <span id="followers-num">GitHub followers</span>
                 </button>
               </Link>
             </div>
