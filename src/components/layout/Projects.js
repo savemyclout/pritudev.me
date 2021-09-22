@@ -72,6 +72,29 @@ const Projects = () => {
           </Link>
         </div>
       </div>
+      {/* Project 4 */}
+      <div className="post">
+        <div className="post-content">
+          <h2>Pritudev Theme</h2>
+          <p>
+            🎨 Amazing Theme For VS Code Created By Pritudev for his personal
+            use, Dark yet Beautiful Theme Check out! Now!.
+          </p>
+          <Link
+            className="link-read-more"
+            to="https://marketplace.visualstudio.com/items?itemName=Pritudev.pritu-dark-theme"
+          >
+            Download Now‎‎‎‎&nbsp;&nbsp;|
+          </Link>
+          <Link
+            target="_blank"
+            className="link-read-more"
+            to="https://github.com/pritudev/Jarvis"
+          >
+            &nbsp;&nbsp;Source Code
+          </Link>
+        </div>
+      </div>
     </div>
   )
 }
