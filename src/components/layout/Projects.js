@@ -13,6 +13,7 @@ const Projects = () => {
             potfolio or personal website whatever you say it!
           </p>
           <Link
+            rel="noopener"
             target="_blank"
             className="link-read-more"
             to="https://pritudev.me"
@@ -20,6 +21,7 @@ const Projects = () => {
             Live Preview‎‎‎‎&nbsp;&nbsp;|
           </Link>
           <Link
+            rel="noopener"
             target="_blank"
             className="link-read-more"
             to="https://github.com/pritudev/pritudev.me"
@@ -37,6 +39,7 @@ const Projects = () => {
             test website with a history of your test.
           </p>
           <Link
+            rel="noopener"
             target="_blank"
             className="link-read-more"
             to="https://typefiddle.vercel.app"
@@ -44,6 +47,7 @@ const Projects = () => {
             Live Preview‎‎‎‎&nbsp;&nbsp;|
           </Link>
           <Link
+            rel="noopener"
             target="_blank"
             className="link-read-more"
             to="https://github.com/pritudev/typingFiddle"
@@ -60,10 +64,11 @@ const Projects = () => {
             🤖 Jarvis is a Personal Assistant which can help you to manage some
             stuff in your system, Also can do so many other tasks.
           </p>
-          {/* <Link className="link-read-more" to="https://typefiddle.vercel.app">
+          {/* <Link rel="noopener" className="link-read-more" to="https://typefiddle.vercel.app">
             Live Preview‎‎‎‎&nbsp;&nbsp;|
           </Link> */}
           <Link
+            rel="noopener"
             target="_blank"
             className="link-read-more"
             to="https://github.com/pritudev/Jarvis"
@@ -81,6 +86,7 @@ const Projects = () => {
             use, Dark yet Beautiful Theme Check out! Now!.
           </p>
           <Link
+            rel="noopener"
             className="link-read-more"
             target="_blank"
             to="https://marketplace.visualstudio.com/items?itemName=Pritudev.pritu-dark-theme"
@@ -88,6 +94,7 @@ const Projects = () => {
             Download Now‎‎‎‎&nbsp;&nbsp;|
           </Link>
           <Link
+            rel="noopener"
             target="_blank"
             className="link-read-more"
             to="https://github.com/pritudev/pritu-dark-theme"

@@ -42,7 +42,11 @@ const Showcase = ({ data }) => {
               as web developer 🔥💾
             </h5>
             <div className="showcase_buttons" style={{ textAlign: 'center' }}>
-              <Link to="https://github.com/pritudev" target="_blank">
+              <Link
+                rel="noopener"
+                to="https://github.com/pritudev"
+                target="_blank"
+              >
                 <button id="indigo-btn" to="https://github.com/pritudev">
                   <span id="follow-btn">{Number(followers)}</span>{' '}
                   <span id="followers-num">GitHub followers</span>
@@ -68,6 +72,7 @@ const Showcase = ({ data }) => {
 
               <h2>
                 <Link
+                  rel="noopener"
                   to="https://www.youtube.com/watch?v=gVD0EVFQdoA&t"
                   target="_blank"
                   className="link"
@@ -82,6 +87,7 @@ const Showcase = ({ data }) => {
               </p>
 
               <Link
+                rel="noopener"
                 to="https://www.youtube.com/watch?v=gVD0EVFQdoA&t"
                 target="_blank"
                 className="link-read-more"
@@ -100,6 +106,7 @@ const Showcase = ({ data }) => {
 
               <h2>
                 <Link
+                  rel="noopener"
                   to="https://www.youtube.com/watch?v=hGs3nQI1Tbg&t"
                   target="_blank"
                   className="link"
@@ -115,6 +122,7 @@ const Showcase = ({ data }) => {
               </p>
 
               <Link
+                rel="noopener"
                 to="https://www.youtube.com/watch?v=hGs3nQI1Tbg&t"
                 target="_blank"
                 className="link-read-more"
@@ -133,6 +141,7 @@ const Showcase = ({ data }) => {
 
               <h2>
                 <Link
+                  rel="noopener"
                   to="https://www.youtube.com/watch?v=hGs3nQI1Tbg&t"
                   target="_blank"
                   className="link"
@@ -148,6 +157,7 @@ const Showcase = ({ data }) => {
               </p>
 
               <Link
+                rel="noopener"
                 to="https://www.youtube.com/watch?v=hTsqeA-7pEo&t"
                 target="_blank"
                 className="link-read-more"
@@ -157,7 +167,7 @@ const Showcase = ({ data }) => {
             </div>
           </div>
 
-          <Link to="/courses">
+          <Link rel="noopener" to="/courses">
             <button id="red-btn">View More Courses...</button>
           </Link>
           {/* </div> */}

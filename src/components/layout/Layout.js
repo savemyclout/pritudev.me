@@ -12,7 +12,7 @@ const Layout = (props) => {
   return (
     <Fragment>
       <Helmet>
-        <link rel="icon" href={favicon} />
+        <Link rel="noopener" rel="icon" href={favicon} />
       </Helmet>
       <PostState>
         <Fragment>

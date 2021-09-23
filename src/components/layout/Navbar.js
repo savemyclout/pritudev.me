@@ -21,28 +21,28 @@ const Navbar = () => {
         </div>
         <ul class="nav-ul">
           <li>
-            <Link to="/posts" className="link">
+            <Link rel="noopener" to="/posts" className="link">
               <img className="nav-svgs" src={blogSvg} alt="blog" />
               <br />
               <span className="hover-text">Blogs</span>
             </Link>
           </li>
           <li>
-            <Link to="/courses" className="link">
+            <Link rel="noopener" to="/courses" className="link">
               <img className="nav-svgs" src={coursesSvg} alt="courses" />
               <br />
               <span className="hover-text">Courses</span>
             </Link>
           </li>
           <li>
-            <Link to="/works" className="link">
+            <Link rel="noopener" to="/works" className="link">
               <img className="nav-svgs" src={projectsSvg} alt="projects" />
               <br />
               <span className="hover-text">Projects</span>
             </Link>
           </li>
           <li>
-            <Link to="/contact" className="link">
+            <Link rel="noopener" to="/contact" className="link">
               <img className="nav-svgs" src={contactSvg} alt="contact" />
               <br />
               <span className="hover-text">Contact</span>
