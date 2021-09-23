@@ -17,7 +17,11 @@ const Footer = () => {
       <h5>
         Found issue on this page?{' '}
         <span>
-          <a href="https://github.com/pritudev/pritudev.me" target="_blank">
+          <a
+            rel="noopener"
+            href="https://github.com/pritudev/pritudev.me"
+            target="_blank"
+          >
             Fix it on Github
           </a>
           <hr id="hr-footer" />
@@ -52,7 +56,7 @@ const Footer = () => {
         </abbr>{' '}
         by{' '}
         <span>
-          <a target="_blank" href="https://github.com/pritudev">
+          <a rel="noopener" target="_blank" href="https://github.com/pritudev">
             prit dev
           </a>
         </span>
@@ -60,6 +64,7 @@ const Footer = () => {
       <div id="icons">
         <abbr title="pritudev | Github">
           <a
+            rel="noopener"
             href="https://github.com/pritudev"
             target="_blank"
             id="github-icon"
@@ -68,12 +73,18 @@ const Footer = () => {
           </a>
         </abbr>
         <abbr title="Pritudev | YouTube">
-          <a href="https://youtube.com/pritu" target="_blank" id="youtube-icon">
+          <a
+            rel="noopener"
+            href="https://youtube.com/pritu"
+            target="_blank"
+            id="youtube-icon"
+          >
             <img src={youtbe} alt="Youtube" />
           </a>
         </abbr>
         <abbr title="Pritudev | Discord">
           <a
+            rel="noopener"
             href="https://discord.io/prituhq"
             target="_blank"
             id="discord-icon"
@@ -83,6 +94,7 @@ const Footer = () => {
         </abbr>
         <abbr title="@PrituDevYt | Twitter">
           <a
+            rel="noopener"
             href="https://twitter.com/PrituDevYT"
             target="_blank"
             id="twitter-icon"
@@ -93,6 +105,7 @@ const Footer = () => {
 
         <abbr title="_pritu_004_ | Instagram">
           <a
+            rel="noopener"
             href="https://instagram.com/_pritu_004_"
             target="_blank"
             id="insta-icon"
@@ -102,6 +115,7 @@ const Footer = () => {
         </abbr>
         <abbr title="Become a Patreon">
           <a
+            rel="noopener"
             style={{ marginBottom: '-5px' }}
             href="https://Patreon.com/pritu"
             target="_blank"
@@ -117,7 +131,11 @@ const Footer = () => {
       </div>
       <hr id="hr-footer" />
       <h5>
-        <a href="https://github.com/pritudev/pritudev.me" target="_blank">
+        <a
+          rel="noopener"
+          href="https://github.com/pritudev/pritudev.me"
+          target="_blank"
+        >
           <svg
             style={{ marginBottom: '5.1px' }}
             xmlns="http://www.w3.org/2000/svg"
