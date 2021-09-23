@@ -19,6 +19,7 @@ const Courses = () => {
 
             <h2>
               <Link
+                rel="noopener"
                 to="https://www.youtube.com/watch?v=gVD0EVFQdoA&t"
                 target="_blank"
                 className="link"
@@ -33,6 +34,7 @@ const Courses = () => {
             </p>
 
             <Link
+              rel="noopener"
               to="https://www.youtube.com/watch?v=gVD0EVFQdoA&t"
               target="_blank"
               className="link-read-more"
@@ -51,6 +53,7 @@ const Courses = () => {
 
             <h2>
               <Link
+                rel="noopener"
                 to="https://www.youtube.com/watch?v=hGs3nQI1Tbg&t"
                 target="_blank"
                 className="link"
@@ -66,6 +69,7 @@ const Courses = () => {
             </p>
 
             <Link
+              rel="noopener"
               to="https://www.youtube.com/watch?v=hGs3nQI1Tbg&t"
               target="_blank"
               className="link-read-more"
@@ -84,6 +88,7 @@ const Courses = () => {
 
             <h2>
               <Link
+                rel="noopener"
                 to="https://www.youtube.com/watch?v=hGs3nQI1Tbg&t"
                 target="_blank"
                 className="link"
@@ -98,6 +103,7 @@ const Courses = () => {
             </p>
 
             <Link
+              rel="noopener"
               to="https://www.youtube.com/watch?v=hTsqeA-7pEo&t"
               target="_blank"
               className="link-read-more"

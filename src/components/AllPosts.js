@@ -44,7 +44,7 @@ export default () => {
             <div key={Math.random()} className="post">
               <div className="post-content">
                 <h2>
-                  <Link to={fields.slug} className="link">
+                  <Link rel="noopener" to={fields.slug} className="link">
                     {frontmatter.title}
                   </Link>
                 </h2>

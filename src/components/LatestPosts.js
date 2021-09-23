@@ -46,7 +46,7 @@ export default () => {
                 />
               ) : null}
               <h2>
-                <Link to={fields.slug} className={styles.link}>
+                <Link rel="noopener" to={fields.slug} className={styles.link}>
                   {frontmatter.title}
                 </Link>
               </h2>
