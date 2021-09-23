@@ -5,6 +5,7 @@ import Footer from './Footer'
 import PostState from '../../context/Posts/PostState'
 import favicon from '../../img/nano-favicon.png'
 import Helmet from 'react-helmet'
+import { Link } from 'gatsby'
 
 import PageTransition from 'gatsby-plugin-page-transitions'
 
