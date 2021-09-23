@@ -100,17 +100,17 @@ const Footer = () => {
             <img src={instagram} alt="Instagram" />
           </a>
         </abbr>
-        <abbr title="Pritudev | Ko-Fi">
+        <abbr title="Become a Patreon">
           <a
             style={{ marginBottom: '-4px' }}
-            href="https://ko-fi.com/pritu"
+            href="https://Patreon.com/pritu"
             target="_blank"
             id="ko-fi-icon"
           >
             <img
               style={{ marginBottom: '-5px' }}
               src={donate}
-              alt="Donate On Ko-Fi"
+              alt="Become A Patreon"
             />
           </a>
         </abbr>
