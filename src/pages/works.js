@@ -18,14 +18,6 @@ import Projects from '../components/layout/Projects'
 export default () => {
   return (
     <Layout>
-      <MetaTags>
-        <title>Works | Pritudev</title>
-        <meta
-          name="description"
-          content="List of used tools and some epic projects with their source codes"
-        />
-        <meta property="og:title" content="Works/Projects/Tools" />
-      </MetaTags>
       {/* <h2 style={{ textAlign: 'center', paddingTop: '12px' }}>Works 💻</h2> */}
       <br />
       <h2 style={{ textAlign: 'Left', marginLeft: '10px' }}>Tools ⚙️</h2>
