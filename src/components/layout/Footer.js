@@ -14,7 +14,7 @@ const Footer = () => {
     <div id="footer">
       <br />
       <br />
-      <h5>
+      <h4>
         Found issue on this page?{' '}
         <span>
           <a
@@ -26,9 +26,9 @@ const Footer = () => {
           </a>
           <hr id="hr-footer" />
         </span>
-      </h5>
-      <h5>Copyright &copy; Prit HQ</h5>
-      <h5>
+      </h4>
+      <h4>Copyright &copy; Prit HQ</h4>
+      <h4>
         Created with
         <abbr title="Gatsby">
           <img
@@ -60,7 +60,7 @@ const Footer = () => {
             prit dev
           </a>
         </span>
-      </h5>
+      </h4>
       <div id="icons">
         <abbr title="pritudev | Github">
           <a
@@ -130,7 +130,7 @@ const Footer = () => {
         </abbr>
       </div>
       <hr id="hr-footer" />
-      <h5>
+      <h4>
         <a
           rel="noopener"
           href="https://github.com/pritudev/pritudev.me"
@@ -151,7 +151,7 @@ const Footer = () => {
           Contribute Now 😎
         </a>
         , It's Open Source!
-      </h5>
+      </h4>
     </div>
   )
 }
