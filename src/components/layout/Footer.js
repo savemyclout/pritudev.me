@@ -122,7 +122,7 @@ const Footer = () => {
             id="ko-fi-icon"
           >
             <img
-              style={{ marginBottom: '-6px' }}
+              style={{ marginBottom: '-1px' }}
               src={donate}
               alt="Become A Patreon"
             />
