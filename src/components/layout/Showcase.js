@@ -37,7 +37,7 @@ const Showcase = ({ data }) => {
               Hey, Everyone <br />
               I'm <span id="gradient-text">Prit.</span>
             </h1>
-            <h2
+            <h3
               style={{
                 textAlign: 'center',
                 fontSize: '1.5rem',
@@ -46,7 +46,7 @@ const Showcase = ({ data }) => {
             >
               <strong>Full Stack</strong> Web Developer & love to code, expert
               as web developer 🔥💾
-            </h2>
+            </h3>
             <div className="showcase_buttons" style={{ textAlign: 'center' }}>
               <Link
                 rel="noopener"
