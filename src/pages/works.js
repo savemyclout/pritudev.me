@@ -18,59 +18,64 @@ import Projects from '../components/layout/Projects'
 export default () => {
   return (
     <Layout>
-      {/* <h2 style={{ textAlign: 'center', paddingTop: '12px' }}>Works 💻</h2> */}
+      <MetaTags>
+        <title>Projects And Tools</title>
+        <meta
+          name="description"
+          content="List of my all projects and tool that i use to create stuff"
+        />
+        <meta property="og:title" content="Works, Projects And Tools" />
+      </MetaTags>
+
       <br />
       <h2 style={{ textAlign: 'Left', marginLeft: '10px' }}>Tools ⚙️</h2>
       <br />
       <section class="basic-grid">
         <abbb title="Firebase">
-          <div class="img">
-            <img src={firebase} />
-          </div>
+          <div class="img"></div>
+          <img alt="Firebase" src={firebase} />
         </abbb>
         <abbr title="Git">
-          <div class="img">
-            <img src={git} />
-          </div>
+          <div class="img"></div>
+          <img alt="Git" src={git} />
         </abbr>
         <abbr title="Github">
-          <div class="img">
-            <img src={github} />
-          </div>
+          <div class="img"></div>
+          <img alt="Github" src={github} />
         </abbr>
         <abbr title="HTML">
           <div class="img">
-            <img src={html} />
+            <img alt="Html" src={html} />
           </div>
         </abbr>
         <abbr title="CSS">
           <div class="img">
-            <img src={css} />
+            <img alt="Css" src={css} />
           </div>
         </abbr>
         <abbr title="JS">
           <div class="img">
-            <img src={js} />
+            <img alt="Javascript" src={js} />
           </div>
         </abbr>
         <abbr title="Mongo DB">
           <div class="img">
-            <img src={mongo} />
+            <img alt="Mongo db" src={mongo} />
           </div>
         </abbr>
         <abbr title="Node JS">
           <div class="img">
-            <img src={node} />
+            <img alt="Node js" src={node} />
           </div>
         </abbr>
         <abbr title="React Js">
           <div class="img">
-            <img src={react} />
+            <img alt="Reactjs" src={react} />
           </div>
         </abbr>
         <abbr title="Visual Studio Code">
           <div class="img">
-            <img src={vsc} />
+            <img alt="Vs Code" src={vsc} />
           </div>
         </abbr>
       </section>
