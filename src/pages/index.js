@@ -14,7 +14,14 @@ import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 export default ({ data }) => {
   return (
     <Layout>
-      <title>Pritu Dev</title>
+      <MetaTags>
+        <title>Pritudev</title>
+        <meta
+          name="description"
+          content="Welcome to pritudev blog / portfolio, hope your visit worth."
+        />
+        <meta property="og:title" content="Pritudev" />
+      </MetaTags>
       <Helmet> </Helmet>
       <Showcase />
 

@@ -1,12 +1,19 @@
 import React from 'react'
 import Layout from '../components/layout/Layout'
 import Footer from '../components/layout/Footer'
+import MetaTags from 'react-meta-tags'
 
 const Contact = () => {
   return (
     <Layout>
-      <title>Contact | Prit Dev</title>
-
+      <MetaTags>
+        <title>Contact | Pritudev</title>
+        <meta
+          name="description"
+          content="Contact directly to Pritudev through some pages"
+        />
+        <meta property="og:title" content="Contact" />
+      </MetaTags>
       <div className="container">
         <h2 style={{ fontFamily: 'cubano', paddingTop: '12px' }}>Contact 📝</h2>
         <hr id="hr-body" />

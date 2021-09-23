@@ -1,12 +1,20 @@
 import React from 'react'
 import Layout from '../components/layout/Layout'
 import { Helmet } from 'react-helmet'
+import MetaTags from 'react-meta-tags'
 
 const About = () => {
   return (
     <Layout>
       <Helmet>
-        <title>About | Prit Dev</title>
+        <MetaTags>
+          <title>About | Pritudev</title>
+          <meta
+            name="description"
+            content="Something About Owner Of This  Website Pritudev"
+          />
+          <meta property="og:title" content="About" />
+        </MetaTags>
       </Helmet>
       <div className="container" style={{ lineHeight: '1.5' }}>
         <h2 classname="about-me" style={{ fontFamily: '$head-font' }}>

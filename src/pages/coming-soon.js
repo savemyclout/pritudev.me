@@ -4,6 +4,7 @@ import Image from 'gatsby-image'
 import Layout from '../components/layout/Layout'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 import Helmet from 'react-helmet'
+import MetaTags from 'react-meta-tags'
 
 const ComingSoon = () => {
   const data = useStaticQuery(graphql`
