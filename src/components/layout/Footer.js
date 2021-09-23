@@ -102,13 +102,13 @@ const Footer = () => {
         </abbr>
         <abbr title="Become a Patreon">
           <a
-            style={{ marginBottom: '-4px' }}
+            style={{ marginBottom: '-5px' }}
             href="https://Patreon.com/pritu"
             target="_blank"
             id="ko-fi-icon"
           >
             <img
-              style={{ marginBottom: '-5px' }}
+              style={{ marginBottom: '-6px' }}
               src={donate}
               alt="Become A Patreon"
             />
