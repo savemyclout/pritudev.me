@@ -37,10 +37,10 @@ const Showcase = ({ data }) => {
               Hey, Everyone <br />
               I'm <span id="gradient-text">Prit.</span>
             </h1>
-            <h4 style={{ textAlign: 'center', fontSize: '1.5rem' }}>
+            <h2 style={{ textAlign: 'center', fontSize: '1.5rem' }}>
               <strong>Full Stack</strong> Web Developer & love to code, expert
               as web developer 🔥💾
-            </h4>
+            </h2>
             <div className="showcase_buttons" style={{ textAlign: 'center' }}>
               <Link
                 rel="noopener"
