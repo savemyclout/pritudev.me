@@ -14,6 +14,7 @@ import vsc from './svgs/vsc.svg'
 import css from './svgs/css.svg'
 import { Link } from 'gatsby'
 import Projects from '../components/layout/Projects'
+import MetaTags from 'react-meta-tags'
 
 export default () => {
   return (
