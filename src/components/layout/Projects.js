@@ -82,6 +82,7 @@ const Projects = () => {
           </p>
           <Link
             className="link-read-more"
+            target="_blank"
             to="https://marketplace.visualstudio.com/items?itemName=Pritudev.pritu-dark-theme"
           >
             Download Now‎‎‎‎&nbsp;&nbsp;|
@@ -89,7 +90,7 @@ const Projects = () => {
           <Link
             target="_blank"
             className="link-read-more"
-            to="https://github.com/pritudev/Jarvis"
+            to="https://github.com/pritudev/pritu-dark-theme"
           >
             &nbsp;&nbsp;Source Code
           </Link>
