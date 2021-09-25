@@ -15,7 +15,7 @@ export default ({ data }) => {
   return (
     <Layout>
       <MetaTags>
-        <title>Pritudev</title>
+        <title>Pritudev 👩‍💻👨‍💻</title>
         <meta
           name="description"
           content="Welcome to pritudev blog / portfolio, hope your visit worth."
