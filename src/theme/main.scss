@@ -262,3 +262,15 @@ ul::marker {
 #reactlogo {
   margin-right: 4px;
 }
+
+.about_container h2 {
+  font-family: $sans-serif-font !important;
+  font-weight: $fw-8;
+  font-size: 3rem;
+  padding: 1rem;
+}
+
+.about_image a:hover {
+  fill: white !important;
+  color: white !important;
+}

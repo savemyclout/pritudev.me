@@ -15,7 +15,7 @@
   display: grid;
   padding: 0.8rem 0.9rem;
   border-radius: 6px;
-  background: #2d2e2e !important;
+  background: $card-color !important;
   box-shadow: $box-shadow !important;
   grid-template-columns: 1fr;
   color: $gray3;
@@ -28,13 +28,13 @@
 
   .post-content {
     align-self: left !important;
-    background-color: #2d2e2e !important;
+    background-color: $card-color !important;
   }
 
   .post-content h2 {
     text-align: left !important;
     color: $p-color;
-    background-color: #2d2e2e !important;
+    background-color: $card-color !important;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
       Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
       'Segoe UI Symbol' !important;
@@ -45,18 +45,20 @@
     color: $indigo !important;
   }
 
-  h2 a {
+  h2 {
+    background-color: $card-color !important;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
       Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
       'Segoe UI Symbol' !important;
     font-weight: 800;
+    width: 100%;
     // padding: 1rem 1rem;
     margin: 0;
+    cursor: pointer;
     text-align: left !important;
     margin-right: 0;
     margin-left: 0;
     font-size: 1.7rem !important;
-    background-color: #2d2e2e !important;
     text-align: left;
   }
 
@@ -82,7 +84,7 @@
     margin-top: 15px;
     color: $p-color !important;
     font-family: $body-font !important;
-    background-color: #2d2e2e !important;
+    background-color: $card-color !important;
   }
   .image {
     margin: 1rem;
@@ -100,7 +102,7 @@
 .link-read-more {
   color: $orange;
   font-weight: bold;
-  background-color: #2d2e2e !important;
+  background-color: $card-color !important;
   text-decoration: none;
 }
 

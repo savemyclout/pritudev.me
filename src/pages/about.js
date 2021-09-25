@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from '../components/layout/Layout'
 import { Helmet } from 'react-helmet'
 import MetaTags from 'react-meta-tags'
-
+import '../theme/main.scss'
 const About = () => {
   return (
     <Layout>
@@ -16,10 +16,8 @@ const About = () => {
           <meta property="og:title" content="About" />
         </MetaTags>
       </Helmet>
-      <div className="container" style={{ lineHeight: '1.5' }}>
-        <h2 classname="about-me" style={{ fontFamily: '$head-font' }}>
-          About me
-        </h2>
+      <div className="about-container" style={{ lineHeight: '1.5' }}>
+        <h2 classname="about-me">About me</h2>
         <h5 classname="quick-intro">
           Software engineer, blog writer, open-sourcerer
         </h5>

@@ -13,7 +13,7 @@
   h1 {
     font-family: $head-font !important;
     font-size: 3rem !important;
-    font-weight: normal !important;
+    font-weight: $fw-5 !important;
     color: $h-color !important;
     margin: 1rem !important;
     text-align: left !important;
@@ -27,7 +27,7 @@
 
 h2 {
   color: $gray6 !important;
-  font-family: $head-font !important;
+  font-family: $sans-serif-font !important;
   text-decoration: none !important;
 }
 
@@ -53,10 +53,4 @@ h2::selection {
   font-family: 'Space mono', monospace !important;
   padding: 0.2rem !important;
   border-radius: 5px !important;
-}
-
-.text-in-code {
-  font-family: 'Arizonia', cursive !important;
-  font-size: 3rem !important;
-  color: $red;
 }

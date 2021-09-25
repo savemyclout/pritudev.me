@@ -9,30 +9,30 @@
   background: $gray5 !important;
   box-shadow: $nav-shadow !important;
   border: 1px solid #2d2e2e;
-  background: #2d2e2e !important;
+  background: $nav-color !important;
 
   .container {
-    background: #2d2e2e !important;
+    background: $nav-color !important;
     display: flex;
     justify-content: space-between;
     top: 0;
   }
 
   .nav-ul {
-    background: #2d2e2e !important;
+    background: $nav-color !important;
     font-size: 1rem;
     display: flex;
     list-style: none !important;
     margin-bottom: 0rem !important;
 
     li {
-      background: #2d2e2e !important;
+      background: $nav-color !important;
       font-size: 1rem;
       list-style: none !important;
       text-align: center !important;
 
       .link {
-        background: #2d2e2e !important;
+        background: $nav-color !important;
         font-size: 1.2rem;
         text-decoration: none;
         display: block;
@@ -51,7 +51,7 @@
     width: 100%;
   }
   .navbar {
-    background: #2d2e2e !important;
+    background: $nav-color !important;
     .container {
       display: block;
     }
@@ -68,7 +68,7 @@
         font-size: 1rem;
         display: flex;
         text-align: center !important;
-        background: #2d2e2e;
+        background: $nav-color;
       }
     }
   }

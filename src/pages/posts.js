@@ -3,6 +3,7 @@ import Layout from '../components/layout/Layout'
 import AllPosts from '../components/AllPosts'
 import Footer from '../components/layout/Footer'
 import MetaTags from 'react-meta-tags'
+import '../theme/main.scss'
 
 const Posts = () => {
   return (
@@ -15,7 +16,15 @@ const Posts = () => {
         />
         <meta property="og:title" content="Blogs" />
       </MetaTags>
-      <h2 style={{ paddingTop: '12px' }}>Latest Feeds 🍪</h2>
+      <div id="heading">
+        <h2
+          style={{
+            paddingTop: '12px',
+          }}
+        >
+          Latest Feeds 🍪
+        </h2>
+      </div>
       <hr id="hr-body" />
       <AllPosts />
       {/* <AllPosts /> */}
