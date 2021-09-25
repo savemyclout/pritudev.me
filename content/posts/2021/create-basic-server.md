@@ -56,5 +56,3 @@ nodemon server.js
 ```
 
 And thats for this post see you in another one
-
-- _this was originally took from [pritudev.me](https://pritudev.me/posts)_
