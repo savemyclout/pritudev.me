@@ -4,53 +4,59 @@
 @import './partials/_buttons';
 
 .post-container {
+  padding-left: 10rem !important;
+  padding-right: 10rem !important;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 16px;
-}
-.post:hover {
-  transform: translate(0, -5px) !important;
-  box-shadow: $box-shadow !important;
+  grid-template-columns: 1fr;
+  gap: 0.2px;
 }
 .post {
+  border: 0.2px solid rgba(255, 255, 255, 0.123);
   display: grid;
   padding: 0.8rem 0.9rem;
-  border-radius: 10px;
-  background: #2D2E2E !important;
+  border-radius: 6px;
+  background: #2d2e2e !important;
   box-shadow: $box-shadow !important;
-  // grid-template-columns: 1fr;
+  grid-template-columns: 1fr;
   color: $gray3;
   margin: 0.5rem 0.5rem;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
   line-height: 1.5;
 
-  transition: 400ms ease-in-out;
+  transition: 400ms cubic-bezier(0, 0, 0.2, 1);
 
   .post-content {
     align-self: left !important;
-    background-color: #2D2E2E !important;
+    background-color: #2d2e2e !important;
   }
 
   .post-content h2 {
     text-align: left !important;
     color: $p-color;
-    background-color: #2D2E2E !important;
+    background-color: #2d2e2e !important;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+      Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+      'Segoe UI Symbol' !important;
+    font-weight: 800;
+  }
 
-    text-shadow: 1px 2px 10px rgba(0, 0, 0, 0.438);
+  .post-content h2:hover {
+    color: $indigo !important;
   }
 
   h2 a {
-    font-family: $head-font;
-    padding: 1rem 1rem;
-    padding: 1rem 1rem;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+      Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+      'Segoe UI Symbol' !important;
+    font-weight: 800;
+    // padding: 1rem 1rem;
     margin: 0;
     text-align: left !important;
     margin-right: 0;
     margin-left: 0;
-    font-size: 1.4rem !important;
-    background-color: #2D2E2E !important;
-    font-weight: 200 !important;
+    font-size: 1.7rem !important;
+    background-color: #2d2e2e !important;
     text-align: left;
   }
 
@@ -76,7 +82,7 @@
     margin-top: 15px;
     color: $p-color !important;
     font-family: $body-font !important;
-    background-color: #2D2E2E !important;
+    background-color: #2d2e2e !important;
   }
   .image {
     margin: 1rem;
@@ -86,13 +92,15 @@
 @media screen and (max-width: 768px) {
   .post-container {
     grid-template-columns: 1fr;
+    padding: 0 !important;
+    // margin: 0 !important;
   }
 }
 
 .link-read-more {
   color: $orange;
   font-weight: bold;
-  background-color: #2D2E2E !important;
+  background-color: #2d2e2e !important;
   text-decoration: none;
 }
 

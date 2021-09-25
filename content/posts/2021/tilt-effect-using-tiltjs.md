@@ -3,6 +3,7 @@ title: 'Tilt Effect in Button Using Tilt.js.'
 date: 2021-08-29
 # cover: './img/tilt-effect.png'
 published: true
+tags: '#js #html #css #webdev'
 ---
 
 ## Step 1 - Add HTML

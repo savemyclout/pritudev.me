@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@500&display=swap');
 
 $primary-color: #1d1d1d;
-$secondary-color: #0D1321;
+$secondary-color: #0d1321;
 $danger-color: #fd531f;
 $indigo: #757ff8;
 $red: #ff3860;
@@ -35,5 +36,5 @@ $box-shadow: '0 4px 8px rgba(0,0,0,0.38)';
 $nav-shadow: '4px 0 10px -3px #010101';
 $body-font: 'sofiapro';
 $head-font: 'cubano';
-$code-font: 'operatorMono';
+$code-font: 'Fira Mono', monospace;
 $button-font: 'sofiapro';

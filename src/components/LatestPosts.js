@@ -16,14 +16,6 @@ export default () => {
           frontmatter {
             title
             date(formatString: "YYYY Do MMMM ")
-            cover {
-              publicURL
-              childImageSharp {
-                sizes(maxWidth: 2000, traceSVG: { color: "#639" }) {
-                  ...GatsbyImageSharpSizes_tracedSVG
-                }
-              }
-            }
           }
           fields {
             slug
@@ -39,12 +31,6 @@ export default () => {
         {data.allMdx.nodes.map(({ frontmatter, excerpt, fields }) => {
           return (
             <div key={Math.random()} className={styles.post}>
-              {!!frontmatter.cover ? (
-                <Image
-                  sizes={frontmatter.cover.childImageSharp.sizes}
-                  onClick={() => navigate(fields.slug)}
-                />
-              ) : null}
               <h2>
                 <Link rel="noopener" to={fields.slug} className={styles.link}>
                   {frontmatter.title}

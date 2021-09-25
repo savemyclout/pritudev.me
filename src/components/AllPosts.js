@@ -16,14 +16,8 @@ export default () => {
           frontmatter {
             title
             date(formatString: "MMM DD ")
-            cover {
-              publicURL
-              childImageSharp {
-                sizes(maxWidth: 2000, traceSVG: { color: "#639" }) {
-                  ...GatsbyImageSharpSizes_tracedSVG
-                }
-              }
-            }
+            tags
+            
           }
           fields {
             slug
@@ -41,14 +35,38 @@ export default () => {
       <div className="container post-container">
         {data.allMdx.nodes.map(({ frontmatter, excerpt, fields }) => {
           return (
-            <div key={Math.random()} className="post">
+            <div className="post">
               <div className="post-content">
-                <h2>
-                  <Link rel="noopener" to={fields.slug} className="link">
-                    {frontmatter.title}
-                  </Link>
-                </h2>
+                <Link rel="noopener" to={fields.slug} className="link">
+                  <h2>{frontmatter.title}</h2>
+                </Link>
                 <p>{excerpt}</p>
+                <p>
+                  <span
+                    style={{
+                      color: 'white',
+                      backgroundColor: 'rgba(204, 204, 204, 0.253)',
+                      padding: '4px',
+                      borderRadius: '3px',
+                    }}
+                  >
+                    {frontmatter.tags}
+                  </span>
+                  <br />
+                  <br />
+                  {frontmatter.date} ⋅ {fields.readingTime.text} ⋅{' '}
+                  <a
+                    style={{
+                      color: 'white',
+                      textDecoration: 'underline',
+                      textDecorationColor: '#00ff6e',
+                    }}
+                    classname="postedby"
+                    href="https://github.com/pritudev"
+                  >
+                    pritudev
+                  </a>{' '}
+                </p>
               </div>
             </div>
           )

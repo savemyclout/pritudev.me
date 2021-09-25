@@ -3,9 +3,8 @@ title: 'Learn to create Notes using CSS & HTML.'
 date: 2021-08-28
 # cover: './img/notes-in-css.png'
 published: true
+tags: '#html #css #webdev'
 ---
-
-## Notes
 
 Notes can be used to notify the user about something special: danger, success, information or warning
 

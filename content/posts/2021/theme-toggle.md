@@ -2,9 +2,8 @@
 title: 'Simple Theme Toggle // Easy Using HTML, CSS, & JS  '
 date: 2021-09-06
 published: true
+tags: '#html #css #js #webdev'
 ---
-
-## Here is how to create simple theme switcher in your website using HTML, CSS & JS
 
 ### Step 1 - Adding HTML
 

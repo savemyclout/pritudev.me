@@ -18,7 +18,6 @@ export default ({ data, pageContext }) => {
       <div>
         <div className={styles.post}>
           <div className={styles.heading}>
-            <small className={styles.date}>{frontmatter.date}</small>
             <h2 className={styles.title}>{frontmatter.title}</h2>
           </div>
           <hr id="hr-body" />
@@ -45,11 +44,12 @@ export default ({ data, pageContext }) => {
           /> */}
           <div className={styles.body}>
             <p>
-              {data.mdx.fields.readingTime.text} |{' '}
-              {data.mdx.fields.readingTime.words} words | Posted By{' '}
+              Posted By{' '}
               <a classname="postedby" href="https://github.com/pritudev">
                 pritudev
-              </a>
+              </a>{' '}
+              ⋅ {<span className={styles.date}>{frontmatter.date}</span>} ⋅{' '}
+              {data.mdx.fields.readingTime.text}
             </p>
             <MDXRenderer>{body}</MDXRenderer>
           </div>
@@ -65,15 +65,7 @@ export const query = graphql`
       body
       frontmatter {
         title
-        date(formatString: "Do MMMM, YYYY")
-        cover {
-          publicURL
-          childImageSharp {
-            sizes(maxWidth: 2000, traceSVG: { color: "#639" }) {
-              ...GatsbyImageSharpSizes_tracedSVG
-            }
-          }
-        }
+        date(formatString: "Do MMM")
       }
       fields {
         readingTime {

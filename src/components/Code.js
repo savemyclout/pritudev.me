@@ -22,6 +22,8 @@ const Code = ({ codeString, language }) => {
               fontFamily: '$code-font',
               border: '1px solid #22262f',
               background: '#22262f',
+              borderRadius: '5px',
+              fontFamily: 'Fira Mono, monospace',
             })
           }
         >

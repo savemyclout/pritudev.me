@@ -27,18 +27,12 @@ const Navbar = () => {
               <span className="hover-text">Blogs</span>
             </Link>
           </li>
-          <li>
-            <Link rel="noopener" to="/courses" className="link">
-              <img className="nav-svgs" src={coursesSvg} alt="courses" />
-              <br />
-              <span className="hover-text">Courses</span>
-            </Link>
-          </li>
+
           <li>
             <Link rel="noopener" to="/works" className="link">
               <img className="nav-svgs" src={projectsSvg} alt="projects" />
               <br />
-              <span className="hover-text">Projects</span>
+              <span className="hover-text">projects</span>
             </Link>
           </li>
           <li>

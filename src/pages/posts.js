@@ -15,7 +15,7 @@ const Posts = () => {
         />
         <meta property="og:title" content="Blogs" />
       </MetaTags>
-      <h2 style={{ paddingTop: '12px' }}>Blogs 💾</h2>
+      <h2 style={{ paddingTop: '12px' }}>Latest Feeds 🍪</h2>
       <hr id="hr-body" />
       <AllPosts />
       {/* <AllPosts /> */}

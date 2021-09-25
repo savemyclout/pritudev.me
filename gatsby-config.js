@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Dev with Nano',
-    description: '...Learn Code',
-    siteUrl: 'https://devwithnano.netlify.app',
+    title: 'Pritudev',
+    description: 'Official Website or blog for prit...',
+    siteUrl: 'https://pritudev.me',
   },
   plugins: [
     `gatsby-transformer-sharp`,
@@ -62,10 +62,10 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Dev with Nano',
-        short_name: 'NanoBlog',
+        name: 'Pritudev',
+        short_name: 'Pritu',
         start_url: '/',
-        background_color: '#000000',
+        background_color: '#1d1d1d',
         theme_color: '#171542',
         display: 'standalone',
         icon: 'src/img/nano-favicon.png',
@@ -119,7 +119,7 @@ module.exports = {
               }
             `,
             output: '/rss.xml',
-            title: `Dev with Nano Feed`,
+            title: `Pritudev Feed`,
           },
         ],
       },

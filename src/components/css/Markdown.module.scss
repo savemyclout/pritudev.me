@@ -3,6 +3,10 @@
 @import '../../theme/partials/_variables';
 @import '../../theme/partials/_buttons';
 
+* {
+  word-wrap: break-word !important;
+}
+
 .precode {
   background: linear-gradient(90deg, #ff4088, #fa8142) !important;
   color: white;
@@ -12,16 +16,19 @@
 }
 
 ::-webkit-scrollbar {
-  width: 8px !important;
-}
-
-::-webkit-scrollbar-track {
-  background: #272727 !important;
+  width: 6px !important;
   border-radius: 5px !important;
 }
 
+::-webkit-scrollbar-track {
+  background: #22262f !important;
+}
+
 ::-webkit-scrollbar-thumb {
+  width: 6px !important;
+
   background: rgb(255, 255, 255) !important;
+  border-radius: 20px !important;
 }
 
 ::-webkit-scrollbar-thumb:hover {
