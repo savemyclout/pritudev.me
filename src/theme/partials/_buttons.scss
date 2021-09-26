@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 
 #orange-btn {
-  border: 1px solid $orange !important;
+  border: 2px solid $orange !important;
   font-weight: 700 !important;
   background-color: transparent !important;
   transition: 200ms cubic-bezier(0.4, 0, 1, 1) !important;
@@ -30,7 +30,7 @@
 // ----------------------------------------
 
 #red-btn {
-  border: 1px solid $red !important;
+  border: 2px solid $red !important;
   box-shadow: $box-shadow !important;
   background-color: transparent !important;
   font-weight: 700 !important;
@@ -58,7 +58,7 @@
 
 #green-btn {
   box-shadow: $box-shadow !important;
-  border: 1px solid $green !important;
+  border: 2px solid $green !important;
   background-color: transparent !important;
   font-weight: 700 !important;
   transition: 200ms cubic-bezier(0.4, 0, 1, 1) !important;
@@ -85,7 +85,7 @@
 
 #pink-btn {
   box-shadow: $box-shadow !important;
-  border: 1px solid $pink !important;
+  border: 2px solid $pink !important;
   background-color: transparent !important;
   transition: 200ms cubic-bezier(0.4, 0, 1, 1) !important;
   border-radius: 3px !important;
@@ -112,7 +112,7 @@
 
 #indigo-btn {
   box-shadow: $box-shadow !important;
-  border: 1px solid $indigo !important;
+  border: 2px solid $indigo !important;
   background-color: transparent !important;
   font-weight: 700 !important;
   transition: 200ms cubic-bezier(0.4, 0, 1, 1) !important;
@@ -139,7 +139,7 @@
 
 #purple-btn {
   box-shadow: $box-shadow !important;
-  border: 1px solid $purple !important;
+  border: 2px solid $purple !important;
   background-color: transparent !important;
   font-weight: 700 !important;
   transition: 200ms cubic-bezier(0.4, 0, 1, 1) !important;
@@ -167,7 +167,7 @@
 
 #white-btn {
   box-shadow: $box-shadow !important;
-  border: 1px solid #fff !important;
+  border: 2px solid #fff !important;
   background-color: transparent !important;
   font-weight: 700 !important;
   transition: 200ms cubic-bezier(0.4, 0, 1, 1) !important;
