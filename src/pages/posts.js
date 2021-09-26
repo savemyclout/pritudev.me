@@ -1,7 +1,7 @@
 import React from 'react'
-import Layout from '../components/layout/Layout'
-import AllPosts from '../components/AllPosts'
-import Footer from '../components/layout/Footer'
+import Layout from '../components/layout/Layout.js'
+import AllPosts from '../components/AllPosts.tsx'
+import Footer from '../components/layout/Footer.tsx'
 import MetaTags from 'react-meta-tags'
 import '../theme/main.scss'
 

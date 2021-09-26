@@ -1,5 +1,5 @@
 import { MDXProvider } from '@mdx-js/react'
-import Code from './src/components/Code'
+import Code from './src/components/Code.tsx'
 import styles from './src/components/css/Markdown.module.scss'
 
 import React from 'react'

@@ -1,9 +1,8 @@
 import React, { Fragment } from 'react'
 import '../../theme/main.scss'
 import Navbar from './Navbar'
-import Footer from './Footer'
 import PostState from '../../context/Posts/PostState'
-import favicon from '../../img/nano-favicon.png'
+// import favicon from '../../img/nano-favicon.png'
 import Helmet from 'react-helmet'
 import { Link } from 'gatsby'
 
@@ -12,9 +11,7 @@ import PageTransition from 'gatsby-plugin-page-transitions'
 const Layout = (props) => {
   return (
     <Fragment>
-      <Helmet>
-        <Link rel="noopener" rel="icon" href={favicon} />
-      </Helmet>
+      <Helmet>{/* <Link rel="noopener" rel="icon" href={favicon} /> */}</Helmet>
       <PostState>
         <Fragment>
           <Navbar />
@@ -22,10 +19,7 @@ const Layout = (props) => {
         </Fragment>
       </PostState>
 
-      <script
-        src="https://kit.fontawesome.com/375268b44c.js"
-        crossorigin="anonymous"
-      ></script>
+      <script src="https://kit.fontawesome.com/375268b44c.js"></script>
     </Fragment>
   )
 }
