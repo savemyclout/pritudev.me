@@ -1,13 +1,16 @@
 ---
-title: 'Simple Theme Toggle // Easy Using HTML, CSS, & JS  '
+title: 'Theme Toggler using Javascript, HTML, CSS'
 date: 2021-09-06
 published: true
 tags: '#html #css #js #webdev'
 ---
 
-### Step 1 - Adding HTML
+So what is theme toggler? it's just a setting for your website to set light theme or dark theme and in these days we can do it very easily with few lines of javascript code and yeah let's start exciting thing **Coding**...
+
+### Step 1 : Adding HTML
 
 ```html
+<!-- Time to write some html -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -30,13 +33,18 @@ tags: '#html #css #js #webdev'
         officia voluptate mollitia. At ipsum quae placeat.
       </p>
       <button onclick="themeToggle()">Switch Theme</button>
+      <!--Theme toggle function which we are gonna create soon-->
     </div>
     <script src="./js/app.js"></script>
+
+    <!--Link javascript file into main index.html file-->
   </body>
 </html>
 ```
 
-### Step 2 - Adding CSS
+Next let's head over to some css to style the page
+
+### Step 2 : Adding CSS
 
 ```css
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
@@ -89,14 +97,20 @@ tags: '#html #css #js #webdev'
 }
 ```
 
-### Step 3 - Adding JS
+I think you don't need any brief tutorial for CSS stuff as I am just aligning everything in center. Check out [This video](https://www.youtube.com/watch?v=7VE1G8EcmrQ) for brief tutorial to align thing in center.
+
+Finally It's time to add logic i mean javascript into code..
 
 ```js
 const container = document.getElementById('container')
+// Define main container or div with id to get reference to that code
 
 function themeToggle() {
   container.classList.toggle('theme')
 }
+// Create a function which we used in that button before "themeToggle()" function where we just use that container  variable and toggle a class which we defined in css file head over to css code and check for "theme" class which just change to color of background and text color
 ```
 
-And then You Are that was easy wasn't it?
+and yeah with that we are done that was really easy however we can use advance javascript to create these kind of things but i tried the easiest way to tell you.
+
+- [Video tutorial?](https://www.youtube.com/watch?v=hTsqeA-7pEo&t)
