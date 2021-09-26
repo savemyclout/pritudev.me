@@ -278,3 +278,7 @@ ul::marker {
   fill: white !important;
   color: white !important;
 }
+
+img {
+  pointer-events: none;
+}

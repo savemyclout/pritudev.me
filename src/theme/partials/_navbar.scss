@@ -18,6 +18,10 @@
   background: $gray5 !important;
   box-shadow: $nav-shadow !important;
   border: 1px solid #2d2e2e;
+  position: -webkit-sticky !important; /* Safari */
+  z-index: 1;
+  position: sticky !important;
+  top: 0 !important;
   border-bottom: 5px solid $green-light;
   background: $nav-color !important;
   width: 100% !important;
