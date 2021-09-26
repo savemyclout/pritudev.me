@@ -1,7 +1,6 @@
 import React from 'react'
 import Footer from '../components/layout/Footer'
 import Layout from '../components/layout/Layout'
-import './works.css'
 import firebase from './svgs/firebase.svg'
 import git from './svgs/git.svg'
 import github from './svgs/github.svg'
@@ -15,6 +14,7 @@ import css from './svgs/css.svg'
 import { Link } from 'gatsby'
 import Projects from '../components/layout/Projects'
 import MetaTags from 'react-meta-tags'
+import '../theme/partials/_works.scss'
 
 export default () => {
   return (

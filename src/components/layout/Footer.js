@@ -27,7 +27,7 @@ const Footer = () => {
           <hr id="hr-footer" />
         </span>
       </h4>
-      <h4>Copyright &copy; Prit HQ</h4>
+      <h4>Copyright &copy; Prit Dev</h4>
       <h4>
         Created with
         <abbr title="Gatsby">

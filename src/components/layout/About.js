@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import '../css/About.css'
+import '../css/About.scss'
 import brand from './svgs/brand-logo.svg'
 
 const About = () => {
