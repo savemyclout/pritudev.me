@@ -46,3 +46,5 @@ Learn to create a countdown / timer in your website using HTML, CSS & Javascript
   }, 1000)
 </script>
 ```
+
+And then your countdown is created.
