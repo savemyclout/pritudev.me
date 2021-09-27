@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A Coding Blog/Community by Nano",
   "main": "index.js",
-  "scripts": {
+    "scripts": {
     "dev": "gatsby develop -H 0.0.0.0 -p 8081 ",
     "serve": "gatsby serve",
     "build": "gatsby build",
@@ -14,7 +14,7 @@
   "keywords": [
     "Blog"
   ],
-  "author": "Nano Adam",
+  "author": "Pritudev",
   "license": "ISC",
   "dependencies": {
     "@mdx-js/mdx": "1.5.9",

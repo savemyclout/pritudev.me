@@ -11,11 +11,11 @@ Note: The source for this site was not created to be a template or theme, but fo
 
 </p>
 
-<h3 align="center">Contribute</h3>
+<h3 align="center">👀 Contributing</h3>
 <p align="center">
   Found any issue or wanted to add new thing in website contribute in our website prefer <a href="https://github.com/pritudev/pritudev.me/blob/master/CONTRIBUTING.md">CONTRIBUTING.md</a> </p>
 
-<h3 align="center">License</h3>
+<h3 align="center">📝 License</h3>
 
 <p align="center">
 This project is open source and available under the MIT License.

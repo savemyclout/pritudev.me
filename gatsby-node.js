@@ -6,7 +6,6 @@ exports.createPages = ({ actions, graphql }) => {
   const blogPostTemplate = path.resolve(
     './src/components/templates/blogPost.js'
   )
-
   return graphql(`
     {
       allMdx {
