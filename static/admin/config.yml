@@ -4,7 +4,7 @@ backend:
 media_folder: content/posts/2020/img
 public_folder: /img
 
-display_url: https://devwithnano.netlify.app
+display_url: https://pritudev.me
 
 logo_url: src/img/nano-favicon.png
 
@@ -15,7 +15,7 @@ collections:
     folder: 'content/posts/2020'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-    description: 'Add blog posts to Nano Dev Blog'
+    description: 'Add blog posts to Pritu Dev Blog'
     preview_path: 'posts/{{year}}/{{filename}}.{{extension}}'
 
     fields:
