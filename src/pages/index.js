@@ -4,7 +4,7 @@ import Showcase from '../components/layout/Showcase'
 import { Helmet } from 'react-helmet'
 import { Link } from 'gatsby'
 import MetaTags from 'react-meta-tags'
-import Footer from '../components/layout/Footer.tsx'
+import Footer from '../components/layout/Footer.js'
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 export default ({ data }) => {

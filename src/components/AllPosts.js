@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react'
 import { graphql, useStaticQuery, Link } from 'gatsby'
 import Image from 'gatsby-image'
-import Dump from './Dump'
 
 export default () => {
   const data = useStaticQuery(graphql`

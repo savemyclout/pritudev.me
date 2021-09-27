@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 import styles from '../css/BlogPost.module.scss'
 import Image from 'gatsby-image'
 import Layout from './Layout.js'
-import About from './About.tsx'
+import About from './About.js'
 
 const Showcase = ({ data }) => {
   const [followers, setFollowers] = useState(0)

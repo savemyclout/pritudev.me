@@ -1,5 +1,5 @@
 import React from 'react'
-import Footer from '../components/layout/Footer.tsx'
+import Footer from '../components/layout/Footer.js'
 import Layout from '../components/layout/Layout.js'
 import MetaTags from 'react-meta-tags'
 
