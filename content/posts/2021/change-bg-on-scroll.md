@@ -3,7 +3,7 @@ title: 'How To Create a Gradient Background on Scroll.'
 date: 2021-08-28
 # cover: './img/change-bg-on-scroll.jpg'
 published: true
-tags: '#webdev #css'
+tags: '#webdev #css #js'
 ---
 
 Create a linear gradient background color that starts from the top. It starts from teal/green to blue:

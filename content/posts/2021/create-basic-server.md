@@ -2,7 +2,7 @@
 title: 'Create a basic web server using express js'
 date: 2021-09-25
 published: true
-tags: '#js #webdev #expressjs'
+tags: '#javascript #webdev #expressjs'
 ---
 
 Easiest way to create a basic webserver using express js.

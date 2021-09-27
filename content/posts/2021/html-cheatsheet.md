@@ -2,7 +2,7 @@
 title: 'HTML Cheatsheet for Beginners.'
 date: 2021-09-01
 published: true
-tags: '#html #cheatsheet #webdev'
+tags: '#html #cheatsheet #webdev #guide'
 # cover: './img/html-cheatsheet.png'
 ---
 

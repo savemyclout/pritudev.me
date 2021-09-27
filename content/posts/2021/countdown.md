@@ -3,7 +3,7 @@ title: 'Create Countdown in using HTML, CSS & JS.'
 date: 2021-08-29
 # cover: './img/countdown-timer.png'
 published: true
-tags: '#webdev #css #js'
+tags: '#webdev #css #javascript'
 ---
 
 Learn to create a countdown / timer in your website using HTML, CSS & Javascript Easily within some minutes.

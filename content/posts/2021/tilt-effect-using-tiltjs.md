@@ -3,7 +3,7 @@ title: 'Tilt Effect Using Tilt.js.'
 date: 2021-08-29
 # cover: './img/tilt-effect.png'
 published: true
-tags: '#js #html #css #webdev'
+tags: '#js #html #css #webdev #tiltjs'
 ---
 
 First of all what is tilt js it's a tiny requestAnimationFrame powered **60+fps** lightweight parallax hover tilt effect for jQuery. you don't need jQuery or any css to create this thing it's very easy to create.
