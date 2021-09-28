@@ -43,7 +43,7 @@
 }
 
 * {
-  transition: 10ms ease !important;
+
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -128,7 +128,7 @@ ul::marker {
 }
 
 .hi-code {
-  background: linear-gradient(90deg, $pink, $blue) !important;
+  background: linear-gradient(90deg, $pink, $orange) !important;
   color: #fff !important;
   font-weight: 600 !important;
   text-decoration: none !important;

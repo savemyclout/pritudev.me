@@ -12,7 +12,7 @@
 
   h1 {
     font-family: $head-font !important;
-    font-size: 3rem !important;
+    font-size: 4rem !important;
     font-weight: $fw-5 !important;
     color: $h-color !important;
     margin: 1rem !important;
@@ -42,7 +42,7 @@ h2::selection {
 }
 
 #gradient-text {
-  background: -webkit-linear-gradient(180deg, $pink, $blue) !important;
+  background: -webkit-linear-gradient(90deg, $pink, $orange) !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
 }

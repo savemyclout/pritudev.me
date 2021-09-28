@@ -8,7 +8,7 @@ const notFound = () => {
   return (
     <Layout>
       <MetaTags>
-        <title>404 | Page not found</title>
+        <title>Page Not Found Found • 404 - Pritudev</title>
         <meta name="description" content="Error 404 Page Not Found" />
         <meta property="og:title" content="404 Page Not Found" />
       </MetaTags>

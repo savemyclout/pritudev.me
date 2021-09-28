@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <Layout>
       <MetaTags>
-        <title>Contact | Pritudev</title>
+        <title>Contact - Pritudev</title>
         <meta
           name="description"
           content="Contact directly to Pritudev through some pages"

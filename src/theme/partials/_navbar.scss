@@ -16,9 +16,7 @@
 
 .navbar {
   background: $gray5 !important;
-  box-shadow: $nav-shadow !important;
-  border: 1px solid #2d2e2e;
-  border-bottom: 5px solid $green-light;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   background: $nav-color !important;
   width: 100% !important;
 
@@ -44,14 +42,22 @@
       text-align: center !important;
 
       .link {
+
         background: $nav-color !important;
         font-size: 1.2rem;
         text-decoration: none;
         display: block;
         transition: 500ms;
         padding-top: 0.3rem;
+        padding-bottom: 0.3rem;
         padding-left: 2rem;
         padding-right: 2rem;
+        border-radius: 4px;
+
+      }
+      .link:hover{
+          background: #171e29 !important;
+            
       }
     }
   }
@@ -154,6 +160,7 @@
 
 .link:hover {
   color: $gray0 !important;
+  background-color: #171e29 !important;
 }
 
 .link {

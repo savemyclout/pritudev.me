@@ -5,8 +5,10 @@ module.exports = {
     siteUrl: 'https://pritudev.me',
   },
   plugins: [
+    `gatsby-plugin-smoothscroll`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    'gatsby-plugin-anchor-links',
     {
       resolve: 'gatsby-plugin-mdx',
       options: {
@@ -26,6 +28,11 @@ module.exports = {
           options: {
             maxWidth: 540,
           },
+        
+            resolve: "gatsby-plugin-anchor-links",
+            options: {
+              offset: 540
+            },
         },
       ],
     },

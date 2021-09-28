@@ -9,7 +9,7 @@ const Posts = () => {
   return (
     <Layout>
       <MetaTags>
-        <title>Blog | pritudev</title>
+        <title>Blog - pritudev</title>
         <meta
           name="description"
           content="List of blogs in pritudev website or blog page"
