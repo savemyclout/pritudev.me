@@ -22,7 +22,7 @@ const Posts = () => {
             paddingTop: '12px',
           }}
         >
-          Latest Feeds 🍪
+          Blog Posts
         </h2>
       </div>
       <hr id="hr-body" />
