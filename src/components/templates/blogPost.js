@@ -64,6 +64,25 @@ export default ({ data, pageContext }) => {
             </p>
             <MDXRenderer>{body}</MDXRenderer>
           </div>
+          <hr id="hr-body" />
+          <h4
+            style={{
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center',
+            }}
+          >
+            💖 Chat or Discussion
+          </h4>
+          <h5
+            style={{
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center',
+            }}
+          >
+            Have Questions? Let's chat about this post
+          </h5>
           <Comments />
         </div>
       </div>
