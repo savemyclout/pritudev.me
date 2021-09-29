@@ -7,7 +7,7 @@ const Projects = () => {
       {/* Project 1 */}
       <div className="post">
         <div className="post-content">
-          <h2>The Portfolio</h2>
+          <h2 className="h2">The Portfolio</h2>
           <p>
             💾 My personal website running on Gatsby, React, and Node.js. The
             potfolio or personal website whatever you say it!
@@ -33,7 +33,7 @@ const Projects = () => {
       {/* Project 2 */}
       <div className="post">
         <div className="post-content">
-          <h2>Typefiddle</h2>
+          <h2 className="h2">Typefiddle</h2>
           <p>
             ⌨️ Another typing test website. Typefiddle is a minimalistic typing
             test website with a history of your test.
@@ -59,7 +59,7 @@ const Projects = () => {
       {/* Project 3 */}
       <div className="post">
         <div className="post-content">
-          <h2>Jarvis AI</h2>
+          <h2 className="h2">Jarvis AI</h2>
           <p>
             🤖 Jarvis is a Personal Assistant which can help you to manage some
             stuff in your system, Also can do so many other tasks.
@@ -80,7 +80,7 @@ const Projects = () => {
       {/* Project 4 */}
       <div className="post">
         <div className="post-content">
-          <h2>Pritudev Theme</h2>
+          <h2 className="h2">Pritudev Theme</h2>
           <p>
             🎨 Amazing Theme For VS Code Created By Pritudev for his personal
             use, Dark yet Beautiful Theme Check out! Now!.

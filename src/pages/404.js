@@ -12,7 +12,7 @@ const notFound = () => {
         <meta name="description" content="Error 404 Page Not Found" />
         <meta property="og:title" content="404 Page Not Found" />
       </MetaTags>
-      <h2 id="error__heading" style={{ textAlign: 'center' }}>
+      <h2 className="h2" id="error__heading" style={{ textAlign: 'center' }}>
         Page Not Found
       </h2>
       <h5 id="error__body">

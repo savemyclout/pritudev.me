@@ -32,6 +32,7 @@ export default ({ data }) => {
       <Helmet> </Helmet>
       <Showcase />
       <h2
+        class="h2"
         style={{
           textAlign: 'Left',
           marginLeft: '10px',
@@ -101,6 +102,7 @@ export default ({ data }) => {
       </p>
       <hr id="hr-body" />
       <h2
+        className="h2"
         id="projects"
         style={{
           letterSpacing: '2px',
@@ -124,8 +126,3 @@ export default ({ data }) => {
     </Layout>
   )
 }
-;<script
-  async
-  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8364169684965295"
-  crossorigin="anonymous"
-></script>

@@ -18,6 +18,7 @@ const Posts = () => {
       </MetaTags>
       <div id="heading">
         <h2
+          className="h2"
           style={{
             paddingTop: '12px',
           }}
