@@ -33,7 +33,7 @@
     font-size: 1rem;
     display: flex;
     list-style: none !important;
-    margin-bottom: 0rem !important;
+    margin-bottom: 0 !important;
 
     li {
       background: $nav-color !important;
@@ -42,7 +42,6 @@
       text-align: center !important;
 
       .link {
-
         background: $nav-color !important;
         font-size: 1.2rem;
         text-decoration: none;
@@ -53,11 +52,9 @@
         padding-left: 2rem;
         padding-right: 2rem;
         border-radius: 4px;
-
       }
-      .link:hover{
-          background: #171e29 !important;
-            
+      .link:hover {
+        background: #171e29 !important;
       }
     }
   }
@@ -67,6 +64,8 @@
   #main-brand {
     display: flex;
     justify-content: center;
+    align-items: center;
+    text-align: center;
     width: 100%;
   }
   .navbar {
@@ -76,14 +75,15 @@
     }
 
     .link {
-      padding-left: 0rem;
-      padding-right: 0rem;
+      padding-left: 0;
+      padding-right: 0;
     }
 
     .nav-ul {
       text-align: center !important;
       // padding-left: 0;
       font-size: 1rem;
+      width: 100%;
       // justify-content: center;
       align-items: center;
       display: contents;
@@ -100,6 +100,8 @@
 
 @media screen and (max-width: 360px) {
   .nav-ul {
+    width: 100%;
+
     justify-content: center;
     align-items: center;
     display: contents;
@@ -107,6 +109,8 @@
   }
   #main-brand {
     display: flex;
+    align-items: center;
+    text-align: center;
     justify-content: center;
     width: 100%;
   }
@@ -114,47 +118,53 @@
   .link {
     text-align: center !important;
     font-size: 1rem !important;
-    padding-left: 0rem;
-    padding-right: 0rem;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
 @media screen and (max-width: 450px) {
   #main-brand {
+    align-items: center;
+    text-align: center;
     display: flex;
     justify-content: center;
     width: 100%;
   }
   .link {
     font-size: 0.9rem !important;
-    padding-left: 0rem !important;
-    padding-right: 0rem !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
 }
 
 @media screen and (max-width: 367px) {
   #main-brand {
     display: flex;
+    align-items: center;
+    text-align: center;
     justify-content: center;
     width: 100%;
   }
   .link {
     font-size: 0.9rem !important;
-    padding-left: 0rem;
-    padding-right: 0rem;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
 @media screen and (max-width: 294px) {
   #main-brand {
     display: flex;
+    align-items: center;
+    text-align: center;
     justify-content: center;
     width: 100%;
   }
   .link {
     font-size: 0.7rem !important;
-    padding-left: 0rem;
-    padding-right: 0rem;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
 }
 
