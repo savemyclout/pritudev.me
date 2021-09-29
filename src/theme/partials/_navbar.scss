@@ -43,7 +43,7 @@
 
       .link {
         background: $nav-color !important;
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         text-decoration: none;
         display: block;
         transition: 500ms;
@@ -105,7 +105,7 @@
     justify-content: center;
     align-items: center;
     display: contents;
-    font-size: 0.9rem;
+    font-size: 1.3rem;
   }
   #main-brand {
     display: flex;
@@ -117,7 +117,7 @@
 
   .link {
     text-align: center !important;
-    font-size: 1rem !important;
+    font-size: 1.3rem !important;
     padding-left: 0;
     padding-right: 0;
   }
@@ -132,7 +132,7 @@
     width: 100%;
   }
   .link {
-    font-size: 0.9rem !important;
+    font-size: 1.3rem !important;
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
@@ -147,13 +147,13 @@
     width: 100%;
   }
   .link {
-    font-size: 0.9rem !important;
+    font-size: 1.3rem !important;
     padding-left: 0;
     padding-right: 0;
   }
 }
 
-@media screen and (max-width: 294px) {
+@media screen and (max-width: 220px) {
   #main-brand {
     display: flex;
     align-items: center;
@@ -162,7 +162,7 @@
     width: 100%;
   }
   .link {
-    font-size: 0.7rem !important;
+    font-size: 0.8rem !important;
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
@@ -175,7 +175,7 @@
 
 .link {
   font-family: $head-font;
-  font-size: 1rem;
+  font-size: 1.3rem;
   text-align: center !important;
   display: flex;
   background-color: #2d2e2e;
