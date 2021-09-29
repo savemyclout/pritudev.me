@@ -28,11 +28,11 @@ module.exports = {
           options: {
             maxWidth: 540,
           },
-        
-            resolve: "gatsby-plugin-anchor-links",
-            options: {
-              offset: 540
-            },
+
+          resolve: 'gatsby-plugin-anchor-links',
+          options: {
+            offset: 540,
+          },
         },
       ],
     },
