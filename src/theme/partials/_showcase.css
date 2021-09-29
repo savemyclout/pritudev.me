@@ -43,10 +43,3 @@ h2::selection {
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
 }
-.hi-code {
-  background: linear-gradient(90deg, var(--pink), var(--orange)) !important;
-  color: #fff !important;
-  font-family: 'Space mono', monospace !important;
-  padding: 0.2rem !important;
-  border-radius: 5px !important;
-}

@@ -114,9 +114,9 @@ ul::marker {
   color: #fff !important;
   font-weight: 600 !important;
   text-decoration: none !important;
-  font-family: 'Space mono', monospace !important;
+  font-family: var(--code-font) !important;
   padding: 0.2rem !important;
-  border-radius: 2px !important;
+  border-radius: 1px !important;
 }
 #footer {
   padding-bottom: 20px;
