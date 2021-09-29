@@ -31,7 +31,16 @@ export default ({ data }) => {
       </MetaTags>
       <Helmet> </Helmet>
       <Showcase />
-      <h2 style={{ textAlign: 'Left', marginLeft: '10px' }}>My Tools</h2>
+      <h2
+        style={{
+          textAlign: 'Left',
+          marginLeft: '10px',
+          letterSpacing: '2px',
+          fontWeight: '600',
+        }}
+      >
+        My Tools
+      </h2>
       <br />
       <section class="basic-grid">
         <abbb title="Firebase">
@@ -91,7 +100,16 @@ export default ({ data }) => {
         </em>
       </p>
       <hr id="hr-body" />
-      <h2 id="projects">Projects</h2>
+      <h2
+        id="projects"
+        style={{
+          letterSpacing: '2px',
+          letterSpacing: '2px',
+          fontWeight: '600',
+        }}
+      >
+        Projects
+      </h2>
 
       <Projects></Projects>
       <div className="container">
