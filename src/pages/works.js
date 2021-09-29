@@ -14,7 +14,7 @@ import { Link } from 'gatsby'
 import MetaTags from 'react-meta-tags'
 import Footer from '../components/layout/Footer.js'
 import Layout from '../components/layout/Layout.js'
-import '../theme/partials/_works.scss'
+import '../theme/partials/_works.css'
 
 export default () => {
   return (

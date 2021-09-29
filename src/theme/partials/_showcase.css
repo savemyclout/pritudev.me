@@ -2,53 +2,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
-@import './partials/_variables';
-@import './partials/_buttons';
+@import './_variables.css';
+@import './_buttons.css';
 
-.showcase {
-  .showcase h5 {
-    font-weight: normal !important;
-  }
-
-  h1 {
-    font-family: $head-font !important;
-    font-size: 4rem !important;
-    font-weight: $fw-5 !important;
-    color: $h-color !important;
-    margin: 1rem !important;
-    text-align: left !important;
-    text-decoration: none !important;
-  }
-  h5 {
-    text-align: center !important;
-    text-decoration: none !important;
-  }
+.showcase .showcase h5 {
+  font-weight: normal !important;
 }
-
-h2 {
-  color: $gray6 !important;
-  font-family: $sans-serif-font !important;
+.showcase h1 {
+  font-family: var(--head-font) !important;
+  font-size: 4rem !important;
+  font-weight: var(--fw-5) !important;
+  color: var(--h-color) !important;
+  margin: 1rem !important;
+  text-align: center !important;
   text-decoration: none !important;
 }
-
+.showcase h5 {
+  text-align: center !important;
+  text-decoration: none !important;
+}
+h2 {
+  color: var(--gray6) !important;
+  font-family: var(--sans-serif-font) !important;
+  text-decoration: none !important;
+}
 h2::selection {
   color: black;
   background-color: #09c372;
 }
-
 #gradient-text::selection {
   color: black !important;
   background-color: #09c372;
 }
-
 #gradient-text {
-  background: -webkit-linear-gradient(90deg, $pink, $orange) !important;
+  background: -webkit-linear-gradient(
+    90deg,
+    var(--pink),
+    var(--orange)
+  ) !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
 }
-
 .hi-code {
-  background: linear-gradient(90deg, $pink, $orange) !important;
+  background: linear-gradient(90deg, var(--pink), var(--orange)) !important;
   color: #fff !important;
   font-family: 'Space mono', monospace !important;
   padding: 0.2rem !important;

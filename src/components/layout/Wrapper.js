@@ -1,4 +1,4 @@
-import '../../theme/main.scss'
+import '../../theme/main.css'
 
 const Wrapper = (props) => {
   return props.children

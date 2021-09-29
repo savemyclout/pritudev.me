@@ -1,7 +1,7 @@
 import React from 'react'
 import { graphql, Link } from 'gatsby'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
-import styles from '../css/BlogPost.module.scss'
+import styles from '../css/BlogPost.module.css'
 import { Helmet } from 'react-helmet'
 import Image from 'gatsby-image'
 import Comments from '../Comments'

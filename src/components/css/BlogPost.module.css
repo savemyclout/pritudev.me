@@ -1,0 +1,112 @@
+@import './Variables.css';
+@import '../../theme/partials/_variables.css';
+@import '../../theme/partials/_buttons.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+.post {
+  color: var(--h-color) !important;
+}
+.post a {
+  font-weight: 600;
+  color: var(--h-color) !important;
+
+  margin-bottom: 1.5rem;
+  text-align: left;
+  text-decoration: underline !important;
+  text-decoration-color: #0be583 !important;
+  transition: 500ms;
+}
+.post a:hover {
+  background-color: #0be58375 !important;
+  text-decoration: underline !important;
+  text-decoration-color: #0be583 !important;
+  color: var(--h-color) !important;
+}
+.post p {
+  margin-top: 2rem;
+}
+.post .heading {
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+}
+.post .heading h2 {
+  transition: 500ms;
+  font-family: var(--sans-serif-font) !important;
+
+  font-weight: 800;
+  color: var(--h-color) !important;
+
+  text-align: center !important;
+  font-size: 2.4rem;
+  padding: 0 10px;
+  letter-spacing: 2px;
+  margin-bottom: 0 !important;
+  margin-top: 15px;
+}
+.post .body {
+  font-size: 1.3rem;
+  width: 70%;
+  margin: 0 auto;
+  font-weight: 1.2;
+  font-family: var(--body-font) !important;
+}
+.post .body h1 {
+  color: var(--h-color) !important;
+
+  text-align: left;
+  margin-left: 10px;
+  font-family: var(--sans-serif-font) !important;
+
+  font-weight: 800;
+}
+.post .body h2 {
+  font-family: var(--sans-serif-font) !important;
+
+  font-weight: 800;
+  color: var(--h-color) !important;
+
+  text-align: left !important;
+}
+.post .body h3 {
+  color: var(--p-color) !important;
+
+  font-family: var(--head-font), 'sens-serif';
+}
+.post .body h4 {
+  color: var(--p-color) !important;
+}
+.post .body h5,
+.post .body h6 {
+  color: var(--p-color) !important;
+}
+.post .body p {
+  line-height: 1.8;
+  color: var(--p-color) !important;
+
+  font-weight: 200;
+}
+@media (max-width: 600px) {
+  .post .body {
+    width: 95%;
+    margin: 0 auto;
+  }
+}
+.post .body h1 a {
+  background-color: none !important;
+  background: none !important;
+}
+.post .body ul:marker {
+  color: #757ff8;
+}
+.post .body li::marker {
+  color: #757ff8;
+}
+.post img {
+  width: 100% !important;
+  height: auto !important;
+  object-fit: contain !important;
+}
+.post .image {
+  width: 100% !important;
+  height: auto !important;
+  object-fit: contain !important;
+}

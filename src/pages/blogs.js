@@ -3,7 +3,7 @@ import Layout from '../components/layout/Layout.js'
 import AllPosts from '../components/AllPosts'
 import Footer from '../components/layout/Footer.js'
 import MetaTags from 'react-meta-tags'
-import '../theme/main.scss'
+import '../theme/main.css'
 
 const Posts = () => {
   return (

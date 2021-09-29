@@ -1,7 +1,7 @@
 import React, { Fragment, useEffect, useState } from 'react'
 import Wrapper from './Wrapper'
 import { Link } from 'gatsby'
-import styles from '../css/BlogPost.module.scss'
+import styles from '../css/BlogPost.module.css'
 import Image from 'gatsby-image'
 import Layout from './Layout.js'
 import About from './About.js'

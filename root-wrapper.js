@@ -1,6 +1,6 @@
 import { MDXProvider } from '@mdx-js/react'
 import Code from './src/components/Code'
-import styles from './src/components/css/Markdown.module.scss'
+import styles from './src/components/css/Markdown.module.css'
 import React from 'react'
 
 const components = {

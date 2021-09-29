@@ -1,37 +1,35 @@
-@import './_variables';
+@import './_variables.css';
 
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 
 #orange-btn {
-  border: 2px solid $orange !important;
+  border: 2px solid var(--orange) !important;
   font-weight: 700 !important;
   background-color: transparent !important;
   transition: 200ms cubic-bezier(0.4, 0, 1, 1) !important;
-  box-shadow: $box-shadow !important;
+  box-shadow: var(--box-shadow) !important;
   border-radius: 3px !important;
   padding-left: 20px !important;
   padding-right: 20px !important;
   padding-top: 10px !important;
   text-transform: uppercase !important;
   padding-bottom: 10px !important;
-  color: $gray2 !important;
-  font-family: $button-font !important;
+  color: var(--gray2) !important;
+  font-family: var(--button-font) !important;
   margin: 10px !important;
 }
 
 #orange-btn:hover {
-  box-shadow: $box-shadow !important;
+  box-shadow: var(--box-shadow) !important;
   transform: translateY(-2px) !important;
-  background-color: $orange !important;
+  background-color: var(--orange) !important;
   text-transform: uppercase !important;
   color: rgb(255, 255, 255) !important;
 }
 
-// ----------------------------------------
-
 #red-btn {
-  border: 2px solid $red !important;
-  box-shadow: $box-shadow !important;
+  border: 2px solid var(--red) !important;
+  box-shadow: var(--box-shadow) !important;
   background-color: transparent !important;
   font-weight: 700 !important;
   transition: 200ms cubic-bezier(0.4, 0, 1, 1) !important;
@@ -40,25 +38,23 @@
   padding-right: 20px !important;
   padding-top: 10px !important;
   padding-bottom: 10px !important;
-  color: $gray2 !important;
+  color: var(--gray2) !important;
   margin: 10px !important;
   text-transform: uppercase !important;
-  font-family: $button-font !important;
+  font-family: var(--button-font) !important;
 }
 
 #red-btn:hover {
-  box-shadow: $box-shadow !important;
+  box-shadow: var(--box-shadow) !important;
   color: #fff !important;
   transform: translateY(-2px) !important;
   text-transform: uppercase !important;
-  background-color: $red !important;
+  background-color: var(--red) !important;
 }
 
-// ----------------------------------------
-
 #green-btn {
-  box-shadow: $box-shadow !important;
-  border: 2px solid $green !important;
+  box-shadow: var(--box-shadow) !important;
+  border: 2px solid var(--green) !important;
   background-color: transparent !important;
   font-weight: 700 !important;
   transition: 200ms cubic-bezier(0.4, 0, 1, 1) !important;
@@ -68,24 +64,22 @@
   padding-top: 10px !important;
   padding-bottom: 10px !important;
   margin: 10px !important;
-  color: $gray2 !important;
+  color: var(--gray2) !important;
   text-transform: uppercase !important;
-  font-family: $button-font !important;
+  font-family: var(--button-font) !important;
 }
 
 #green-btn:hover {
   color: #fff !important;
-  box-shadow: $box-shadow !important;
+  box-shadow: var(--box-shadow) !important;
   transform: translateY(-2px) !important;
   text-transform: uppercase !important;
-  background-color: $green !important;
+  background-color: var(--green) !important;
 }
 
-// ----------------------------------------
-
 #pink-btn {
-  box-shadow: $box-shadow !important;
-  border: 2px solid $pink !important;
+  box-shadow: var(--box-shadow) !important;
+  border: 2px solid var(--pink) !important;
   background-color: transparent !important;
   transition: 200ms cubic-bezier(0.4, 0, 1, 1) !important;
   border-radius: 3px !important;
@@ -95,24 +89,22 @@
   padding-top: 10px !important;
   padding-bottom: 10px !important;
   margin: 10px 10px !important;
-  color: $gray2 !important;
+  color: var(--gray2) !important;
   text-transform: uppercase !important;
-  font-family: $button-font !important;
+  font-family: var(--button-font) !important;
 }
 
 #pink-btn:hover {
   color: #fff !important;
-  box-shadow: $box-shadow !important;
+  box-shadow: var(--box-shadow) !important;
   transform: translateY(-2px) !important;
   text-transform: uppercase !important;
-  background-color: $pink !important;
+  background-color: var(--pink) !important;
 }
 
-// ----------------------------------------
-
 #indigo-btn {
-  box-shadow: $box-shadow !important;
-  border: 2px solid $indigo !important;
+  box-shadow: var(--box-shadow) !important;
+  border: 2px solid var(--indigo) !important;
   background-color: transparent !important;
   font-weight: 700 !important;
   transition: 200ms cubic-bezier(0.4, 0, 1, 1) !important;
@@ -122,24 +114,22 @@
   padding-top: 10px !important;
   padding-bottom: 10px !important;
   margin: 10px 10px !important;
-  color: $gray2 !important;
-  font-family: $button-font !important;
+  color: var(--gray2) !important;
+  font-family: var(--button-font) !important;
   text-transform: uppercase !important;
 }
 
 #indigo-btn:hover {
-  box-shadow: $box-shadow !important;
+  box-shadow: var(--box-shadow) !important;
   color: #fff !important;
   transform: translateY(-2px) !important;
   text-transform: uppercase !important;
-  background-color: $indigo !important;
+  background-color: var(--indigo) !important;
 }
 
-// ----------------------------------------
-
 #purple-btn {
-  box-shadow: $box-shadow !important;
-  border: 2px solid $purple !important;
+  box-shadow: var(--box-shadow) !important;
+  border: 2px solid var(--purple) !important;
   background-color: transparent !important;
   font-weight: 700 !important;
   transition: 200ms cubic-bezier(0.4, 0, 1, 1) !important;
@@ -149,24 +139,21 @@
   padding-top: 10px !important;
   padding-bottom: 10px !important;
   margin: 10px 10px !important;
-  color: $gray2 !important;
-  font-family: $button-font !important;
+  color: var(--gray2) !important;
+  font-family: var(--button-font) !important;
   text-transform: uppercase !important;
 }
 
 #purple-btn:hover {
-  box-shadow: $box-shadow !important;
+  box-shadow: var(--box-shadow) !important;
   color: #fff !important;
   transform: translateY(-2px) !important;
   text-transform: uppercase !important;
-  background-color: $purple !important;
+  background-color: var(--purple) !important;
 }
 
-// ----------------------------------------
-// ----------------------------------------
-
 #white-btn {
-  box-shadow: $box-shadow !important;
+  box-shadow: var(--box-shadow) !important;
   border: 2px solid #fff !important;
   background-color: transparent !important;
   font-weight: 700 !important;
@@ -177,17 +164,15 @@
   padding-top: 10px !important;
   padding-bottom: 10px !important;
   margin: 10px 10px !important;
-  color: $gray2 !important;
-  font-family: $button-font !important;
+  color: var(--gray2) !important;
+  font-family: var(--button-font) !important;
   text-transform: uppercase !important;
 }
 
 #white-btn:hover {
-  box-shadow: $box-shadow !important;
+  box-shadow: var(--box-shadow) !important;
   color: rgb(31, 31, 31) !important;
   transform: translateY(-2px) !important;
   text-transform: uppercase !important;
   background-color: #fff !important;
 }
-
-// ----------------------------------------

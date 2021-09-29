@@ -8,21 +8,17 @@
   cursor: default;
   text-align: center;
 }
-
 .card abbr {
   cursor: default;
 }
-
 abbr {
   cursor: default !important;
 }
-
 .card {
   cursor: default;
   outline: none !important;
   border: none;
 }
-
 @media screen and (max-width: 700px) {
   .basic-grid {
     padding: 5px;

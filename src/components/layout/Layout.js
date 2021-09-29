@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react'
-import '../../theme/main.scss'
+import '../../theme/main.css'
 import Navbar from './Navbar'
 import PostState from '../../context/Posts/PostState'
 // import favicon from '../../img/nano-favicon.png'
