@@ -13,7 +13,7 @@ export default class Comments extends Component {
     scriptEl.setAttribute('async', true)
     scriptEl.setAttribute('repo', 'pritudev/comments')
     scriptEl.setAttribute('issue-term', 'title')
-    scriptEl.setAttribute('theme', 'github-dark')
+    scriptEl.setAttribute('theme', 'dark-blue')
     this.commentBox.current.appendChild(scriptEl)
   }
 
