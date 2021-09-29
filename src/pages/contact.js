@@ -14,7 +14,7 @@ const Contact = () => {
         <meta property="og:title" content="Contact" />
       </MetaTags>
       <div className="container">
-        <h2 style={{ fontFamily: 'cubano', paddingTop: '12px' }}>Contact 📝</h2>
+        <h2 style={{ fontFamily: 'cubano', paddingTop: '12px' }}>Contact</h2>
         <hr id="hr-body" />
 
         <h4 style={{ textAlign: 'center', fontFamily: 'sofiapro' }}>
