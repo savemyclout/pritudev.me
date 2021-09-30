@@ -4,6 +4,15 @@
 <img src="./src/img/nano-favicon.png" alt="Logo" width="120px" height="120px">
 </p>
 
+<div align="center">
+[![pritudev - pritudev.me](https://img.shields.io/static/v1?label=pritudev&message=pritudev.me&color=blue&logo=github)](https://github.com/pritudev/pritudev.me)
+[![stars - pritudev.me](https://img.shields.io/github/stars/pritudev/pritudev.me?style=social)](https://github.com/pritudev/pritudev.me)
+[![forks - pritudev.me](https://img.shields.io/github/forks/pritudev/pritudev.me?style=social)](https://github.com/pritudev/pritudev.me)
+[![issues - pritudev.me](https://img.shields.io/github/issues/pritudev/pritudev.me)](https://github.com/pritudev/pritudev.me/issues)
+[![License](https://img.shields.io/badge/License-MIT-blue)](#license)
+
+</div>
+
 <p align="center">
   <em>Prit's personal website running on Gatsby, React, and Node.js.</em>
 
@@ -31,14 +40,4 @@ This project is open source and available under the MIT License.
 
 
 
-<div align="center">
 
-_Social buttons_
-
-[![pritudev - pritudev.me](https://img.shields.io/static/v1?label=pritudev&message=pritudev.me&color=blue&logo=github)](https://github.com/pritudev/pritudev.me)
-[![stars - pritudev.me](https://img.shields.io/github/stars/pritudev/pritudev.me?style=social)](https://github.com/pritudev/pritudev.me)
-[![forks - pritudev.me](https://img.shields.io/github/forks/pritudev/pritudev.me?style=social)](https://github.com/pritudev/pritudev.me)
-[![issues - pritudev.me](https://img.shields.io/github/issues/pritudev/pritudev.me)](https://github.com/pritudev/pritudev.me/issues)
-[![License](https://img.shields.io/badge/License-MIT-blue)](#license)
-
-</div>
