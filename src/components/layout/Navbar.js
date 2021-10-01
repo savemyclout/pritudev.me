@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { useSiteMeta } from '../../utils/hooks/useSiteMeta'
-import { AnchorLink } from "gatsby-plugin-anchor-links";
+import { AnchorLink } from 'gatsby-plugin-anchor-links'
 
 import brandLogo from './svgs/brand.svg'
 
@@ -13,7 +13,7 @@ const Navbar = () => {
         {/* PritDev.me */}
         <div id="main-brand">
           <a href="/" id="brand_logo_link">
-            <img id="brand_logo" src={brandLogo} alt="brand" />
+            <img id="brand_logo" src={brandLogo} alt="Pritu Dev" />
             {/* P R I T */}
           </a>
         </div>
@@ -24,7 +24,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <AnchorLink  rel="noopener" to="/#projects" className="link">
+            <AnchorLink rel="noopener" to="/#projects" className="link">
               <span className="hover-text">Projects</span>
             </AnchorLink>
           </li>
