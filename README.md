@@ -36,9 +36,3 @@ This project is open source and available under the MIT License.
   <img src="vercel.svg" alt="powered by Vercel">
   
 </p>
-
-
-
-
-
-
