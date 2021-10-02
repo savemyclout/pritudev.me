@@ -12,10 +12,10 @@ const Navbar = () => {
       <div className="container">
         {/* PritDev.me */}
         <div id="main-brand">
-          <a href="/" id="brand_logo_link">
+          <Link to="/" id="brand_logo_link">
             <img id="brand_logo" src={brandLogo} alt="Pritu Dev" />
             {/* P R I T */}
-          </a>
+          </Link>
         </div>
         <ul class="nav-ul">
           <li>

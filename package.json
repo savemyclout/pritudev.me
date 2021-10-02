@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-nano-blog",
+  "name": "pritudev-blog",
   "version": "1.0.0",
-  "description": "A Coding Blog/Community by Nano",
+  "description": "A Coding Blog/Community by Pritu",
   "main": "index.js",
   "scripts": {
     "dev": "gatsby develop -H 0.0.0.0 -p 8081 ",

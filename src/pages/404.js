@@ -3,6 +3,7 @@ import Footer from '../components/layout/Footer.js'
 import Layout from '../components/layout/Layout.js'
 import MetaTags from 'react-meta-tags'
 import '../theme/main.css'
+import { Link } from 'gatsby'
 
 const notFound = () => {
   return (
@@ -19,7 +20,7 @@ const notFound = () => {
         Sorry 😔—we couldn’t find what you<br></br>were looking for.
       </h5>
       <h5 id="error__link">
-        <a href="/">Go back to home page</a>
+        <Link to="/">Go back to home page</Link>
       </h5>
     </Layout>
   )

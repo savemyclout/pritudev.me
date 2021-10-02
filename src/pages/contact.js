@@ -1,6 +1,7 @@
 import React from 'react'
 import Layout from '../components/layout/Layout.js'
 import MetaTags from 'react-meta-tags'
+import { Link } from 'gatsby'
 
 const Contact = () => {
   return (
@@ -28,16 +29,16 @@ const Contact = () => {
       <br />
 
       <div className="container-btn" target="_blank">
-        <a href="https://discord.io/prituhq">
+        <Link to="https://discord.io/prituhq">
           <button id="indigo-btn">DISCORD</button>
-        </a>
-        <a href="https://instagram.com/_pritu_004_" target="_blank">
+        </Link>
+        <Link to="https://instagram.com/_pritu_004_" target="_blank">
           <button id="pink-btn">INSTAGRAM</button>
-        </a>
+        </Link>
         <div class="bottom-btn"></div>
-        <a href="https://twitter.com/PrituDevYT" target="_blank">
+        <Link to="https://twitter.com/PrituDevYT" target="_blank">
           <button id="green-btn">Twitter</button>
-        </a>
+        </Link>
       </div>
     </Layout>
   )
