@@ -105,8 +105,6 @@ export default ({ data }) => {
         className="h2"
         id="projects"
         style={{
-          letterSpacing: '2px',
-          letterSpacing: '2px',
           fontWeight: '600',
         }}
       >

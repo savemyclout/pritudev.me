@@ -15,12 +15,8 @@ const About = () => {
       </section>
       <section>
         <div className="about_text">
-          <h2
-            className="h2"
-            style={{ letterSpacing: '2px' }}
-            className="about_header"
-          >
-            About Pritu
+          <h2 className="h2" style={{}} className="about_header">
+            About Me
           </h2>
           <p className="about_body">
             Hi, I'm <span className="hi-code">Prit</span>. I've been building

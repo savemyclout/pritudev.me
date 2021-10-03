@@ -33,7 +33,7 @@ const Showcase = ({ data }) => {
         <div className="showcase">
           <div className="container">
             <h1 style={{ fontSize: '7em' }}>
-              I Am <span id="gradient-text">Prit.</span>
+              Hi, I'm <span id="gradient-text">Prit.</span>
             </h1>
             <h3
               style={{
