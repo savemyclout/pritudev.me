@@ -15,7 +15,6 @@ export default () => {
           frontmatter {
             title
             date(formatString: "MMM DD ")
-            tags
             
           }
           fields {
@@ -41,18 +40,6 @@ export default () => {
                 </Link>
                 <p>{excerpt}</p>
                 <p>
-                  <span
-                    style={{
-                      color: 'white',
-                      backgroundColor: 'rgba(204, 204, 204, 0.253)',
-                      padding: '4px',
-                      borderRadius: '3px',
-                    }}
-                  >
-                    {frontmatter.tags}
-                  </span>
-                  <br />
-                  <br />
                   {frontmatter.date} ⋅ {fields.readingTime.text} ⋅{' '}
                   <a
                     style={{

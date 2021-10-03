@@ -2,7 +2,6 @@
 title: 'Here is How you create Gradient Underline Text.'
 date: 2021-09-01
 published: true
-tags: '#noJs #css #webdev'
 ---
 
 ## Step 1 - Add HTML

@@ -44,16 +44,6 @@ export default ({ data, pageContext }) => {
           /> */}
           <div className={styles.body}>
             <p>
-              <span
-                style={{
-                  color: 'white',
-                  backgroundColor: 'rgba(204, 204, 204, 0.253)',
-                  padding: '4px',
-                  borderRadius: '3px',
-                }}
-              >
-                {frontmatter.tags}
-              </span>
               <br />
               Posted By{' '}
               <a classname="postedby" href="https://github.com/pritudev">
@@ -97,7 +87,6 @@ export const query = graphql`
       frontmatter {
         title
         date(formatString: "Do MMM")
-        tags
       }
       fields {
         readingTime {

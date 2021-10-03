@@ -2,7 +2,6 @@
 title: 'Theme Toggler using Javascript, HTML, CSS'
 date: 2021-09-06
 published: true
-tags: '#html #css #js #webdevelopment'
 ---
 
 So what is theme toggler? it's just a setting for your website to set light theme or dark theme and in these days we can do it very easily with few lines of javascript code and yeah let's start exciting thing **Coding**...

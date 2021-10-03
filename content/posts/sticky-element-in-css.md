@@ -1,9 +1,7 @@
 ---
 title: 'Create a Sticky Element using only CSS.'
 date: 2021-08-28
-# cover: './img/sticky-nav.jpg'
 published: true
-tags: '#css #webdev #noJs'
 ---
 
 <!-- # How TO - Sticky Element -->

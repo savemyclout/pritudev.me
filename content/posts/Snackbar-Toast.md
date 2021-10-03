@@ -1,9 +1,7 @@
 ---
 title: 'Create Snackbar / Toast in using HTML, CSS & JS.'
 date: 2021-08-28
-# cover: './img/snackbars.png'
 published: true
-tags: '#html #css #js #webdevelopment'
 ---
 
 Snackbars are often used as tooltips/popups to show a message at the bottom of the screen.
