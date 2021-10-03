@@ -36,7 +36,6 @@ export default ({ data }) => {
         style={{
           textAlign: 'Left',
           marginLeft: '10px',
-          letterSpacing: '2px',
           fontWeight: '600',
         }}
       >
