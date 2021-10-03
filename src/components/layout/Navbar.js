@@ -19,7 +19,7 @@ const Navbar = () => {
         </div>
         <ul class="nav-ul">
           <li>
-            <Link rel="noopener" to="/blogs" className="link">
+            <Link rel="noopener" to="/articles" className="link">
               <span className="hover-text">Articles</span>
             </Link>
           </li>
