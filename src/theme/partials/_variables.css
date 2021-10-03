@@ -43,6 +43,7 @@
   --body-font: 'sofiapro';
   --head-font: 'cubano';
   --code-font: 'Fira Mono', monospace;
+  --button-font: 'sofiapro';
   --sans-serif-font: 'Josefin Sans', sans-serif;
   --fw-1: 100;
   --fw-2: 200;
@@ -54,5 +55,4 @@
   --fw-8: 800;
   --fw-9: 900;
   --fw-10: 1000;
-  --button-font: 'sofiapro';
 }

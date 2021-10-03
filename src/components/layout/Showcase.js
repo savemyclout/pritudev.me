@@ -43,7 +43,7 @@ const Showcase = ({ data }) => {
               }}
             >
               <strong>Full Stack</strong> Web Developer & love to code, expert
-              as web developer 🔥💾
+              as web developer.
             </h3>
             <div className="showcase_buttons" style={{ textAlign: 'center' }}>
               <Link

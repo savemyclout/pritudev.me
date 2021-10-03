@@ -309,6 +309,7 @@ img {
 }
 
 .h2 {
+  font-family: var(--sans-serif-font);
   color: var(--h-color) !important;
 }
 
