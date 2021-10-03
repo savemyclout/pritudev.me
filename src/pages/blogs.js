@@ -9,7 +9,7 @@ const Posts = () => {
   return (
     <Layout>
       <MetaTags>
-        <title>Blog - pritudev</title>
+        <title>Articles - pritudev</title>
         <meta
           name="description"
           content="List of blogs in pritudev website or blog page"
@@ -23,7 +23,7 @@ const Posts = () => {
             paddingTop: '12px',
           }}
         >
-          Blog Posts
+          Recent Articles
         </h2>
       </div>
       <hr id="hr-body" />
