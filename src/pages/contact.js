@@ -2,18 +2,19 @@ import React from 'react'
 import Layout from '../components/layout/Layout.js'
 import MetaTags from 'react-meta-tags'
 import { Link } from 'gatsby'
+import { Helmet } from 'react-helmet'
 
 const Contact = () => {
   return (
     <Layout>
-      <MetaTags>
+      <Helmet>
         <title>Contact - Pritudev</title>
         <meta
           name="description"
           content="Contact directly to Pritudev through some pages"
         />
         <meta property="og:title" content="Contact" />
-      </MetaTags>
+      </Helmet>
       <div className="container">
         <h2 className="h2" style={{ paddingTop: '12px' }}>
           Contact

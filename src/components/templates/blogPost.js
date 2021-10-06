@@ -14,6 +14,8 @@ export default ({ data, pageContext }) => {
     <Layout>
       <Helmet>
         <title>{frontmatter.title}</title>
+        <meta name="description" content={frontmatter.excerpt} />
+        <meta property="og:title" content={frontmatter.title} />
       </Helmet>
       <div>
         <div className={styles.post}>
@@ -84,6 +86,7 @@ export const query = graphql`
   query PostsBySlug($slug: String!) {
     mdx(fields: { slug: { eq: $slug } }) {
       body
+      excerpt(pruneLength: 100)
       frontmatter {
         title
         date(formatString: "Do MMM")

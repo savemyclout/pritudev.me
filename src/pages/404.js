@@ -4,15 +4,16 @@ import Layout from '../components/layout/Layout.js'
 import MetaTags from 'react-meta-tags'
 import '../theme/main.css'
 import { Link } from 'gatsby'
+import { Helmet } from 'react-helmet'
 
 const notFound = () => {
   return (
     <Layout>
-      <MetaTags>
+      <Helmet>
         <title>Page Not Found Found • 404 - Pritudev</title>
         <meta name="description" content="Error 404 Page Not Found" />
         <meta property="og:title" content="404 Page Not Found" />
-      </MetaTags>
+      </Helmet>
       <h2 className="h2" id="error__heading" style={{ textAlign: 'center' }}>
         Page Not Found
       </h2>

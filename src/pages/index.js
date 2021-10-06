@@ -21,15 +21,14 @@ import Projects from '../components/layout/Projects'
 export default ({ data }) => {
   return (
     <Layout>
-      <MetaTags>
+      <Helmet>
         <title>Pritudev - Web Developer</title>
         <meta
           name="description"
           content="Welcome to pritudev blog / portfolio, hope your visit worth."
         />
         <meta property="og:title" content="Pritudev" />
-      </MetaTags>
-      <Helmet> </Helmet>
+      </Helmet>
       <Showcase />
       <h2
         class="h2"

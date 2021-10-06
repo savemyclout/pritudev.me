@@ -4,18 +4,18 @@ import AllPosts from '../components/AllPosts'
 import Footer from '../components/layout/Footer.js'
 import MetaTags from 'react-meta-tags'
 import '../theme/main.css'
-
+import { Helmet } from 'react-helmet'
 const Posts = () => {
   return (
     <Layout>
-      <MetaTags>
+      <Helmet>
         <title>Articles - pritudev</title>
         <meta
           name="description"
           content="List of blogs in pritudev website or blog page"
         />
         <meta property="og:title" content="Blogs" />
-      </MetaTags>
+      </Helmet>
       <div id="heading">
         <h2
           className="h2"

@@ -15,18 +15,19 @@ import MetaTags from 'react-meta-tags'
 import Footer from '../components/layout/Footer.js'
 import Layout from '../components/layout/Layout.js'
 import '../theme/partials/_works.css'
+import { Helmet } from 'react-helmet'
 
 export default () => {
   return (
     <Layout>
-      <MetaTags>
+      <Helmet>
         <title>Projects And Tools</title>
         <meta
           name="description"
           content="List of my all projects and tool that i use to create stuff"
         />
         <meta property="og:title" content="Works, Projects And Tools" />
-      </MetaTags>
+      </Helmet>
 
       <br />
       <h2 style={{ textAlign: 'Left', marginLeft: '10px' }}>Tools ⚙️</h2>
