@@ -18,7 +18,7 @@ export default ({ data, pageContext }) => {
         <meta name="og:description" content={frontmatter.excerpt} />
         <meta
           name="keywords"
-          content="HTML, CSS, JavaScript, Webdeveloper, web development, css, blog, dev blog"
+          content="HTML, CSS, JavaScript, Webdeveloper, web development, css, blog, dev blog, pritudev, pritu, prit, prit dev, pritu developer"
         />
         <meta name="author" content="Prit Dev" />
         <meta property="og:title" content={frontmatter.title} />

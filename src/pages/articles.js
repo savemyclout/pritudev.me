@@ -17,7 +17,7 @@ const Posts = () => {
         />
         <meta
           name="keywords"
-          content="HTML, CSS, JavaScript, Webdeveloper, web development, css, blog, dev blog"
+          content="HTML, CSS, JavaScript, Webdeveloper, web development, css, blog, dev blog, pritudev, pritu, prit, prit dev, pritu developer"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="author" content="Prit Dev" />

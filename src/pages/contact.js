@@ -13,7 +13,7 @@ const Contact = () => {
         <meta name="og:description" content="Contact me, Maybe we hit it up!" />
         <meta
           name="keywords"
-          content="HTML, CSS, JavaScript, Webdeveloper, web development, css, blog, dev blog"
+          content="HTML, CSS, JavaScript, Webdeveloper, web development, css, blog, dev blog, pritudev, pritu, prit, prit dev, pritu developer"
         />
         <meta name="author" content="Prit Dev" />
         <meta property="og:title" content="Contact" />
