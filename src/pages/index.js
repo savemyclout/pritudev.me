@@ -24,7 +24,7 @@ export default ({ data }) => {
       <Helmet>
         <title>Pritudev - Web Developer</title>
         <meta
-          name="description"
+          name="og:description"
           content="Welcome to Prit's Portfolio & blog, You'll soo many tips and tricks also some blogs related to web development, javascript, so much other stuff. You are always welcome"
         />
         <meta

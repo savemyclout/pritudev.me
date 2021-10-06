@@ -12,7 +12,7 @@ const Posts = () => {
         <title>Articles - pritudev</title>
         <title>Pritudev - Web Developer</title>
         <meta
-          name="description"
+          name="og:description"
           content="List of soo many cool and helpful blogs related to web development, and general coding supports with some coding projects."
         />
         <meta

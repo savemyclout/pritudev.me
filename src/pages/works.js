@@ -24,7 +24,7 @@ export default () => {
         <title>Projects And Tools</title>
         <title>Pritudev - Web Developer</title>
         <meta
-          name="description"
+          name="og:description"
           content="List of my cool projects and some tools which i use use mostly in my websites."
         />
         <meta

@@ -15,7 +15,7 @@ export default ({ data, pageContext }) => {
       <Helmet>
         <title>{frontmatter.title}</title>
         <title>Pritudev - Web Developer</title>
-        <meta name="description" content={frontmatter.excerpt} />
+        <meta name="og:description" content={frontmatter.excerpt} />
         <meta
           name="keywords"
           content="HTML, CSS, JavaScript, Webdeveloper, web development, css, blog, dev blog"
