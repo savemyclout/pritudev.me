@@ -8,8 +8,11 @@ import Comments from '../Comments'
 import Layout from '../layout/Layout.js'
 
 export default ({ data, pageContext }) => {
+  String.prototype.trimEllip = function (length) {
+    return this.length > length ? this.substring(0, length) + '...' : this
+  }
+  const excerpt = body.trimEllip(25)
   const { frontmatter, body } = data.mdx
-  // const Comments = new Comments('../Comments')
   return (
     <Layout>
       <Helmet>
@@ -27,6 +30,7 @@ export default ({ data, pageContext }) => {
           content="width=device-width, initial-scale=1.0"
         ></meta>
       </Helmet>
+
       <div>
         <div className={styles.post}>
           <div className={styles.heading}>
@@ -34,26 +38,26 @@ export default ({ data, pageContext }) => {
           </div>
           <hr id="hr-body" />
           {/* {!!frontmatter.cover ? (
-            <Image
-              fluid={frontmatter.cover.childImageSharp.sizes}
-              className={styles.image}
-            />
-          ) : null} */}
+              <Image
+                fluid={frontmatter.cover.childImageSharp.sizes}
+                className={styles.image}
+              />
+            ) : null} */}
           {/* 
-          <hr
-            style={{
-              border: 'none',
-              borderTop: '2px dashed $p-color',
-              overflow: 'hidden',
-              display: 'block',
-              background: '#12181b',
-              unicodeBidi: 'isolate',
-              marginBlockStart: '0.5em',
-              marginBlockEnd: '0.5em',
-              marginInlineStart: 'auto',
-              marginInlineEnd: 'auto',
-            }}
-          /> */}
+            <hr
+              style={{
+                border: 'none',
+                borderTop: '2px dashed $p-color',
+                overflow: 'hidden',
+                display: 'block',
+                background: '#12181b',
+                unicodeBidi: 'isolate',
+                marginBlockStart: '0.5em',
+                marginBlockEnd: '0.5em',
+                marginInlineStart: 'auto',
+                marginInlineEnd: 'auto',
+              }}
+            /> */}
           <div className={styles.body}>
             <p>
               <br />
@@ -90,13 +94,13 @@ export default ({ data, pageContext }) => {
       </div>
     </Layout>
   )
+  // const Comments = new Comments('../Comments')
 }
 
 export const query = graphql`
   query PostsBySlug($slug: String!) {
     mdx(fields: { slug: { eq: $slug } }) {
       body
-      excerpt(pruneLength: 100)
       frontmatter {
         title
         date(formatString: "Do MMM")
