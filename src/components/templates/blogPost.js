@@ -8,10 +8,6 @@ import Comments from '../Comments'
 import Layout from '../layout/Layout.js'
 
 export default ({ data, pageContext }) => {
-  String.prototype.trimEllip = function (length) {
-    return this.length > length ? this.substring(0, length) + '...' : this
-  }
-  const excerpt = body.trimEllip(25)
   const { frontmatter, body } = data.mdx
   return (
     <Layout>
