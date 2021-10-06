@@ -10,11 +10,17 @@ const Posts = () => {
     <Layout>
       <Helmet>
         <title>Articles - pritudev</title>
+        <title>Pritudev - Web Developer</title>
         <meta
           name="description"
-          content="List of blogs in pritudev website or blog page"
+          content="List of soo many cool and helpful blogs related to web development, and general coding supports with some coding projects."
         />
-        <meta property="og:title" content="Blogs" />
+        <meta
+          name="keywords"
+          content="HTML, CSS, JavaScript, Webdeveloper, web development, css, blog, dev blog"
+        />
+        <meta name="author" content="Prit Dev" />
+        <meta property="og:title" content="Pritudev" />
       </Helmet>
       <div id="heading">
         <h2

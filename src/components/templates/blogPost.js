@@ -14,7 +14,13 @@ export default ({ data, pageContext }) => {
     <Layout>
       <Helmet>
         <title>{frontmatter.title}</title>
+        <title>Pritudev - Web Developer</title>
         <meta name="description" content={frontmatter.excerpt} />
+        <meta
+          name="keywords"
+          content="HTML, CSS, JavaScript, Webdeveloper, web development, css, blog, dev blog"
+        />
+        <meta name="author" content="Prit Dev" />
         <meta property="og:title" content={frontmatter.title} />
       </Helmet>
       <div>

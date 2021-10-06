@@ -9,10 +9,13 @@ const Contact = () => {
     <Layout>
       <Helmet>
         <title>Contact - Pritudev</title>
+        <title>Pritudev - Web Developer</title>
+        <meta name="description" content="Contact me, Maybe we hit it up!" />
         <meta
-          name="description"
-          content="Contact directly to Pritudev through some pages"
+          name="keywords"
+          content="HTML, CSS, JavaScript, Webdeveloper, web development, css, blog, dev blog"
         />
+        <meta name="author" content="Prit Dev" />
         <meta property="og:title" content="Contact" />
       </Helmet>
       <div className="container">

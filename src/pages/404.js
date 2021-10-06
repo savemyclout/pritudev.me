@@ -11,8 +11,14 @@ const notFound = () => {
     <Layout>
       <Helmet>
         <title>Page Not Found Found • 404 - Pritudev</title>
-        <meta name="description" content="Error 404 Page Not Found" />
-        <meta property="og:title" content="404 Page Not Found" />
+        <title>Pritudev - Web Developer</title>
+        <meta name="description" content="Error 404 Page Not Found." />
+        <meta
+          name="keywords"
+          content="HTML, CSS, JavaScript, Webdeveloper, web development, css, blog, dev blog"
+        />
+        <meta name="author" content="Prit Dev" />
+        <meta property="og:title" content="Error 404 Page Not Found!" />
       </Helmet>
       <h2 className="h2" id="error__heading" style={{ textAlign: 'center' }}>
         Page Not Found

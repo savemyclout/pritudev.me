@@ -22,11 +22,17 @@ export default () => {
     <Layout>
       <Helmet>
         <title>Projects And Tools</title>
+        <title>Pritudev - Web Developer</title>
         <meta
           name="description"
-          content="List of my all projects and tool that i use to create stuff"
+          content="List of my cool projects and some tools which i use use mostly in my websites."
         />
-        <meta property="og:title" content="Works, Projects And Tools" />
+        <meta
+          name="keywords"
+          content="HTML, CSS, JavaScript, Webdeveloper, web development, css, blog, dev blog"
+        />
+        <meta name="author" content="Prit Dev" />
+        <meta property="og:title" content="Projects & Tools" />
       </Helmet>
 
       <br />

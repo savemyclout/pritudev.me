@@ -25,8 +25,13 @@ export default ({ data }) => {
         <title>Pritudev - Web Developer</title>
         <meta
           name="description"
-          content="Welcome to pritudev blog / portfolio, hope your visit worth."
+          content="Welcome to Prit's Portfolio & blog, You'll soo many tips and tricks also some blogs related to web development, javascript, so much other stuff. You are always welcome"
         />
+        <meta
+          name="keywords"
+          content="HTML, CSS, JavaScript, Webdeveloper, web development, css, blog, dev blog"
+        />
+        <meta name="author" content="Prit Dev" />
         <meta property="og:title" content="Pritudev" />
       </Helmet>
       <Showcase />
