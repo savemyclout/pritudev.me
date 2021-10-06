@@ -14,7 +14,7 @@ export default ({ data, pageContext }) => {
       <Helmet>
         <title>{frontmatter.title}</title>
         <title>Pritudev - Web Developer</title>
-        <meta name="og:description" content={frontmatter.excerpt} />
+        <meta name="og:description" content="Posted by Pritu dev" />
         <meta
           name="keywords"
           content="HTML, CSS, JavaScript, Webdeveloper, web development, css, blog, dev blog, pritudev, pritu, prit, prit dev, pritu developer"
@@ -62,7 +62,8 @@ export default ({ data, pageContext }) => {
                 pritudev
               </a>{' '}
               ⋅ {<span className={styles.date}>{frontmatter.date}</span>} ⋅{' '}
-              {data.mdx.fields.readingTime.text}
+              {data.mdx.fields.readingTime.text} ⋅{' '}
+              {data.mdx.fields.readingTime.words} Words
             </p>
             <MDXRenderer>{body}</MDXRenderer>
           </div>
