@@ -69,11 +69,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Pritudev',
-        short_name: 'Pritu',
         start_url: '/',
         background_color: '#1d1d1d',
-        theme_color: '#171542',
+        theme_color: '#7289DA',
         display: 'standalone',
         icon: 'src/img/nano-favicon.png',
         crossOrigin: `use-credentials`,
