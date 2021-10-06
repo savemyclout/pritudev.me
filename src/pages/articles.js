@@ -19,6 +19,7 @@ const Posts = () => {
           name="keywords"
           content="HTML, CSS, JavaScript, Webdeveloper, web development, css, blog, dev blog"
         />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="author" content="Prit Dev" />
         <meta property="og:title" content="Pritudev" />
       </Helmet>
