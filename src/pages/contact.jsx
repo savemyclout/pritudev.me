@@ -1,5 +1,5 @@
 import React from 'react'
-import Layout from '../components/layout/Layout.js'
+import Layout from '../components/layout/Layout.jsx'
 import MetaTags from 'react-meta-tags'
 import { Link } from 'gatsby'
 import { Helmet } from 'react-helmet'
@@ -9,7 +9,6 @@ const Contact = () => {
     <Layout>
       <Helmet>
         <title>Contact - Pritudev</title>
-        <title>Pritudev - Web Developer</title>
         <meta name="og:description" content="Contact me, Maybe we hit it up!" />
         <meta
           name="keywords"

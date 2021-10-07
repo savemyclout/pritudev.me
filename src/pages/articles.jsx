@@ -1,16 +1,16 @@
 import React from 'react'
-import Layout from '../components/layout/Layout.js'
-import AllPosts from '../components/AllPosts'
-import Footer from '../components/layout/Footer.js'
+import Layout from '../components/layout/Layout.jsx'
+import AllPosts from '../components/AllPosts.jsx'
+import Footer from '../components/layout/Footer.jsx'
 import MetaTags from 'react-meta-tags'
 import '../theme/main.css'
 import { Helmet } from 'react-helmet'
+
 const Posts = () => {
   return (
     <Layout>
       <Helmet>
         <title>Articles - pritudev</title>
-        <title>Pritudev - Web Developer</title>
         <meta
           name="og:description"
           content="List of soo many cool and helpful blogs related to web development, and general coding supports with some coding projects."
@@ -35,7 +35,6 @@ const Posts = () => {
       </div>
       <hr id="hr-body" />
       <AllPosts />
-      {/* <AllPosts /> */}
       <Footer></Footer>
     </Layout>
   )

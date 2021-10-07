@@ -3,8 +3,8 @@ import Wrapper from './Wrapper'
 import { Link } from 'gatsby'
 import styles from '../css/BlogPost.module.css'
 import Image from 'gatsby-image'
-import Layout from './Layout.js'
-import About from './About.js'
+import Layout from './Layout.jsx'
+import About from './About.jsx'
 
 const Showcase = ({ data }) => {
   const [followers, setFollowers] = useState(0)

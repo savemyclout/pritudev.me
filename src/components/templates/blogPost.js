@@ -5,7 +5,7 @@ import styles from '../css/BlogPost.module.css'
 import { Helmet } from 'react-helmet'
 import Image from 'gatsby-image'
 import Comments from '../Comments'
-import Layout from '../layout/Layout.js'
+import Layout from '../layout/Layout.jsx'
 
 export default ({ data, pageContext }) => {
   const { frontmatter, body } = data.mdx

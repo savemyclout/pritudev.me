@@ -1,7 +1,5 @@
 import React from 'react'
-import Footer from '../components/layout/Footer.js'
-import Layout from '../components/layout/Layout.js'
-import MetaTags from 'react-meta-tags'
+import Layout from '../components/layout/Layout.jsx'
 import '../theme/main.css'
 import { Link } from 'gatsby'
 import { Helmet } from 'react-helmet'
@@ -9,7 +7,7 @@ import { Helmet } from 'react-helmet'
 const notFound = () => {
   return (
     <Layout>
-      <Helmet>
+      <Helmet> 
         <title>Page Not Found Found • 404 - Pritudev</title>
         <title>Pritudev - Web Developer</title>
         <meta name="og:description" content="Error 404 Page Not Found." />

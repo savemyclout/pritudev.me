@@ -1,4 +1,11 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import Layout from '../components/layout/Layout.jsx'
+import Showcase from '../components/layout/Showcase.jsx'
+import { Helmet } from 'react-helmet'
+import { Link } from 'gatsby'
+import MetaTags from 'react-meta-tags'
+import Footer from '../components/layout/Footer.jsx'
+import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import firebase from './svgs/firebase.svg'
 import git from './svgs/git.svg'
 import github from './svgs/github.svg'
@@ -10,83 +17,85 @@ import react from './svgs/react.svg'
 import vsc from './svgs/vsc.svg'
 import css from './svgs/css.svg'
 import Projects from '../components/layout/Projects'
-import { Link } from 'gatsby'
-import MetaTags from 'react-meta-tags'
-import Footer from '../components/layout/Footer.js'
-import Layout from '../components/layout/Layout.js'
 import '../theme/partials/_works.css'
-import { Helmet } from 'react-helmet'
 
-export default () => {
+export default ({ data }) => {
   return (
     <Layout>
       <Helmet>
-        <title>Projects And Tools</title>
-        <title>Pritudev - Web Developer</title>
+        <title>Prit dev - Web Developer</title>
         <meta
           name="og:description"
-          content="List of my cool projects and some tools which i use use mostly in my websites."
+          content="Welcome to Prit's Portfolio & blog, You'll soo many tips and tricks also some blogs related to web development, javascript, so much other stuff. You are always welcome"
         />
         <meta
           name="keywords"
           content="HTML, CSS, JavaScript, Webdeveloper, web development, css, blog, dev blog, pritudev, pritu, prit, prit dev, pritu developer"
         />
         <meta name="author" content="Prit Dev" />
-        <meta property="og:title" content="Projects & Tools" />
+        <meta property="og:title" content="Pritudev" />
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1.0"
         ></meta>
       </Helmet>
-
+      <Showcase data={undefined} />
+      <h2
+        class="h2"
+        style={{
+          textAlign: 'Left',
+          marginLeft: '10px',
+          fontWeight: '600',
+        }}
+      >
+        My Tools
+      </h2>
       <br />
-      <h2 style={{ textAlign: 'Left', marginLeft: '10px' }}>Tools ⚙️</h2>
-      <br />
-      <section class="basic-grid">
-        <abbb title="Firebase">
-          <div class="img"></div>
+      <section className="basic-grid">
+        <abbr title="Firebase">
+          <div classNameName="img"></div>
           <img alt="Firebase" src={firebase} />
-        </abbb>
+        </abbr>
         <abbr title="Git">
-          <div class="img"></div>
+          <div className="img"></div>
           <img alt="Git" src={git} />
         </abbr>
         <abbr title="Github">
-          <div class="img"></div>
+          <div className="img"></div>
           <img alt="Github" src={github} />
         </abbr>
         <abbr title="HTML">
-          <div class="img">
+          <div className="img">
             <img alt="Html" src={html} />
           </div>
         </abbr>
         <abbr title="CSS">
-          <div class="img">
+          <div className="img">
             <img alt="Css" src={css} />
           </div>
         </abbr>
         <abbr title="JS">
-          <div class="img">
+          <div className="img">
             <img alt="Javascript" src={js} />
           </div>
         </abbr>
         <abbr title="Mongo DB">
-          <div class="img">
+          <div className="img">
             <img alt="Mongo db" src={mongo} />
           </div>
         </abbr>
         <abbr title="Node JS">
-          <div class="img">
+          <div className="img">
             <img alt="Node js" src={node} />
           </div>
         </abbr>
         <abbr title="React Js">
-          <div class="img">
+          <div className="img">
             <img alt="Reactjs" src={react} />
           </div>
         </abbr>
         <abbr title="Visual Studio Code">
-          <div class="img">
+          <div className="img">
             <img alt="Vs Code" src={vsc} />
           </div>
         </abbr>
@@ -100,10 +109,26 @@ export default () => {
         </em>
       </p>
       <hr id="hr-body" />
-      <h2>Projects 🚀</h2>
+      <h2
+        className="h2"
+        id="projects"
+        style={{
+          fontWeight: '600',
+        }}
+      >
+        Projects
+      </h2>
 
       <Projects></Projects>
-      <Footer />
+      <div className="container">
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8364169684965295"
+          crossorigin="anonymous"
+        ></script>
+      </div>
+
+      <Footer></Footer>
     </Layout>
   )
 }
