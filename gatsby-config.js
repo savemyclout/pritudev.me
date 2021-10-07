@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Pritudev',
-    description: 'Official Website or blog for prit...',
-    siteUrl: 'https://pritudev.me',
+    title: `Prit dev`,
+    description: `Welcome to Prit's Portfolio & blog, You'll soo many tips and tricks also some blogs related to web development, javascript, so much other stuff. You are always welcome`,
+    siteUrl: `https://pritudev.me`,
   },
   plugins: [
     `gatsby-plugin-smoothscroll`,
