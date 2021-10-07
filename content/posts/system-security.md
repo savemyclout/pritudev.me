@@ -12,36 +12,22 @@ Security of a system can be threatened via two violations:
 
 2. Attack
 
--
+## Threat: it&#39;s a program or virus which has the power to damage your system seriously.
 
-### Threat: it&#39;s a program or virus which has the power to damage your system seriously.
-
--
-
-### Attack: it&#39;s an attempt to break your security system and try to make unauthorized use of your data.
-
-##
+## Attack: it&#39;s an attempt to break your security system and try to make unauthorized use of your data.
 
 # Deep dive in Cyber Threats.
 
 - A cyber or cybersecurity threat is a malicious program or virus that can cause damage to your system, steal your data or disrupt digital life in general.
 - Cyber threats can include computer viruses, DDoS Attacks, and other attack vectors.
 
-##
-
 # What is a DDoS Attack?
 
 - DoS means &quot;Distributed Denial of service (DDoS)&quot;, It&#39;s an illegal attempt to make the website unavailable by overloading its server with high amounts of fake traffic.
 
-##
-
 # What&#39;s the Difference Between a DoS attack and a DDoS Attack?
 
 - In a DoS attack, malicious connection requests are sent from just one device but in a DDoS attack, malicious traffic is sent from multiple devices.
-
-![img](RackMultipart20211007-4-9oz3gp_html_ea0e09089987f4d7.png)
-
-##
 
 ## Deep dive in Cyber Attack.
 
@@ -117,8 +103,6 @@ There are two types of firewalls,
 1. Software firewall
 2. Hardware firewall
 
-![img](RackMultipart20211007-4-9oz3gp_html_bf10883f940dc960.png)
-
 This is the image that represents how a firewall does its work between &quot;LAN&quot; and &quot;WAN&quot;.
 
 The image took from [Google](https://www.google.com/search?hl=en-IN&sxsrf=AOaemvIjEn-kw3fyd1gg2_SMdXgMRiI3fQ:1633615833299&q=does+a+firewall+work&tbm=isch&source=iu&ictx=1&tbs=simg:CAESjQIJTdfHeV4raWkagQILELCMpwgaOgo4CAQSFK0-vA6xEeoDjwzKKcUVoiKKKss6GhqhlD4mBEb1dUlyhSe-apOBlJh665Af5LpyLSAFMAQMCxCOrv4IGgoKCAgBEgQdh8sVDAsQne3BCRqhAQobCgh2ZXJ0aWNhbNqliPYDCwoJL2EvNGhoM3AwCh0KCmhvcml6b250YWzapYj2AwsKCS9hLzJtcXZ6YworChd0ZWNobm9sb2d5IGFwcGxpY2F0aW9uc9qliPYDDAoKL20vMGMwc3E5dAoaCgdkaWFncmFt2qWI9gMLCgkvbS8wMnYwbTIKGgoIc29mdHdhcmXapYj2AwoKCC9tLzAxbWYwDA&fir=wjohKo9_af0EkM%252CvKT29Ibsn_5SQM%252C_&vet=1&usg=AI4_-kRHHa2CmHuZ_Dr9qR1zI3SUbo3t2Q&sa=X&ved=2ahUKEwj8p8WbvbjzAhUkmeYKHXlFBQgQ9QF6BAgaEAE&biw=1360&bih=617&dpr=1#imgrc=wjohKo9_af0EkM)
@@ -179,12 +163,8 @@ Even if you are very very careful still you can pick any computer viruses throug
 - Avoid suspicious websites
 - Only download genuine software
 
-Don&#39;t trust websites that contain http:// they are not secure. ![img](RackMultipart20211007-4-9oz3gp_html_3edd2558a27ed419.png) ![img](RackMultipart20211007-4-9oz3gp_html_a5835878b739e0be.png)
-
 Using https:// websites are most secure and protected with SSL
 Certificates.
-
-![img](RackMultipart20211007-4-9oz3gp_html_d461fc95384eb5b4.png)
 
 # Antivirus Softwares
 
@@ -223,8 +203,6 @@ Which is the Best Antivirus?
 
 - If you are using Windows 8, Windows 10, or Windows 11 then you don&#39;t need to worry about anti-virus software. Windows 8 or later already comes with inbuilt anti-virus software which is &quot;Windows Defender&quot;.
 - it uses all the latest technologies of any best antivirus which is enough for your computer. It comes with every single feature which comes in all the best and reliable antivirus software.
-
-![img](RackMultipart20211007-4-9oz3gp_html_4e5bd83966f2621d.png)
 
 # Windows Defender Overview
 
