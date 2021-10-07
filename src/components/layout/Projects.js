@@ -1,5 +1,7 @@
 import { Link } from 'gatsby'
 import React from 'react'
+import linkLogo from './svgs/link-open.svg'
+import githubLogo from './svgs/github-projects.svg'
 
 const Projects = () => {
   return (
@@ -18,7 +20,8 @@ const Projects = () => {
             className="link-read-more"
             to="https://pritudev.me"
           >
-            Live Preview‎‎‎‎&nbsp;&nbsp;|
+            <img src={linkLogo} target="_blank" />
+            ‎‎‎‎&nbsp;&nbsp;&nbsp;
           </Link>
           <Link
             rel="noopener"
@@ -26,7 +29,8 @@ const Projects = () => {
             className="link-read-more"
             to="https://github.com/pritudev/pritudev.me"
           >
-            &nbsp;&nbsp;Source Code
+            &nbsp;&nbsp;
+            <img src={githubLogo} target="_blank" />
           </Link>
         </div>
       </div>
@@ -45,7 +49,8 @@ const Projects = () => {
             className="link-read-more"
             to="https://typefiddle.pritudev.me"
           >
-            Live Preview‎‎‎‎&nbsp;&nbsp;|
+            <img src={linkLogo} target="_blank" />
+            ‎‎‎‎&nbsp;&nbsp;&nbsp;
           </Link>
           <Link
             rel="noopener"
@@ -53,7 +58,8 @@ const Projects = () => {
             className="link-read-more"
             to="https://github.com/pritudev/typingFiddle"
           >
-            &nbsp;&nbsp;Source Code
+            &nbsp;&nbsp;
+            <img src={githubLogo} target="_blank" />
           </Link>
         </div>
       </div>
@@ -66,7 +72,7 @@ const Projects = () => {
             stuff in your system, Also can do so many other tasks.
           </p>
           {/* <Link rel="noopener" className="link-read-more" to="https://typefiddle.vercel.app">
-            Live Preview‎‎‎‎&nbsp;&nbsp;|
+            <img src={linkLogo}  target="_blank"/>‎‎‎‎&nbsp;&nbsp;&nbsp;
           </Link> */}
           <Link
             rel="noopener"
@@ -74,7 +80,8 @@ const Projects = () => {
             className="link-read-more"
             to="https://github.com/pritudev/Jarvis"
           >
-            &nbsp;&nbsp;Source Code
+            &nbsp;&nbsp;
+            <img src={githubLogo} target="_blank" />
           </Link>
         </div>
       </div>
@@ -92,7 +99,8 @@ const Projects = () => {
             target="_blank"
             to="https://marketplace.visualstudio.com/items?itemName=Pritudev.pritu-dark-theme"
           >
-            Download Now‎‎‎‎&nbsp;&nbsp;|
+            <img src={linkLogo} target="_blank" />
+            ‎‎‎‎&nbsp;&nbsp;&nbsp;
           </Link>
           <Link
             rel="noopener"
@@ -100,7 +108,8 @@ const Projects = () => {
             className="link-read-more"
             to="https://github.com/pritudev/pritu-dark-theme"
           >
-            &nbsp;&nbsp;Source Code
+            &nbsp;&nbsp;
+            <img src={githubLogo} target="_blank" />
           </Link>
         </div>
       </div>
