@@ -7,7 +7,7 @@
     "dev": "gatsby develop -H 0.0.0.0 -p 8081 ",
     "serve": "gatsby serve",
     "build": "gatsby build",
-    "fmt": "prettier --write --config ./prettier.config.js .",
+    "format": "prettier --write --config ./prettier.config.js .",
     "clean": "gatsby clean",
     "build:incremental": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build"
   },
