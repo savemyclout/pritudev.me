@@ -47,29 +47,19 @@ Security of a system can be threatened via two violations:
 
 - A Cyberattack is an attempt to disable your system&#39;s antivirus or break a firewall then stealing your data on the dark web, or use a breached computer system to launch additional attacks.
 
-##
-
 # Types of Cyber Attacks.
-
-###
 
 ## Malware
 
 - Malware is a term that describes malicious software, including spyware, ransomware, and viruses. Typically when any user clicks on any dangerous links that they install viruses and spyware in your computer in the form of software or anything else.
 
-###
-
 ## Phishing
 
 - It&#39;s the method to send fraudulent communications that seem to come from any reputable source like email. The Goal of Phishing is to steal any sensitive data like credit cards, passwords, any other login information or to install malware on the client system.
 
-###
-
 ## SQL injection
 
 - What does it mean? It&#39;s a &quot;Structured Query Language (SQL)&quot;. SQL injections happen when an attacker directly inserts malicious code into the server that uses SQL and it forces the server to reveal any kind of sensitive information from a server that is normally private.
-
-##
 
 # Some Examples of a Cyber Attack.
 
@@ -81,8 +71,6 @@ Here are some examples of common cyber attacks.
 - Website overloading causes a crash of the website
 - Private and public Web browser exploits
 - Instant message abuse
-
-##
 
 # Tools we can use to prevent malware and cyber attacks.
 
@@ -101,24 +89,16 @@ Here are some examples of common cyber attacks.
 - Cloud workload protection platform (CWPP)
 - Cloud access security broker (CASB)
 
-##
-
 # Firewall.
-
-##
 
 ## How does the Firewall work?
 
 - When your computer has firewall protection, everything that the computer takes as an input is monitored. The firewall monitors all the information traffic to allow &quot;good data&quot; in and block all &quot;bad data&quot; from entering your computer.
 - Firewalls use one or any big combination of some methods to control traffic flowing in and out of the network are listed below.
 
-###
-
 ## Packet filtering
 
 - The most basic form of firewall software uses predetermined security rules to create filters from bad data. If an incoming small chunk of data is flagged by filters it is not allowed to go through. Packets that make it through the filters are sent to the requesting system and all others are discarded.
-
-###
 
 ## Proxy service
 
@@ -126,13 +106,9 @@ Here are some examples of common cyber attacks.
 
 -
 
-###
-
 ## Stateful inspection
 
 - The most modern method of firewall scanning that doesn&#39;t rely on the memory-intensive examination of all - information packets is &quot;stateful inspection&quot;. A &quot;stateful&quot; firewall holds significant attributes of each connection in a database of trusted information, for the duration of the session. These attributes, which are collectively known as the &quot;state&quot; of the connection, may include such details as the IP addresses and ports involved in the connection and the sequence numbers of the packets being transferred. The firewall compares information being transferred to the copy relevant to that transfer held in the database. if the comparison yields a positive match the information is allowed through, otherwise, it is denied.
-
-##
 
 ## Types of Firewall.
 
@@ -147,13 +123,9 @@ This is the image that represents how a firewall does its work between &quot;LAN
 
 The image took from [Google](https://www.google.com/search?hl=en-IN&sxsrf=AOaemvIjEn-kw3fyd1gg2_SMdXgMRiI3fQ:1633615833299&q=does+a+firewall+work&tbm=isch&source=iu&ictx=1&tbs=simg:CAESjQIJTdfHeV4raWkagQILELCMpwgaOgo4CAQSFK0-vA6xEeoDjwzKKcUVoiKKKss6GhqhlD4mBEb1dUlyhSe-apOBlJh665Af5LpyLSAFMAQMCxCOrv4IGgoKCAgBEgQdh8sVDAsQne3BCRqhAQobCgh2ZXJ0aWNhbNqliPYDCwoJL2EvNGhoM3AwCh0KCmhvcml6b250YWzapYj2AwsKCS9hLzJtcXZ6YworChd0ZWNobm9sb2d5IGFwcGxpY2F0aW9uc9qliPYDDAoKL20vMGMwc3E5dAoaCgdkaWFncmFt2qWI9gMLCgkvbS8wMnYwbTIKGgoIc29mdHdhcmXapYj2AwoKCC9tLzAxbWYwDA&fir=wjohKo9_af0EkM%252CvKT29Ibsn_5SQM%252C_&vet=1&usg=AI4_-kRHHa2CmHuZ_Dr9qR1zI3SUbo3t2Q&sa=X&ved=2ahUKEwj8p8WbvbjzAhUkmeYKHXlFBQgQ9QF6BAgaEAE&biw=1360&bih=617&dpr=1#imgrc=wjohKo9_af0EkM)
 
-###
-
 ## Hardware Firewall
 
 - This is built into a network device like a router and this can protect every single machine on a network and it requires a little bit of configuration to work effectively. They use packet filtering technique to examine the header of packet m determining his source and destination and then, comparing the data set of predefined rules, they decide whether to drop the packet or forward to the next step or its destination.
-
-###
 
 ## Software Firewall
 
@@ -162,8 +134,6 @@ The image took from [Google](https://www.google.com/search?hl=en-IN&sxsrf=AOaemv
 ### Find the best software for your system?
 
 - A reliable software firewall should run in the background of your system and leave a small print on overall system performance by using a few of its resources. The firewall software must be regularly updated to keep with the latest technological improvements and provide effective protection against network attack tactics.
-
-##
 
 # Deep dive in Computer Virus.
 
@@ -212,12 +182,9 @@ Even if you are very very careful still you can pick any computer viruses throug
 Don&#39;t trust websites that contain http:// they are not secure. ![img](RackMultipart20211007-4-9oz3gp_html_3edd2558a27ed419.png) ![img](RackMultipart20211007-4-9oz3gp_html_a5835878b739e0be.png)
 
 Using https:// websites are most secure and protected with SSL
-
 Certificates.
 
 ![img](RackMultipart20211007-4-9oz3gp_html_d461fc95384eb5b4.png)
-
-##
 
 # Antivirus Softwares
 
