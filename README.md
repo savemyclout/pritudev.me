@@ -6,7 +6,7 @@
 
 <div align="center">
   
-[![pritudev - pritudev.me](https://img.shields.io/static/v1?label=pritudev&message=pritudev.me&color=blue&logo=github)](https://github.com/pritudev/pritudev.me)
+[![pritudev - pritudev.me](https://img.shields.io/static/v1?label=pritudev&message=pritudev.me&color=blue&logo=github)](https://pritudev.me)
 [![stars - pritudev.me](https://img.shields.io/github/stars/pritudev/pritudev.me?style=social)](https://github.com/pritudev/pritudev.me)
 [![forks - pritudev.me](https://img.shields.io/github/forks/pritudev/pritudev.me?style=social)](https://github.com/pritudev/pritudev.me)
 [![issues - pritudev.me](https://img.shields.io/github/issues/pritudev/pritudev.me)](https://github.com/pritudev/pritudev.me/issues)
