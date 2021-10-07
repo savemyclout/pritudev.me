@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from 'gatsby'
 import { useSiteMeta } from '../../utils/hooks/useSiteMeta'
 import { AnchorLink } from 'gatsby-plugin-anchor-links'
-
 import brandLogo from './svgs/brand.svg'
 
 const Navbar = () => {
