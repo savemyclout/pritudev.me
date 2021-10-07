@@ -1,5 +1,5 @@
 import React from 'react'
-import Layout from '../components/layout/Layout.jsx'
+import Layout from '../components/layout/Layout.js'
 import MetaTags from 'react-meta-tags'
 import { Link } from 'gatsby'
 import { Helmet } from 'react-helmet'

@@ -1,5 +1,5 @@
 import React from 'react'
-import Layout from '../components/layout/Layout.jsx'
+import Layout from '../components/layout/Layout.js'
 import '../theme/main.css'
 import { Link } from 'gatsby'
 import { Helmet } from 'react-helmet'
@@ -7,7 +7,7 @@ import { Helmet } from 'react-helmet'
 const notFound = () => {
   return (
     <Layout>
-      <Helmet> 
+      <Helmet>
         <title>Page Not Found Found • 404 - Pritudev</title>
         <title>Pritudev - Web Developer</title>
         <meta name="og:description" content="Error 404 Page Not Found." />
