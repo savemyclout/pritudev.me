@@ -18,6 +18,7 @@ const components = {
       )
     }
   },
+
   a: (props) => (
     <a {...props} style={{ color: 'white' }}>
       {props.children}

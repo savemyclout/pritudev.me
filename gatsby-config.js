@@ -91,6 +91,7 @@ module.exports = {
             }
           }
         `,
+
         feeds: [
           {
             serialize: ({ query: { site, allMdx } }) => {

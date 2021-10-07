@@ -1,6 +1,5 @@
 import { wrapRootElement as wrap } from './root-wrapper'
 import '@popperjs/core/dist/umd/popper.min.js'
-
 export const wrapRootElement = wrap
 const transitionDelay = 500
 
