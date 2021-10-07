@@ -76,7 +76,12 @@ export default ({ data }) => {
         </abbr>
         <abbr title="JS">
           <div className="img">
-            <img alt="Javascript" src={js} />
+            <img
+              height="60"
+              width="60"
+              alt="Javascript"
+              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+            />
           </div>
         </abbr>
         <abbr title="Mongo DB">
@@ -97,6 +102,56 @@ export default ({ data }) => {
         <abbr title="Visual Studio Code">
           <div className="img">
             <img alt="Vs Code" src={vsc} />
+          </div>
+        </abbr>
+        <abbr title="Gatsby">
+          <div className="img">
+            <img
+              height="60"
+              width="60"
+              alt="Gatsby"
+              src="https://camo.githubusercontent.com/cf400d5eb82cc14c74c5bcc39267ae6ccd3351f3c745462934145080a127b7f3/68747470733a2f2f73796d626f6c732e67657476656374612e636f6d2f7374656e63696c5f38312f31305f6761747362796a732d69636f6e2e366463663165363562382e737667"
+            />
+          </div>
+        </abbr>
+        <abbr title="Typescript">
+          <div className="img">
+            <img
+              height="60"
+              width="60"
+              alt="Typescript"
+              src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
+            />
+          </div>
+        </abbr>
+        <abbr title="c#">
+          <div className="img">
+            <img
+              height="60"
+              width="60"
+              alt="c#"
+              src="https://camo.githubusercontent.com/14f807754dbe07b53120f93d966dcd2577870e85e1dc6607f514b7b863984f91/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3735323930373937323031383936323433332f3838393738313239343938373337343539322f6373686172705f6f726967696e616c5f6c6f676f5f69636f6e5f3134363537382e706e67"
+            />
+          </div>
+        </abbr>
+        <abbr title="c">
+          <div className="img">
+            <img
+              height="60"
+              width="60"
+              alt="c"
+              src="https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg"
+            />
+          </div>
+        </abbr>
+        <abbr title="python">
+          <div className="img">
+            <img
+              height="60"
+              width="60"
+              alt="python"
+              src="https://camo.githubusercontent.com/1e2f19ca5925272180e276e9de8deac54942c3e8aa8fea77f863fafd5ad4b3ce/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f31313070782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67"
+            />
           </div>
         </abbr>
       </section>
