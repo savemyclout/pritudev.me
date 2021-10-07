@@ -91,7 +91,7 @@ const Projects = () => {
           <h2 className="h2">Pritudev Theme</h2>
           <p>
             Amazing Theme For VS Code Created By Pritudev for his personal use,
-            Dark yet Beautiful Theme Check out! Now!.
+            Dark yet Beautiful Theme Check out now it's amazing!.
           </p>
           <Link
             rel="noopener"
