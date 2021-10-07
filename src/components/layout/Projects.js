@@ -11,7 +11,7 @@ const Projects = () => {
         <div className="post-content">
           <h2 className="h2">The Portfolio</h2>
           <p>
-            💾 My personal website running on Gatsby, React, and Node.js. The
+            My personal website running on Gatsby, React, and Node.js. The
             potfolio or personal website whatever you say it!
           </p>
           <Link
@@ -39,7 +39,7 @@ const Projects = () => {
         <div className="post-content">
           <h2 className="h2">Typefiddle</h2>
           <p>
-            ⌨️ Another typing test website. Typefiddle is a minimalistic typing
+            Another typing test website. Typefiddle is a minimalistic typing
             test website with a history of your test. and with various
             languages.
           </p>
@@ -68,7 +68,7 @@ const Projects = () => {
         <div className="post-content">
           <h2 className="h2">Jarvis AI</h2>
           <p>
-            🤖 Jarvis is a Personal Assistant which can help you to manage some
+            Jarvis is a Personal Assistant which can help you to manage some
             stuff in your system, Also can do so many other tasks.
           </p>
           {/* <Link rel="noopener" className="link-read-more" to="https://typefiddle.vercel.app">
@@ -90,8 +90,8 @@ const Projects = () => {
         <div className="post-content">
           <h2 className="h2">Pritudev Theme</h2>
           <p>
-            🎨 Amazing Theme For VS Code Created By Pritudev for his personal
-            use, Dark yet Beautiful Theme Check out! Now!.
+            Amazing Theme For VS Code Created By Pritudev for his personal use,
+            Dark yet Beautiful Theme Check out! Now!.
           </p>
           <Link
             rel="noopener"
