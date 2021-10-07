@@ -5,7 +5,6 @@ media_folder: content/posts/2020/img
 public_folder: /img
 
 display_url: https://pritudev.me
-
 logo_url: src/img/nano-favicon.png
 
 publish_mode: editorial_workflow
