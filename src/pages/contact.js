@@ -4,6 +4,10 @@ import MetaTags from 'react-meta-tags'
 import { Link } from 'gatsby'
 import { Helmet } from 'react-helmet'
 
+import discordLogo from './svgs/discord.svg'
+import instaLogo from './svgs/insta.svg'
+import twitterLogo from './svgs/twitter.svg'
+
 const Contact = () => {
   return (
     <Layout>
@@ -44,14 +48,41 @@ const Contact = () => {
 
       <div className="container-btn" target="_blank">
         <Link to="https://discord.io/prituhq">
-          <button id="indigo-btn">DISCORD</button>
+          <button id="indigo-btn">
+            <img
+              style={{
+                paddingBottom: '2px',
+              }}
+              src={discordLogo}
+              alt="discord"
+            />
+            &nbsp; discord
+          </button>
         </Link>
         <Link to="https://instagram.com/_pritu_004_" target="_blank">
-          <button id="pink-btn">INSTAGRAM</button>
+          <button id="pink-btn">
+            <img
+              style={{
+                paddingBottom: '2px',
+              }}
+              src={instaLogo}
+              alt="instagram"
+            />
+            &nbsp; instagram
+          </button>
         </Link>
         <div class="bottom-btn"></div>
         <Link to="https://twitter.com/PrituDevYT" target="_blank">
-          <button id="green-btn">Twitter</button>
+          <button id="green-btn">
+            <img
+              style={{
+                paddingBottom: '2px',
+              }}
+              src={twitterLogo}
+              alt="twitter"
+            />
+            &nbsp; Twitter
+          </button>
         </Link>
       </div>
     </Layout>
