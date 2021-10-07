@@ -36,13 +36,14 @@ const Projects = () => {
           <h2 className="h2">Typefiddle</h2>
           <p>
             ⌨️ Another typing test website. Typefiddle is a minimalistic typing
-            test website with a history of your test.
+            test website with a history of your test. and with various
+            languages.
           </p>
           <Link
             rel="noopener"
             target="_blank"
             className="link-read-more"
-            to="https://typefiddle.vercel.app"
+            to="https://typefiddle.pritudev.me"
           >
             Live Preview‎‎‎‎&nbsp;&nbsp;|
           </Link>
