@@ -46,7 +46,7 @@
   box-sizing: border-box;
   font-smooth: always;
   -webkit-font-smoothing: antialiased;
-  transition: 10ms all ease;
+  transition: 10ms ease !important;
 }
 body {
   font-family: var(--body-font) !important;
