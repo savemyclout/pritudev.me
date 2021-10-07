@@ -39,7 +39,7 @@ export default ({ data }) => {
           content="width=device-width, initial-scale=1.0"
         ></meta>
       </Helmet>
-      <Showcase data={undefined} />
+      <Showcase />
       <h2
         class="h2"
         style={{
@@ -48,7 +48,7 @@ export default ({ data }) => {
           fontWeight: '600',
         }}
       >
-        My Tools
+        My Backpack
       </h2>
       <br />
       <section className="basic-grid">
