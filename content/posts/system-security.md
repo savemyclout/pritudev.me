@@ -4,8 +4,6 @@ date: 2021-10-07
 published: true
 ---
 
-##
-
 # **System Security and Antivirus.**
 
 Security of a system can be threatened via two violations:
