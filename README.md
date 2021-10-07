@@ -32,7 +32,10 @@ This project is open source and available under the MIT License.
 </p>
 
 <p align="center">
+  <a href="httpS://vercel.app" target="_blank">
   
   <img src="vercel.svg" alt="powered by Vercel">
+  
+  </a>
   
 </p>
