@@ -113,6 +113,34 @@ const Projects = () => {
           </Link>
         </div>
       </div>
+      {/* Project 5 */}
+      <div className="post">
+        <div className="post-content">
+          <h2 className="h2">Create-Webdev-App</h2>
+          <p>
+            Powerful command-line interface to generate a web developer starter
+            app in few seconds. You can change things and files as you wish
+          </p>
+          <Link
+            rel="noopener"
+            className="link-read-more"
+            target="_blank"
+            to="https://www.npmjs.com/package/create-webdev-app"
+          >
+            <img src={linkLogo} target="_blank" />
+            ‎‎‎‎&nbsp;&nbsp;&nbsp;
+          </Link>
+          <Link
+            rel="noopener"
+            target="_blank"
+            className="link-read-more"
+            to="https://github.com/pritudev/create-webdev-app"
+          >
+            &nbsp;&nbsp;
+            <img src={githubLogo} target="_blank" />
+          </Link>
+        </div>
+      </div>
     </div>
   )
 }
