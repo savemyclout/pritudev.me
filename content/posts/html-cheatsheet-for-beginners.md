@@ -28,7 +28,7 @@ There are six headings available in HTML, H1 is the largest among all, and H6 is
 ### h1 Tag
 
 ```html
-<h1>Heading 1</h1>
+<h2>Heading 1</h2>
 ```
 
 ### h2 Tag

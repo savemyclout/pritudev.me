@@ -1,4 +1,4 @@
-<h1 align="center">Prit dev Offcial Blog</h1>
+<h2 align="center">Prit dev Offcial Blog</h2>
 
 <p align="center">
 <img src="./src/img/nano-favicon.png" alt="Logo" width="120px" height="120px">

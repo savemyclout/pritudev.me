@@ -21,7 +21,7 @@ So what is theme toggler? it's just a setting for your website to set light them
   </head>
   <body>
     <div id="container" class="container theme">
-      <h1>Hello World!</h1>
+      <h2>Hello World!</h2>
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque veniam
         delectus corporis. Quasi nemo natus doloribus sed ipsam eius cupiditate
