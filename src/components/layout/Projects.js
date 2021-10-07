@@ -20,7 +20,7 @@ const Projects = () => {
             className="link-read-more"
             to="https://pritudev.me"
           >
-            <img src={linkLogo} target="_blank" />
+            <img src={linkLogo} alt="open live preview" target="_blank" />
             ‎‎‎‎&nbsp;&nbsp;&nbsp;
           </Link>
           <Link
@@ -30,7 +30,7 @@ const Projects = () => {
             to="https://github.com/pritudev/pritudev.me"
           >
             &nbsp;&nbsp;
-            <img src={githubLogo} target="_blank" />
+            <img src={githubLogo} alt="source code" target="_blank" />
           </Link>
         </div>
       </div>
@@ -49,7 +49,7 @@ const Projects = () => {
             className="link-read-more"
             to="https://typefiddle.pritudev.me"
           >
-            <img src={linkLogo} target="_blank" />
+            <img src={linkLogo} alt="open live preview" target="_blank" />
             ‎‎‎‎&nbsp;&nbsp;&nbsp;
           </Link>
           <Link
@@ -59,7 +59,7 @@ const Projects = () => {
             to="https://github.com/pritudev/typingFiddle"
           >
             &nbsp;&nbsp;
-            <img src={githubLogo} target="_blank" />
+            <img src={githubLogo} alt="source code" target="_blank" />
           </Link>
         </div>
       </div>
@@ -81,7 +81,7 @@ const Projects = () => {
             to="https://github.com/pritudev/Jarvis"
           >
             &nbsp;&nbsp;
-            <img src={githubLogo} target="_blank" />
+            <img src={githubLogo} alt="source code" target="_blank" />
           </Link>
         </div>
       </div>
@@ -99,7 +99,7 @@ const Projects = () => {
             target="_blank"
             to="https://marketplace.visualstudio.com/items?itemName=Pritudev.pritu-dark-theme"
           >
-            <img src={linkLogo} target="_blank" />
+            <img src={linkLogo} alt="open live preview" target="_blank" />
             ‎‎‎‎&nbsp;&nbsp;&nbsp;
           </Link>
           <Link
@@ -109,7 +109,7 @@ const Projects = () => {
             to="https://github.com/pritudev/pritu-dark-theme"
           >
             &nbsp;&nbsp;
-            <img src={githubLogo} target="_blank" />
+            <img src={githubLogo} alt="source code" target="_blank" />
           </Link>
         </div>
       </div>
@@ -127,7 +127,7 @@ const Projects = () => {
             target="_blank"
             to="https://www.npmjs.com/package/create-webdev-app"
           >
-            <img src={linkLogo} target="_blank" />
+            <img src={linkLogo} alt="open live preview" target="_blank" />
             ‎‎‎‎&nbsp;&nbsp;&nbsp;
           </Link>
           <Link
@@ -137,7 +137,7 @@ const Projects = () => {
             to="https://github.com/pritudev/create-webdev-app"
           >
             &nbsp;&nbsp;
-            <img src={githubLogo} target="_blank" />
+            <img src={githubLogo} alt="source code" target="_blank" />
           </Link>
         </div>
       </div>
