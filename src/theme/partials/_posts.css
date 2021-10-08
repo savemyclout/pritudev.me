@@ -10,6 +10,7 @@
   grid-template-columns: 1fr 1fr;
   gap: 8px;
 }
+
 .post {
   display: grid;
   padding: 0.8rem 0.9rem;
@@ -24,10 +25,12 @@
   line-height: 1.5;
   transition: 400ms cubic-bezier(0, 0, 0.2, 1) !important;
 }
+
 .post .post-content {
   align-self: left !important;
   background-color: var(--card-color) !important;
 }
+
 .post .post-content h2 {
   transition: 500ms ease !important;
   text-align: left !important;
@@ -36,6 +39,7 @@
   font-family: var(--sans-serif-font) !important;
   font-weight: 800;
 }
+
 .post h2 {
   background-color: var(--card-color) !important;
   font-family: var(--sans-serif-font) !important;
@@ -50,13 +54,16 @@
   font-size: 1.7rem !important;
   text-align: left;
 }
+
 .post h3 {
   font-size: 23.4px;
 }
+
 .post .link {
   text-decoration: none;
   color: var(--h-color);
 }
+
 .post p {
   font-size: 20px;
   margin-top: 15px;
@@ -64,34 +71,36 @@
   font-family: var(--body-font) !important;
   background-color: var(--card-color) !important;
 }
+
 .post .image {
   margin: 1rem;
 }
+
 @media screen and (max-width: 768px) {
   .post-container {
     grid-template-columns: 1fr;
     padding: 0 !important;
-    /* // margin: 0 !important;
-		 */
   }
 }
+
 @media screen and (max-width: 1000px) {
   .post-container {
     grid-template-columns: 1fr;
     padding: 0 !important;
-    /* // margin: 0 !important;
-		 */
   }
 }
+
 .link-read-more {
   color: var(--orange);
   font-weight: bold;
   background-color: var(--card-color) !important;
   text-decoration: none;
 }
+
 .link-read-more:hover {
   color: var(--orange-light)-light;
 }
+
 .post:hover {
   transform: translateY(-4px);
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;

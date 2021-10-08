@@ -15,31 +15,39 @@
   font-family: 'cubano';
   src: url(Cubano.ttf);
 }
+
 @font-face {
   font-family: 'sofiapro';
   src: url(sofiapro.otf);
 }
+
 @font-face {
   font-family: var(--code-font);
   src: url(operatorMono.otf);
 }
+
 @font-face {
   font-family: 'lemonmilk';
   src: url(lemonmilk.otf);
 }
+
 ::-webkit-scrollbar {
   width: 10px !important;
 }
+
 ::-webkit-scrollbar-track {
   background: #272727;
   border-radius: 5px;
 }
+
 ::-webkit-scrollbar-thumb {
   background: #fff;
 }
+
 ::-webkit-scrollbar-thumb:hover {
   background: #bbb;
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -55,41 +63,51 @@ body {
   color: var(--p-color) !important;
   line-height: 1.5;
 }
+
 strong {
   color: white !important;
   font-weight: 700 !important;
 }
+
 .container {
   width: 90%;
   max-width: 1280px;
   margin: 0 auto;
 }
+
 @media (max-width: 600px) {
   .container {
     width: 95%;
   }
 }
+
 .full-width {
   width: 100%;
 }
+
 .text-center {
   text-align: center;
 }
+
 @media screen and (max-width: 600px) {
   .m-full-width {
     width: 100%;
   }
 }
+
 .mt-1 {
   margin-top: 1rem;
 }
+
 .image {
   transition: 1s all;
   border-radius: 10px;
 }
+
 .image:hover {
   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
+
 ::selection {
   color: var(--gray6);
   background-color: var(--green);
@@ -100,20 +118,25 @@ h2 {
   font-weight: normal;
   text-align: center !important;
 }
+
 .conatiner h4,
 h5 {
   text-align: center !important;
   font-weight: normal;
 }
+
 .container h1 {
   color: var(--h-color);
 }
+
 li::marker {
   color: #757ff8;
 }
+
 ul::marker {
   color: #757ff8;
 }
+
 .hi-code {
   background: linear-gradient(90deg, var(--pink), var(--orange)) !important;
   color: #fff !important;
@@ -123,6 +146,7 @@ ul::marker {
   padding: 0.2rem !important;
   border-radius: 1px !important;
 }
+
 #footer {
   padding-bottom: 20px;
   text-align: center;
@@ -132,14 +156,17 @@ ul::marker {
   min-height: 100%;
   bottom: 0;
 }
+
 #footer h4 {
   font-family: var(--body-font) !important;
   font-size: 0.9rem;
 }
+
 #footer a {
   color: var(--blue);
   text-decoration: none;
 }
+
 #hr-body {
   border: none;
   border-top: 2px dashed #b2becd;
@@ -153,6 +180,7 @@ ul::marker {
   margin-inline-end: auto;
   width: 90%;
 }
+
 #hr-footer {
   border: none;
   border-top: 2px dashed #b2becd;
@@ -166,44 +194,28 @@ ul::marker {
   margin-inline-end: auto;
   width: 15%;
 }
+
 #quick-intro {
   padding-left: 10px;
   padding-right: 10px;
 }
+
 #icons {
   text-align: center;
   fill: currentColor !important;
   transition: 200ms all ease-in-out !important;
 }
-#icons:hover {
-  text-align: center;
-  transform: translateY(-2) !important;
-  fill: currentColor !important;
-  transition: 200ms all ease-in-out !important;
-}
+
 #icons a {
   padding: 10px;
   transition: 200ms all ease-in-out !important;
   color: var(--gray2) !important;
 }
-#icons #github-icon img:hover {
-  transform: translateY(-2) !important;
-}
-#icons #youtube-icon img:hover {
-  transform: translateY(-2) !important;
-}
-#icons #discord-icon img:hover {
-  transform: translateY(-2) !important;
-}
-#icons #twitter-icon img:hover {
-  transform: translateY(-2) !important;
-}
-#icons #insta-icon img:hover {
-  transform: translateY(-2) !important;
-}
+
 #icons #ko-fi-icon {
   transform: translateY(-2) !important;
 }
+
 .container-btn {
   width: 100%;
   display: inline-block;
@@ -211,46 +223,50 @@ ul::marker {
   justify-content: center;
   align-items: center;
 }
+
 .container-btn #pink-btn {
   font-family: 'sofiapro' !important;
 }
+
 .container-btn #indigo-btn {
   font-family: 'sofiapro' !important;
 }
-.shop-container p {
-  font-family: 'sofiapro' !important;
-}
-.shop-container p {
-  font-size: 1.3em;
-}
+
 .coming-soon {
   display: grid;
   place-items: center;
 }
+
 .bottom-btn {
   width: 100%;
   text-align: center;
 }
+
 #reactlogo {
   margin-right: 4px;
 }
+
 .about_container h2 {
   font-family: var(--sans-serif-font) !important;
   font-weight: var(--fw-8);
   font-size: 3rem;
   padding: 1rem;
 }
+
 .about_image a:hover {
   fill: white !important;
   color: white !important;
 }
+
 .my-logo {
   fill: white !important;
   color: white !important;
 }
+
 img {
   pointer-events: none;
 }
+
 #error__heading {
   transition: 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
   text-align: left !important;
@@ -262,6 +278,7 @@ img {
   padding-left: 10rem;
   padding-top: 10rem !important;
 }
+
 #error__body {
   transition: 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
   padding-left: 10rem;
@@ -270,6 +287,7 @@ img {
   font-size: 2rem;
   text-align: left !important;
 }
+
 #error__link {
   transition: 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
   padding-left: 10rem;
@@ -278,10 +296,12 @@ img {
   font-size: 1.5rem;
   text-align: left !important;
 }
+
 #error__link a {
   text-decoration: none;
   color: var(--blue);
 }
+
 @media screen and (max-width: 800px) {
   #error__heading {
     text-align: center !important;
@@ -293,6 +313,7 @@ img {
     padding-left: 0;
     padding-top: 10rem !important;
   }
+
   #error__body {
     padding-left: 0 !important;
     padding-top: 1rem;
@@ -300,6 +321,7 @@ img {
     font-size: 2rem;
     text-align: center !important;
   }
+
   #error__link {
     padding-left: 0 !important;
     padding-top: 1rem;
@@ -307,6 +329,7 @@ img {
     font-size: 1.5rem;
     text-align: center !important;
   }
+
   #error__link a {
     text-decoration: none;
     color: var(--blue);
@@ -321,12 +344,15 @@ img {
 h3 {
   color: var(--h-color) !important;
 }
+
 h4 {
   color: var(--p-color) !important;
 }
+
 h5 {
   color: var(--p-color) !important;
 }
+
 h6 {
   color: var(--p-color) !important;
 }

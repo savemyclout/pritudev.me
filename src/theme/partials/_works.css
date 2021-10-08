@@ -8,17 +8,21 @@
   cursor: default;
   text-align: center;
 }
+
 .card abbr {
   cursor: default;
 }
+
 abbr {
   cursor: default !important;
 }
+
 .card {
   cursor: default;
   outline: none !important;
   border: none;
 }
+
 @media screen and (max-width: 700px) {
   .basic-grid {
     padding: 5px;
@@ -26,6 +30,7 @@ abbr {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
+
 @media screen and (max-width: 507px) {
   .basic-grid {
     padding: 5px;
