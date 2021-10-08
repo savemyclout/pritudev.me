@@ -39,10 +39,10 @@ Security of a system can be threatened via two violations:
 
   <br/>
 
-## Types of Cyber Attacks.
+## Some Types of Cyber Attacks.
 
   <br/>
-  
+
 ### Malware
 
 - Malware is a term that describes malicious software, including spyware, ransomware, and viruses. Typically when any user clicks on any dangerous links that they install viruses and spyware in your computer in the form of software or anything else.
