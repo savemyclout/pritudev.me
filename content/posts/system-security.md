@@ -12,7 +12,6 @@ Security of a system can be threatened via two violations:
 2. Attack
 
 **Threat**: it&#39;s a program or virus which has the power to damage your system seriously.
-
 **Attack**: it&#39;s an attempt to break your security system and try to make unauthorized use of your data.
 
 ## Deep dive in Cyber Threats.
@@ -40,8 +39,10 @@ Security of a system can be threatened via two violations:
 
   <br/>
 
-### Types of Cyber Attacks.
+## Types of Cyber Attacks.
 
+  <br/>
+  
 ### Malware
 
 - Malware is a term that describes malicious software, including spyware, ransomware, and viruses. Typically when any user clicks on any dangerous links that they install viruses and spyware in your computer in the form of software or anything else.
@@ -90,7 +91,7 @@ Here are some examples of common cyber attacks.
 
 ## Firewall.
 
-## How does the Firewall work?
+### How does the Firewall work?
 
 - When your computer has firewall protection, everything that the computer takes as an input is monitored. The firewall monitors all the information traffic to allow &quot;good data&quot; in and block all &quot;bad data&quot; from entering your computer.
 
@@ -141,6 +142,8 @@ The image took from [Google](https://www.google.com/search?hl=en-IN&sxsrf=AOaemv
 
 ## Deep dive in Computer Virus.
 
+  <br/>
+  
 ### What is a computer virus?
 
 - A computer virus is a malicious piece of computer code designed to spread from device to device. A subset of malware, these self-copying threats are usually designed to damage a device or steal data from the device.
@@ -186,6 +189,8 @@ Even if you are very very careful still you can pick any computer viruses throug
 Using https:// websites are most secure and protected with SSL
 Certificates.
 
+<br/>
+
 ## Antivirus Softwares
 
 Antivirus is one of the most important things you can have in your system to protect your system from Malware and Viruses
@@ -223,6 +228,8 @@ As you might expect, different antivirus packages come with different features.
 
 - If you are using Windows 8, Windows 10, or Windows 11 then you don&#39;t need to worry about anti-virus software. Windows 8 or later already comes with inbuilt anti-virus software which is &quot;Windows Defender&quot;.
 - it uses all the latest technologies of any best antivirus which is enough for your computer. It comes with every single feature which comes in all the best and reliable antivirus software.
+
+<br/>
 
 ## Free vs. Paid Antivirus Software.
 
