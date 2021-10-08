@@ -9,7 +9,6 @@ published: true
 Security of a system can be threatened via two violations:
 
 1. Threat
-
 2. Attack
 
 **Threat**: it&#39;s a program or virus which has the power to damage your system seriously.
@@ -20,24 +19,28 @@ Security of a system can be threatened via two violations:
 
 - A cyber or cybersecurity threat is a malicious program or virus that can cause damage to your system, steal your data or disrupt digital life in general.
 - Cyber threats can include computer viruses, DDoS Attacks, and other attack vectors.
+
   <br/>
 
-## What is a DDoS Attack?
+### What is a DDoS Attack?
 
 - DoS means &quot;Distributed Denial of service (DDoS)&quot;, It&#39;s an illegal attempt to make the website unavailable by overloading its server with high amounts of fake traffic.
+
   <br/>
 
-## What&#39;s the Difference Between a DoS attack and a DDoS Attack?
+### What&#39;s the Difference Between a DoS attack and a DDoS Attack?
 
 - In a DoS attack, malicious connection requests are sent from just one device but in a DDoS attack, malicious traffic is sent from multiple devices.
+
   <br/>
 
 ## Deep dive in Cyber Attack.
 
 - A Cyberattack is an attempt to disable your system&#39;s antivirus or break a firewall then stealing your data on the dark web, or use a breached computer system to launch additional attacks.
+
   <br/>
 
-## Types of Cyber Attacks.
+### Types of Cyber Attacks.
 
 ### Malware
 
@@ -50,6 +53,7 @@ Security of a system can be threatened via two violations:
 ### SQL injection
 
 - What does it mean? It&#39;s a &quot;Structured Query Language (SQL)&quot;. SQL injections happen when an attacker directly inserts malicious code into the server that uses SQL and it forces the server to reveal any kind of sensitive information from a server that is normally private.
+
   <br/>
 
 ## Some Examples of a Cyber Attack.
@@ -62,6 +66,7 @@ Here are some examples of common cyber attacks.
 - Website overloading causes a crash of the website
 - Private and public Web browser exploits
 - Instant message abuse
+
   <br/>
 
 ## Tools we can use to prevent malware and cyber attacks.
@@ -80,11 +85,10 @@ Here are some examples of common cyber attacks.
 - Virtual Private servers. (VPNs)
 - Cloud workload protection platform (CWPP)
 - Cloud access security broker (CASB)
+
   <br/>
 
 ## Firewall.
-
-<br/>
 
 ## How does the Firewall work?
 
@@ -99,11 +103,13 @@ Here are some examples of common cyber attacks.
 ### Proxy service
 
 - A firewall proxy server is an application that acts as an intermediary between systems. Information from the internet is retrieved by the firewall and then sent to the requesting system and vice versa. Firewall proxy servers operate at the application layer of the firewall, where both ends of a connection are forced to conduct the session through the proxy. They operate by creating and running a process on the firewall that mirrors a service as if it were running on the end host and thus centralizes all information transfer for an activity to the firewall for scanning.
+
   <br/>
 
 ### Stateful inspection
 
 - The most modern method of firewall scanning that doesn&#39;t rely on the memory-intensive examination of all - information packets is &quot;stateful inspection&quot;. A &quot;stateful&quot; firewall holds significant attributes of each connection in a database of trusted information, for the duration of the session. These attributes, which are collectively known as the &quot;state&quot; of the connection, may include such details as the IP addresses and ports involved in the connection and the sequence numbers of the packets being transferred. The firewall compares information being transferred to the copy relevant to that transfer held in the database. if the comparison yields a positive match the information is allowed through, otherwise, it is denied.
+
   <br/>
 
 ### Types of Firewall.
@@ -116,6 +122,7 @@ There are two types of firewalls,
 This is the image that represents how a firewall does its work between &quot;LAN&quot; and &quot;WAN&quot;.
 
 The image took from [Google](https://www.google.com/search?hl=en-IN&sxsrf=AOaemvIjEn-kw3fyd1gg2_SMdXgMRiI3fQ:1633615833299&q=does+a+firewall+work&tbm=isch&source=iu&ictx=1&tbs=simg:CAESjQIJTdfHeV4raWkagQILELCMpwgaOgo4CAQSFK0-vA6xEeoDjwzKKcUVoiKKKss6GhqhlD4mBEb1dUlyhSe-apOBlJh665Af5LpyLSAFMAQMCxCOrv4IGgoKCAgBEgQdh8sVDAsQne3BCRqhAQobCgh2ZXJ0aWNhbNqliPYDCwoJL2EvNGhoM3AwCh0KCmhvcml6b250YWzapYj2AwsKCS9hLzJtcXZ6YworChd0ZWNobm9sb2d5IGFwcGxpY2F0aW9uc9qliPYDDAoKL20vMGMwc3E5dAoaCgdkaWFncmFt2qWI9gMLCgkvbS8wMnYwbTIKGgoIc29mdHdhcmXapYj2AwoKCC9tLzAxbWYwDA&fir=wjohKo9_af0EkM%252CvKT29Ibsn_5SQM%252C_&vet=1&usg=AI4_-kRHHa2CmHuZ_Dr9qR1zI3SUbo3t2Q&sa=X&ved=2ahUKEwj8p8WbvbjzAhUkmeYKHXlFBQgQ9QF6BAgaEAE&biw=1360&bih=617&dpr=1#imgrc=wjohKo9_af0EkM)
+
 <br/>
 
 ### Hardware Firewall
@@ -129,6 +136,7 @@ The image took from [Google](https://www.google.com/search?hl=en-IN&sxsrf=AOaemv
 ### Find the best software for your system?
 
 - A reliable software firewall should run in the background of your system and leave a small print on overall system performance by using a few of its resources. The firewall software must be regularly updated to keep with the latest technological improvements and provide effective protection against network attack tactics.
+
   <br/>
 
 ## Deep dive in Computer Virus.
@@ -246,6 +254,7 @@ A simple internet search will turn up dozens of free antivirus packages. Just ho
 12. Click Apply.
 13. Click OK.
 14. Restart your device normally.
+
     <br/>
 
 ### How to remove viruses on Mac devices?
@@ -261,6 +270,7 @@ A simple internet search will turn up dozens of free antivirus packages. Just ho
 9. Once you&#39;ve identified a suspicious app, drag it to the trash.
 10. Empty the trash.
 11. Restart the device normally.
+
     <br/>
 
 ### How to remove viruses on Android devices?
@@ -273,6 +283,7 @@ A simple internet search will turn up dozens of free antivirus packages. Just ho
 6. Once you&#39;ve identified the malware, tap its name.
 7. Choose Uninstall on the app&#39;s info page.
 8. Restart the device normally.
+
    <br/>
 
 ### Conclusion
