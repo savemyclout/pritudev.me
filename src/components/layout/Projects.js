@@ -9,7 +9,7 @@ const Projects = () => {
       {/* Project 1 */}
       <div className="post">
         <div className="post-content">
-          <h2 className="h2">The Portfolio</h2>
+          <h2 className="post-header">The Portfolio</h2>
           <p>
             My personal website running on Gatsby, React, and Node.js. The
             potfolio or personal website whatever you say it!

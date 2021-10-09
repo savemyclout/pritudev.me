@@ -5,11 +5,10 @@
 * {
   word-wrap: break-word !important;
 }
-.precode {
+code {
   background: linear-gradient(90deg, #ff4088, #fa8142) !important;
-  color: white;
-  /*font-family: $code-font !important;
-	*/
+  color: var(--gray0) !important;
+  font-family: var(--code-font) !important;
   padding: 0.2rem;
   border-radius: 5px;
 }
