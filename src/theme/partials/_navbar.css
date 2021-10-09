@@ -49,7 +49,7 @@
   font-size: 1.3rem;
   text-decoration: none;
   display: block;
-  transition: 500ms;
+  transition: 500ms !important;
   padding-top: 0.3rem;
   padding-bottom: 0.3rem;
   padding-left: 2rem;
