@@ -39,7 +39,7 @@ export default () => {
                   <h2 className="post_heading">{frontmatter.title}</h2>
                 </Link>
                 <p>{excerpt}</p>
-                <p>
+                <p className="post-date-time">
                   {frontmatter.date} ⋅ {fields.readingTime.text} ⋅{' '}
                   <a
                     style={{

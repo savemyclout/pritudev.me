@@ -78,3 +78,7 @@
 .link-read-more {
   text-decoration: none;
 }
+
+.post-date-time {
+  font-family: var(--code-font) !important;
+}
