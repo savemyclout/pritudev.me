@@ -41,7 +41,6 @@ export default ({ data }) => {
       </Helmet>
       <Showcase />
       <h2
-        class="h2"
         style={{
           textAlign: 'Left',
           marginLeft: '10px',
@@ -165,7 +164,6 @@ export default ({ data }) => {
       </p>
       <hr id="hr-body" />
       <h2
-        className="h2"
         id="projects"
         style={{
           fontWeight: '600',

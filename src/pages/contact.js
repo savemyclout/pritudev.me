@@ -33,9 +33,7 @@ const Contact = () => {
         ></meta>
       </Helmet>
       <div className="container">
-        <h2 className="h2" style={{ paddingTop: '12px' }}>
-          Contact
-        </h2>
+        <h2 style={{ paddingTop: '12px' }}>Contact</h2>
         <hr id="hr-body" />
 
         <h4 style={{ textAlign: 'center', fontFamily: 'sofiapro' }}>

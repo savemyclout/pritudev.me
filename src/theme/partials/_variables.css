@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
 :root {
   --primary-color: #1f252e;
   --secondary-color: #1f252e;
@@ -44,7 +47,10 @@
   --head-font: 'cubano';
   --code-font: 'Fira Mono', monospace;
   --button-font: 'sofiapro';
-  --sans-serif-font: 'Josefin Sans', sans-serif;
+  --sans-serif-font: 'Catamaran', sans-serif;
+  --post-header-font: 'Roboto Slab', serif;
+  --poppins-font: 'Poppins', sans-serif;
+  --sora-font: 'Sora', sans-serif;
   --fw-1: 100;
   --fw-2: 200;
   --fw-3: 300;

@@ -36,7 +36,7 @@ export default () => {
             <div className="post">
               <div className="post-content">
                 <Link rel="noopener" to={fields.slug} className="link">
-                  <h2>{frontmatter.title}</h2>
+                  <h2 className="post_heading">{frontmatter.title}</h2>
                 </Link>
                 <p>{excerpt}</p>
                 <p>
