@@ -8,13 +8,14 @@ import discord from './svgs/discord.svg'
 import twitter from './svgs/twitter.svg'
 import youtbe from './svgs/youtube.svg'
 import donate from './svgs/donate.svg'
+import arrow from './svgs/arrow.svg'
+import { AnchorLink } from 'gatsby-plugin-anchor-links'
 
 const Footer = () => {
   return (
     <div id="footer">
       <br />
-      <br />
-      <h4>
+      {/* <h4>
         Found issue on this page?{' '}
         <span>
           <a
@@ -26,9 +27,8 @@ const Footer = () => {
           </a>
           <hr id="hr-footer" />
         </span>
-      </h4>
-      <h4>Copyright &copy; Prit Dev</h4>
-      <h4>
+      </h4> */}
+      {/* <h4>
         Created with
         <abbr title="Gatsby">
           <img
@@ -60,7 +60,12 @@ const Footer = () => {
             prit dev
           </a>
         </span>
-      </h4>
+      </h4> */}
+
+      <AnchorLink to="#scrollTo" rel="noopener">
+        <img className="go_up_arrow" src={arrow} alt="Go to top" />
+      </AnchorLink>
+
       <div id="icons">
         <abbr title="pritudev | Github">
           <a
@@ -130,7 +135,9 @@ const Footer = () => {
         </abbr>
       </div>
       <hr id="hr-footer" />
-      <h4>
+      <h4 className="footer_text">Copyright &copy; Prit Dev</h4>
+
+      {/* <h4>
         <a
           rel="noopener"
           href="https://github.com/pritudev/pritudev.me"
@@ -151,7 +158,7 @@ const Footer = () => {
           Contribute Now 😎
         </a>
         , It's Open Source!
-      </h4>
+      </h4> */}
     </div>
   )
 }

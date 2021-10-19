@@ -7,7 +7,7 @@ import brandLogo from './svgs/brand.svg'
 const Navbar = () => {
   const { title } = useSiteMeta()
   return (
-    <nav className="navbar">
+    <nav id="scrollTo" className="navbar">
       <div className="container">
         {/* PritDev.me */}
         <div id="main-brand">
@@ -16,7 +16,7 @@ const Navbar = () => {
             {/* P R I T */}
           </Link>
         </div>
-        <ul class="nav-ul">
+        <ul className="nav-ul">
           <li>
             <Link rel="noopener" to="/articles" className="link">
               <span className="hover-text">Articles</span>

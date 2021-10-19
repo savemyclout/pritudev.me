@@ -2,7 +2,7 @@
 @import './_buttons.css';
 
 .showcase h1 {
-  font-family: var(--head-font) !important;
+  font-family: var(--sans-serif-font) !important;
   font-weight: var(--fw-5) !important;
   font-size: 4rem !important;
   color: var(--h-color) !important;
@@ -10,7 +10,7 @@
 }
 
 #gradient-text {
-  background-image: linear-gradient(130deg, var(--red), var(--orange));
+  background-image: linear-gradient(130deg, #02aab0, #00cdac);
   background-clip: text;
   color: transparent;
 }

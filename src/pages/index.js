@@ -40,15 +40,7 @@ export default ({ data }) => {
         ></meta>
       </Helmet>
       <Showcase />
-      <h2
-        style={{
-          textAlign: 'Left',
-          marginLeft: '10px',
-          fontWeight: '600',
-        }}
-      >
-        My Backpack
-      </h2>
+      <h2>My Backpack</h2>
       <br />
       <section className="basic-grid">
         <abbr title="Firebase">
@@ -162,23 +154,48 @@ export default ({ data }) => {
           frontend skills!
         </em>
       </p>
-      <hr id="hr-body" />
-      <h2
-        id="projects"
-        style={{
-          fontWeight: '600',
-        }}
-      >
-        Projects
-      </h2>
 
-      <Projects></Projects>
+      <div id="projects">
+        <h2
+          className="projects-h2"
+          style={{
+            fontWeight: '600',
+          }}
+        >
+          Projects
+        </h2>
+
+        <Projects></Projects>
+      </div>
+
       <div className="container">
         <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8364169684965295"
           crossorigin="anonymous"
         ></script>
+      </div>
+      <br />
+      <br />
+      <div
+        className="container"
+        style={{ paddingTop: '4rem', paddingBottom: '4rem' }}
+      >
+        <h2>Contact</h2>
+        <h3
+          style={{
+            textAlign: 'center',
+            paddingTop: '1rem',
+            paddingBottom: '1rem',
+          }}
+        >
+          Would you like to work with me? Awesome!
+        </h3>
+        <div style={{ textAlign: 'center' }}>
+          <Link to="https://instagram.com/_pritu_004_" target="_blank">
+            <button id="green-btn">Let's Talk</button>
+          </Link>
+        </div>
       </div>
 
       <Footer></Footer>

@@ -69,7 +69,7 @@ const Contact = () => {
             &nbsp; instagram
           </button>
         </Link>
-        <div class="bottom-btn"></div>
+        <div className="bottom-btn"></div>
         <Link to="https://twitter.com/PrituDevYT" target="_blank">
           <button id="green-btn">
             <img

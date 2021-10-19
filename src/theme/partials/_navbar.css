@@ -5,24 +5,23 @@
   padding-bottom: 10px 0;
 }
 
-#brand_logo_link {
-  font-size: 2rem;
-  text-decoration: none;
-  color: var(--gray0);
-  font-family: var(--sans-serif-font) !important;
-  font-weight: var(--fw-8);
-  font-variant: small-caps;
+.hover-text {
+  transition: 10ms cubic-bezier(0.075, 0.82, 0.165, 1) !important;
+}
+
+.link {
+  transition: 10ms cubic-bezier(0.075, 0.82, 0.165, 1) !important;
 }
 
 .navbar {
   background: var(--gray5) !important;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  background: var(--nav-color) !important;
+  background: var(--gray1) !important;
   width: 100% !important;
 }
 
 .navbar .container {
-  background: var(--nav-color) !important;
+  background: var(--gray1) !important;
   display: flex;
   justify-content: space-evenly;
   top: 0;
@@ -30,7 +29,7 @@
 }
 
 .navbar .nav-ul {
-  background: var(--nav-color) !important;
+  background: var(--gray1) !important;
   font-size: 1rem;
   display: flex;
   list-style: none !important;
@@ -38,27 +37,25 @@
 }
 
 .navbar .nav-ul li {
-  background: var(--nav-color) !important;
+  background: var(--gray1) !important;
   font-size: 1rem;
   list-style: none !important;
   text-align: center !important;
 }
 
 .navbar .nav-ul li .link {
-  background: var(--nav-color) !important;
+  background: var(--gray1) !important;
   font-size: 1.3rem;
+  color: var(--h-color) !important;
   text-decoration: none;
   display: block;
+  font-weight: normal !important;
   transition: 500ms !important;
   padding-top: 0.3rem;
   padding-bottom: 0.3rem;
   padding-left: 2rem;
   padding-right: 2rem;
   border-radius: 4px;
-}
-
-.navbar .nav-ul li .link:hover {
-  background: #171e29 !important;
 }
 
 @media screen and (max-width: 800px) {
@@ -71,7 +68,7 @@
   }
 
   .navbar {
-    background: var(--nav-color) !important;
+    background: var(--gray1) !important;
   }
 
   .navbar .container {
@@ -81,31 +78,35 @@
   .navbar .link {
     padding-left: 0;
     padding-right: 0;
+    font-size: 1.3rem !important;
+  }
+
+  .link {
+    padding: 0 !important;
   }
 
   .navbar .nav-ul {
     text-align: center !important;
-    font-size: 1rem;
+    font-size: 0.3rem;
     width: 100%;
     align-items: center;
     display: contents;
   }
 
   .navbar .nav-ul li {
-    font-size: 1rem;
+    font-size: 0.3rem;
     display: flex;
     text-align: center !important;
-    background: var(--nav-color);
+    background: var(--gray1);
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 390px) {
   .nav-ul {
     width: 100%;
     justify-content: center;
     align-items: center;
     display: contents;
-    font-size: 1.3rem;
   }
 
   #main-brand {
@@ -118,7 +119,7 @@
 
   .link {
     text-align: center !important;
-    font-size: 1.3rem !important;
+    font-size: 0.6rem !important;
     padding-left: 0;
     padding-right: 0;
   }
@@ -134,7 +135,7 @@
   }
 
   .link {
-    font-size: 1.3rem !important;
+    font-size: 0.1rem !important;
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
@@ -150,7 +151,7 @@
   }
 
   .link {
-    font-size: 1.3rem !important;
+    font-size: 0.6rem !important;
     padding-left: 0;
     padding-right: 0;
   }
@@ -166,7 +167,7 @@
   }
 
   .link {
-    font-size: 0.8rem !important;
+    font-size: 0.6rem !important;
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
@@ -178,10 +179,40 @@
 }
 
 .link {
-  font-family: var(--head-font);
+  color: #fff;
+  font-family: var(--sans-serif-font);
   font-size: 1.3rem;
+  text-transform: uppercase;
+  font-weight: var(--fw-6);
   text-align: center !important;
   display: flex;
   background-color: #2d2e2e;
-  color: var(--p-color);
+  color: var(--h-color);
+}
+
+@media screen and (max-width: 769px) {
+  .link {
+    font-size: 0.6rem !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .hover-text {
+    font-size: 1.2rem !important;
+  }
+}
+@media screen and (max-width: 390px) {
+  .hover-text {
+    font-size: 1rem !important;
+  }
+}
+@media screen and (max-width: 330px) {
+  .hover-text {
+    font-size: 0.9rem !important;
+  }
+}
+@media screen and (max-width: 270px) {
+  .hover-text {
+    font-size: 0.6em !important;
+  }
 }

@@ -15,7 +15,7 @@ export default () => {
           frontmatter {
             title
             date(formatString: "MMM DD ")
-            
+
           }
           fields {
             slug

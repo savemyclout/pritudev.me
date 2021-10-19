@@ -4,11 +4,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
 :root {
-  --primary-color: #1f252e;
+  --primary-color: #fff;
   --secondary-color: #1f252e;
   --danger-color: #fd531f;
   --indigo: #757ff8;
@@ -37,8 +37,8 @@
   --gray4: #454e56;
   --gray5: #2a2e35;
   --gray6: #12181b;
-  --p-color: #b2becd;
-  --h-color: #fff;
+  --p-color: #212529;
+  --h-color: #212529;
   --card-color: #242c38;
   --nav-color: #1f252e;
   --box-shadow: '0 4px 8px rgba(0,0,0,0.38)';
@@ -46,9 +46,9 @@
   --body-font: 'sofiapro';
   --head-font: 'cubano';
   --code-font: 'Fira Mono', monospace;
-  --button-font: 'sofiapro';
-  --sans-serif-font: 'Catamaran', sans-serif;
-  --post-header-font: 'Roboto Slab', serif;
+  --button-font: 'Montserrat', sans-serif;
+  --sans-serif-font: 'Montserrat', sans-serif;
+  --post-header-font: 'Montserrat', sans-serif;
   --poppins-font: 'Poppins', sans-serif;
   --sora-font: 'Sora', sans-serif;
   --fw-1: 100;

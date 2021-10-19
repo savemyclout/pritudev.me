@@ -32,19 +32,14 @@ const Showcase = ({ data }) => {
       <Wrapper>
         <div className="showcase">
           <div className="container">
-            <h1 style={{ fontSize: '7em' }}>
-              Hi, I'm <span id="gradient-text">Prit.</span>
-            </h1>
-            <h3
+            <h1
               style={{
-                textAlign: 'center',
-                fontSize: '1.5rem',
-                fontFamily: 'sofiapro',
+                fontSize: '7em',
+                paddingTop: '5rem',
               }}
             >
-              <strong>Full Stack</strong> Web Developer & love to code, expert
-              as web developer.
-            </h3>
+              Hi, my name is <span id="gradient-text">Prit.</span>
+            </h1>
             <div className="showcase_buttons" style={{ textAlign: 'center' }}>
               <Link
                 rel="noopener"
