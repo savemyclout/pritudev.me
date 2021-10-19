@@ -156,6 +156,7 @@ export default ({ data }) => {
       </p>
 
       <div id="projects">
+        <br />
         <h2
           className="projects-h2"
           style={{

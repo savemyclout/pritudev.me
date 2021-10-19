@@ -6,6 +6,7 @@ import githubLogo from './svgs/github-projects.svg'
 const Projects = () => {
   return (
     <div id="projects">
+      <br />
       <div className="container post-container">
         {/* Project 1 */}
         <div className="post">

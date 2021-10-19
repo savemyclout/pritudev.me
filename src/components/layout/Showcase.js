@@ -38,7 +38,7 @@ const Showcase = ({ data }) => {
                 paddingTop: '5rem',
               }}
             >
-              Hi, my name is <span id="gradient-text">Prit.</span>
+              Hi, my name is <span id="gradient-text">PRIT.</span>
             </h1>
             <div className="showcase_buttons" style={{ textAlign: 'center' }}>
               <Link
