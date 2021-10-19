@@ -62,7 +62,7 @@ const Footer = () => {
         </span>
       </h4> */}
 
-      <AnchorLink to="#scrollTo" rel="noopener">
+      <AnchorLink to="#Top" rel="noopener">
         <img className="go_up_arrow" src={arrow} alt="Go to top" />
       </AnchorLink>
 
