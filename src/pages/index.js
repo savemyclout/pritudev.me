@@ -192,7 +192,7 @@ export default ({ data }) => {
           Would you like to work with me? Awesome!
         </h3>
         <div style={{ textAlign: 'center' }}>
-          <Link to="https://instagram.com/_pritu_004_" target="_blank">
+          <Link to="https://twitter.com/PrituDevYT" target="_blank">
             <button id="green-btn">Let's Talk</button>
           </Link>
         </div>

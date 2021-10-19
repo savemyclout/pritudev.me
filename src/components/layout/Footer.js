@@ -107,17 +107,6 @@ const Footer = () => {
             <img src={twitter} alt="Twitter" />
           </a>
         </abbr>
-
-        <abbr title="_pritu_004_ | Instagram">
-          <a
-            rel="noopener"
-            href="https://instagram.com/_pritu_004_"
-            target="_blank"
-            id="insta-icon"
-          >
-            <img src={instagram} alt="Instagram" />
-          </a>
-        </abbr>
         <abbr title="Become a Patreon">
           <a
             rel="noopener"
