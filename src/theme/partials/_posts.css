@@ -4,9 +4,10 @@
 @import './_buttons.css';
 
 .post-container {
-  padding-left: 10rem !important;
-  padding-right: 10rem !important;
+  padding: 8rem !important;
   display: grid;
+  border-radius: 6px;
+  background: #00cdac;
   grid-template-columns: 1fr 1fr;
   gap: 8px;
 }
