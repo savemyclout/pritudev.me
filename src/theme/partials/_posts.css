@@ -7,7 +7,6 @@
   padding: 2rem !important;
   display: grid;
   border-radius: 6px;
-  background: #00cdac;
   grid-template-columns: 1fr 1fr;
   gap: 8px;
 }
