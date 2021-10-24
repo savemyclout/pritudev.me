@@ -7,143 +7,55 @@ const Projects = () => {
   return (
     <div id="projects">
       <br />
-      <div className="container post-container">
+      <div id="projects-container" className="container post-container">
         {/* Project 1 */}
-        <div className="post">
-          <div className="post-content">
-            <h2 className="post-header">The Portfolio</h2>
-            <p>
-              My personal website running on Gatsby, React, and Node.js. The
-              potfolio or personal website whatever you say it!
-            </p>
-            <Link
-              rel="noopener"
-              target="_blank"
-              className="link-read-more"
-              to="https://pritudev.me"
-            >
-              <img src={linkLogo} alt="open live preview" target="_blank" />
-              ‎‎‎‎&nbsp;&nbsp;&nbsp;
-            </Link>
-            <Link
-              rel="noopener"
-              target="_blank"
-              className="link-read-more"
-              to="https://github.com/pritudev/pritudev.me"
-            >
-              &nbsp;&nbsp;
-              <img src={githubLogo} alt="source code" target="_blank" />
-            </Link>
+        <a href="https://github.com/pritudev/pritudev.me" target="_blank">
+          <div className="post">
+            <div className="post-content">
+              <img src="https://github-readme-stats.vercel.app/api/pin/?username=pritudev&repo=pritudev.me"></img>
+            </div>
           </div>
-        </div>
+        </a>
         {/* Project 2 */}
-        <div className="post">
-          <div className="post-content">
-            <h2 className="post-header">Typefiddle</h2>
-            <p>
-              Another typing test website. Typefiddle is a minimalistic typing
-              test website with a history of your test. and with various
-              languages.
-            </p>
-            <Link
-              rel="noopener"
-              target="_blank"
-              className="link-read-more"
-              to="https://typefiddle.pritudev.me"
-            >
-              <img src={linkLogo} alt="open live preview" target="_blank" />
-              ‎‎‎‎&nbsp;&nbsp;&nbsp;
-            </Link>
-            <Link
-              rel="noopener"
-              target="_blank"
-              className="link-read-more"
-              to="https://github.com/pritudev/typingFiddle"
-            >
-              &nbsp;&nbsp;
-              <img src={githubLogo} alt="source code" target="_blank" />
-            </Link>
+        <a href="https://github.com/pritudev/create-webdev-app" target="_blank">
+          <div className="post">
+            <div className="post-content">
+              <img src="https://github-readme-stats.vercel.app/api/pin/?username=pritudev&repo=create-webdev-app"></img>
+            </div>
           </div>
-        </div>
+        </a>
         {/* Project 3 */}
-        <div className="post">
-          <div className="post-content">
-            <h2 className="post-header">Jarvis AI</h2>
-            <p>
-              Jarvis is a Personal Assistant which can help you to manage some
-              stuff in your system, Also can do so many other tasks.
-            </p>
-            {/* <Link rel="noopener" className="link-read-more" to="https://typefiddle.vercel.app">
-            <img src={linkLogo}  target="_blank"/>‎‎‎‎&nbsp;&nbsp;&nbsp;
-          </Link> */}
-            <Link
-              rel="noopener"
-              target="_blank"
-              className="link-read-more"
-              to="https://github.com/pritudev/Jarvis"
-            >
-              &nbsp;&nbsp;
-              <img src={githubLogo} alt="source code" target="_blank" />
-            </Link>
+        <a href="https://github.com/pritudev/pritu-dark-theme" target="_blank">
+          <div className="post">
+            <div className="post-content">
+              <img src="https://github-readme-stats.vercel.app/api/pin/?username=pritudev&repo=pritu-dark-theme"></img>
+            </div>
           </div>
-        </div>
+        </a>
         {/* Project 4 */}
-        <div className="post">
-          <div className="post-content">
-            <h2 className="post-header">Pritudev Theme</h2>
-            <p>
-              Amazing Theme For VS Code Created By Pritudev for his personal
-              use, Dark yet Beautiful Theme Check out now it's amazing!.
-            </p>
-            <Link
-              rel="noopener"
-              className="link-read-more"
-              target="_blank"
-              to="https://marketplace.visualstudio.com/items?itemName=Pritudev.pritu-dark-theme"
-            >
-              <img src={linkLogo} alt="open live preview" target="_blank" />
-              ‎‎‎‎&nbsp;&nbsp;&nbsp;
-            </Link>
-            <Link
-              rel="noopener"
-              target="_blank"
-              className="link-read-more"
-              to="https://github.com/pritudev/pritu-dark-theme"
-            >
-              &nbsp;&nbsp;
-              <img src={githubLogo} alt="source code" target="_blank" />
-            </Link>
+        <a href="https://github.com/pritudev/Typefiddle-v2" target="_blank">
+          <div className="post">
+            <div className="post-content">
+              <img src="https://github-readme-stats.vercel.app/api/pin/?username=pritudev&repo=Typefiddle-v2"></img>
+            </div>
           </div>
-        </div>
+        </a>
         {/* Project 5 */}
-        <div className="post">
-          <div className="post-content">
-            <h2 className="post-header">Create-Webdev-App</h2>
-            <p>
-              Powerful command-line interface to generate a web developer
-              starter app in few seconds. You can change things and files as you
-              wish
-            </p>
-            <Link
-              rel="noopener"
-              className="link-read-more"
-              target="_blank"
-              to="https://www.npmjs.com/package/create-webdev-app"
-            >
-              <img src={linkLogo} alt="open live preview" target="_blank" />
-              ‎‎‎‎&nbsp;&nbsp;&nbsp;
-            </Link>
-            <Link
-              rel="noopener"
-              target="_blank"
-              className="link-read-more"
-              to="https://github.com/pritudev/create-webdev-app"
-            >
-              &nbsp;&nbsp;
-              <img src={githubLogo} alt="source code" target="_blank" />
-            </Link>
+        <a href="https://github.com/pritudev/jarvis" target="_blank">
+          <div className="post">
+            <div className="post-content">
+              <img src="https://github-readme-stats.vercel.app/api/pin/?username=pritudev&repo=jarvis"></img>
+            </div>
           </div>
-        </div>
+        </a>
+        {/* Project 5 */}
+        <a href="https://github.com/pritudev/vinlybot" target="_blank">
+          <div className="post">
+            <div className="post-content">
+              <img src="https://github-readme-stats.vercel.app/api/pin/?username=pritudev&repo=vinlybot"></img>
+            </div>
+          </div>
+        </a>
       </div>
     </div>
   )
