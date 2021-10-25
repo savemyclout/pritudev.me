@@ -18,8 +18,8 @@ const Navbar = () => {
         </div>
         <ul className="nav-ul">
           <li>
-            <Link rel="noopener" to="/articles" className="link">
-              <span className="hover-text">Articles</span>
+            <Link rel="noopener" to="/blog" className="link">
+              <span className="hover-text">Blogs</span>
             </Link>
           </li>
           <li>

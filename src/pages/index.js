@@ -44,25 +44,30 @@ export default ({ data }) => {
       <br />
       <section className="basic-grid">
         <abbr title="Firebase">
-          <div classNameName="img"></div>
+          <div className="img"></div>
           <img alt="Firebase" src={firebase} />
+          <h5>Firebase</h5>
         </abbr>
         <abbr title="Git">
           <div className="img"></div>
           <img alt="Git" src={git} />
+          <h5>Git</h5>
         </abbr>
         <abbr title="Github">
           <div className="img"></div>
           <img alt="Github" src={github} />
+          <h5>Github</h5>
         </abbr>
         <abbr title="HTML">
           <div className="img">
             <img alt="Html" src={html} />
+            <h5>HTML</h5>
           </div>
         </abbr>
         <abbr title="CSS">
           <div className="img">
             <img alt="Css" src={css} />
+            <h5>CSS</h5>
           </div>
         </abbr>
         <abbr title="JS">
@@ -73,26 +78,31 @@ export default ({ data }) => {
               alt="Javascript"
               src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
             />
+            <h5>Javascript</h5>
           </div>
         </abbr>
         <abbr title="Mongo DB">
           <div className="img">
             <img alt="Mongo db" src={mongo} />
+            <h5>MongoDB</h5>
           </div>
         </abbr>
         <abbr title="Node JS">
           <div className="img">
             <img alt="Node js" src={node} />
+            <h5>Node JS</h5>
           </div>
         </abbr>
         <abbr title="React Js">
           <div className="img">
             <img alt="Reactjs" src={react} />
+            <h5>React JS</h5>
           </div>
         </abbr>
         <abbr title="Visual Studio Code">
           <div className="img">
             <img alt="Vs Code" src={vsc} />
+            <h5>VS Code</h5>
           </div>
         </abbr>
         <abbr title="Gatsby">
@@ -103,6 +113,7 @@ export default ({ data }) => {
               alt="Gatsby"
               src="https://camo.githubusercontent.com/cf400d5eb82cc14c74c5bcc39267ae6ccd3351f3c745462934145080a127b7f3/68747470733a2f2f73796d626f6c732e67657476656374612e636f6d2f7374656e63696c5f38312f31305f6761747362796a732d69636f6e2e366463663165363562382e737667"
             />
+            <h5>Gatsby</h5>
           </div>
         </abbr>
         <abbr title="Typescript">
@@ -113,6 +124,7 @@ export default ({ data }) => {
               alt="Typescript"
               src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg"
             />
+            <h5>Typescript</h5>
           </div>
         </abbr>
         <abbr title="c#">
@@ -123,6 +135,7 @@ export default ({ data }) => {
               alt="c#"
               src="https://camo.githubusercontent.com/14f807754dbe07b53120f93d966dcd2577870e85e1dc6607f514b7b863984f91/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f3735323930373937323031383936323433332f3838393738313239343938373337343539322f6373686172705f6f726967696e616c5f6c6f676f5f69636f6e5f3134363537382e706e67"
             />
+            <h5>C Sharp</h5>
           </div>
         </abbr>
         <abbr title="c">
@@ -133,6 +146,7 @@ export default ({ data }) => {
               alt="c"
               src="https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg"
             />
+            <h5>C</h5>
           </div>
         </abbr>
         <abbr title="python">
@@ -143,6 +157,7 @@ export default ({ data }) => {
               alt="python"
               src="https://camo.githubusercontent.com/1e2f19ca5925272180e276e9de8deac54942c3e8aa8fea77f863fafd5ad4b3ce/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f7468756d622f632f63332f507974686f6e2d6c6f676f2d6e6f746578742e7376672f31313070782d507974686f6e2d6c6f676f2d6e6f746578742e7376672e706e67"
             />
+            <h5>Python</h5>
           </div>
         </abbr>
       </section>

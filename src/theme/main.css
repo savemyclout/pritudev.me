@@ -397,3 +397,7 @@ h6 {
   width: 100% !important;
   height: 100% !important;
 }
+
+abbr {
+  text-decoration: none !important;
+}

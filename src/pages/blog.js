@@ -10,7 +10,7 @@ const Posts = () => {
   return (
     <Layout>
       <Helmet>
-        <title>Articles - pritudev</title>
+        <title>Blogs - pritudev</title>
         <meta
           name="og:description"
           content="List of soo many cool and helpful blogs related to web development, and general coding supports with some coding projects."
@@ -30,7 +30,7 @@ const Posts = () => {
             paddingTop: '12px',
           }}
         >
-          Recent Articles
+          Recent Blogs
         </h2>
       </div>
       <hr id="hr-body" />
