@@ -2,6 +2,9 @@
 @import '../../theme/partials/_variables.css';
 @import '../../theme/partials/_buttons.css';
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian&display=swap');
+
 .post {
   color: var(--h-color) !important;
 }
@@ -40,11 +43,10 @@
   margin-top: 15px;
 }
 .post .body {
-  font-size: 1.3rem;
+  font-size: 1rem;
   width: 70%;
   margin: 0 auto;
-  font-weight: 1.2;
-  font-family: var(--body-font) !important;
+  font-weight: normal !important;
 }
 .post .body h1 {
   color: var(--h-color) !important;
@@ -76,6 +78,7 @@
   color: var(--p-color) !important;
 }
 .post .body p {
+  font-family: var(--serif-fonts-blog);
   line-height: 1.8;
   color: var(--p-color) !important;
 
@@ -106,4 +109,8 @@
   width: 100% !important;
   height: auto !important;
   object-fit: contain !important;
+}
+
+ul {
+  font-family: var(--serif-fonts-blog);
 }
