@@ -9,7 +9,6 @@
   color: var(--h-color) !important;
 }
 .post a {
-  font-weight: 600;
   color: var(--h-color) !important;
 
   margin-bottom: 1.5rem;
@@ -19,6 +18,7 @@
   transition: 500ms !important;
 }
 .post a:hover {
+  font-weight: 600;
   background-color: #0be58375 !important;
   text-decoration: underline !important;
   text-decoration-color: #0be583 !important;
